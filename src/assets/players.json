@@ -942,35 +942,15 @@
         ],
           "lore": {
             "lore1": "Le nom du personnage est une référence à l'expression désormais célèbre sur (le tchat de) la JVTV : « Nique Trunks ». C'est également le pseudonyme de Trunks sur le serveur Discord de la JVTV"
-            }/* campagnes --> [aria, stars,
-  1979, hors series
-]
-  Aria --> [personnages, géographie et histoire, encyclopedie
-]
-    Personnages --> [PJ, PNJ
-]
-      PJ --> [nom, classe, origine, espece, statut, talent, caracterstiques, biographie, quete personnelle, titres, afflications, competences, talents, potions, magie, citation,
-]
-      PNJ --> [histoire, compétences, talents
-]
-    Géographie et histoire --> [aria, pays mon, pays blanc mer de la morsure, aqabah, kniga, terres dorées, varna, amasya, kohest, osmanlie, haliaslanlar
-]
-      tous --> [description, géographie, economie, politique, culture,
-]
-        geographie --> [generale, contrées
-]
-          contrées --> [description, géographie
-]
-    Encyclopedie --> [regles, lieux, etc...
-]
-episodes --> []
-navbar : Campagnes | Episodes | Fan-Arts | Ulule
- */
-        ]
+            }
+
       }
     ]
   }
 ],
   "personnages non-joueurs": [
 ]
+  }
+]
 }
+
