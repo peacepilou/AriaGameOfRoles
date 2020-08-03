@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "GameOfRoles"
+    }
+  },
+  "defaultProject": "GameOfRoles",
+  "cli": {
+    "analytics": "d98897be-f976-41a7-ac65-513421e87972"
+  }
 }

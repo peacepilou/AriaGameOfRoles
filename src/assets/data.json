@@ -1,0 +1,1016 @@
+campagnes --> [aria, stars,
+  1979, hors series
+]
+  Aria --> [personnages, géographie et histoire, encyclopedie
+]
+    Personnages --> [PJ, PNJ
+]
+      PJ --> [nom, classe, origine, espece, statut, talent, caracterstiques, biographie, quete personnelle, titres, afflications, competences, talents, potions, magie, citation,
+]
+      PNJ --> [histoire, compétences, talents
+]
+    Géographie et histoire --> [aria, pays mon, pays blanc mer de la morsure, aqabah, kniga, terres dorées, varna, amasya, kohest, osmanlie, haliaslanlar
+]
+      tous --> [description, géographie, economie, politique, culture,
+]
+        geographie --> [generale, contrées
+]
+          contrées --> [description, géographie
+]
+    Encyclopedie --> [regles, lieux, etc...
+]
+episodes --> []
+navbar : Campagnes | Episodes | Fan-Arts | Ulule
+
+
+
+
+
+{
+  "campagnes": [
+    {
+      "nom": "Aria",
+      "personnages": [
+        {
+          "personnages joueurs": [
+            {
+              "pj1": [
+                {
+                  "global": {
+                    "nom": "Atlan Grethen de Quirk",
+                    "surnoms": {
+                      "surnom1": "Alfredo de la Puerta",
+                      "surnom2": "Latan Quirken de la Porte"
+                    },
+                    "joueur": "Deriv",
+                    "classe": "Voleur",
+                    "origine": "Aria",
+                    "espece": "Humain",
+                    "age": 26,
+                    "caracteristiques": {
+                      "PV": 8,
+                      "Force": 12,
+                      "Dextérite": 11,
+                      "Endurance": 13,
+                      "Charisme": 13,
+                      "Combat rapproché": 65,
+                      "Combat à distance": 50,
+                      "Compétence sociale": 75,
+                      "Dommages": "1D6 +2",
+                      "Armure": 1
+                    }
+                  }
+                },
+                {
+                  "biographie": {
+                    "partie1": "Atlan veut découvrir son origine",
+                    "partie2": "Né dans une famille noble, il est en fuite depuis 5 ans après que Zlasko, son valet, l'ait averti qu'une organisation voulait attenter à sa vie. Pris de court, il n'a pu emporter avec lui qu'une dague portant un étrange symbole sur la poignée de cette dernière",
+                    "partie3": "Il fait la rencontre de Niklas alors que celui ci était acculé par des villageois et sur le point d'être brûlé comme on brûlerait des sorcières. Atlan prend la défense de l'inconnu et lui sauve la vie. Par la suite, ils essaieront tout les deux de vendre les potions confectionnées par Niklas au fil de leurs voyages",
+                    "partie4": "C'est à Aria qu'il retrouve une partie de son passé. En effet, il se rend compte que c'est ici qu'il a vécu étant jeune et retrouve ainsi sa maison dans le quartier des nobles qui a été vendue il y a un moment. Voulant retrouver Zlasko son majordome, il se dirigera vers la Pension des Merveilles, où la mère maquerelle l'informera de sa disparition. Cependant ce dernier a laissé un codex à Atlan dans lequel se trouvent deux lettres lui donnant rendez-vous à Altabianca pour retrouver le manoir familial et ainsi découvrir qui il est",
+                    "partie5": "Lorsqu'il arrivera au manoir Santa Sophia à Altabianca, Atlan découvrira une cache sous une statue, qui s'ouvre avec sa fameuse dague. Il y découvrira un livre, le Codex Occultatum. Clodomir et Atlan s'évertuent à déchiffrer ce codex qui leur permet d'apprendre de nombreux secrets sur un mystérieux Ordre des Protecteurs. Le destin d'Atlan semble indiquer la route de l'Osmanlie"
+                  }
+                },
+                {
+                  "titres": {
+                    "Prêtre du pain": "Suite à sa rencontre avec une prêtresse de la déesse Joyper, divinité du pain, Atlan a accepté de devenir un prêtre du pain et peut donc bénir le pain. Bien que l'effet réel de ce talent ne soit pas clair, il a permis à Atlan de s'introduire dans les cuisines de plusieurs établissements",
+                    "Descendant de l'ordre des protecteurs": "Atlan est un descendant de la lignée de la famille Santa Sophia, qui a fondé l'ordre des protecteurs. Il possède la faculté de détecter les Tulpas et son sang peut les tuer",
+                    "Protecteur d'Altabianca": "Atlan a été nommé protecteur d'Altabianca par le roi Leonid Senata. Il bénéficie d'un statut particulier sur l'île et presque toutes les portes d'Altabianca lui sont ouvertes",
+                    "Chevalier d'Aria": "Atlan a été adoubé chevalier par le prince/roi Estienne d'Aria. Il s'agit d'un titre de noblesse qui lui donne droit à un cheval gratuit et une armure de chevalier d'Aria",
+                    "Protecteur du Pays Môn": "Atlan a été nommé protecteur du Pays Môn par la reine Kalish. Il bénéficie d'un statut particulier dans le pays et d'une maison avec un potager dans le village de la griffe",
+                    "Plus gros mangeur de Varna": "Atlan a gagné le titre de plus gros mangeur de Varna en mangeant chaque plat du repas de Délicieuse à l'Auberge de la Salamandre"
+                  }
+                },
+                {
+                  "modificateurs": {
+                    "Découverte d'Irem": {
+                      "description": "La découverte de la cité légendaire d'Irem est un grand exploit",
+                      "effets": [
+                        {
+                          "effet1": "+1 PV MAX"
+                        }
+                      ]
+                    },
+                    "Bénédiction/Malédiction du Dieu ennemi": {
+                      "description": "Atlan a décidé de prêter allégeance au Dieu ennemi à la statue d'Irem",
+                      "effets": [
+                        {
+                          "effet1": "+10% de réussite à tous les jets de dès"
+                        },
+                        {
+                          "effet2": "Atlan entend les voix du dieu Ennemi"
+                        },
+                        {
+                          "effet4": "Atlan peut affliger une malédiction du dieu Ennemi à des personnes"
+                        },
+                        {
+                          "effet3": {
+                            "description": "Atlan est maudit et des effets secondaires peuvent survenir",
+                            "effets": [
+                              {
+                                "effet1": "Dans l'épisode 24, Atlan récupère un point de vie lorsque Niklas sacrifie un humain pour invoquer la magie de la mort. Il ne récupère aucun point de vie pour le sacrifice d'un animal"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "Serment sur le fleuve des morts": {
+                      "description1": "Atlan a fait un serment sur le fleuve des morts à Olympia Fonte d'empêcher Niklas de toucher de trop près Ziskakan Karlovich et d'empêcher cette dernière de réellement tomber amoureuse de lui",
+                      "description2": "Atlan est lié par le serment du fleuve des morts à Olympia Fonte et doit empêcher toute relation intime entre Niklas et Ziskakan"
+                    },
+                    "Découverte des 3 Cellas": {
+                      "description1": "Atlan a découvert l'emplacement des 3 Cellas du Roi des rois",
+                      "effets": [
+                        {
+                          "effet1": "+1 PV MAX"
+                        }
+                      ]
+                    },
+                    "Vision du rituel de l'Arbre-cœur": {
+                      "description": "Atlan a assisté au rituel de l'Arbre-cœur jusqu'à son terme",
+                      "effets": [
+                        {
+                          "effet1": "Atlan gagne +1 point de vie maximum"
+                        },
+                        {
+                          "effet2:": "Atlan obtient le pouvoir de résurrection"
+                        }
+                      ]
+                    },
+                    "Découverte de l'orbe du roi des rois": {
+                      "description": "Atlan a découvert l'orbe sacré du roi des rois",
+                      "effets": [
+                        {
+                          "effet": "+1 PV MAX"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "compétences": {
+                    "Perception": 35,
+                    "Discrétion": 40,
+                    "Mentir, convaincre": 80,
+                    "Lire et écrire": 8,
+                    "Voler": 60
+                  }
+                },
+                {
+                  "talents": {
+                    "Déguisement": {
+                      "points": "Points de compétences : 50",
+                      "effet": "Atlan peut se faire passer pour quelqu'un d'autre"
+                    },
+                    "Usages de la cour": {
+                      "points": "Points de compétences : 60",
+                      "effet": "aussi bien noble que mystérieux, Atlan connaît les tenants et aboutissants de la cour"
+                    },
+                    "Psychologie": {
+                      "points": "Points de compétences : 60",
+                      "effet": "Atlan est un fin psychologue et comprend la nature humaine. Ce talent lui permet de déceler les points faibles dans l'esprit des gens afin de tourner les discussions à son avantage"
+                    },
+                    "Apaiser ou enflammer les cœurs": {
+                      "points": "Points de compétences : 80",
+                      "effet": "Grâce à sa maîtrise de la prose, Atlan peut apaiser les cœurs, même dans une situation extrêmement agitée (ex: un bateau rempli d'esclaves qui brûle). Il peut aussi agiter les foules pour provoquer des émeutes"
+                    },
+                    "Prêtre du pain": {
+                      "effet": "Suite à sa rencontre avec une prêtresse de la déesse Joyper, divinité du pain, Atlan a accepté de devenir un prêtre du pain et peut donc bénir le pain. Bien que l'effet réel de ce talent ne soit pas clair, il a permis à Atlan de s'introduire dans les cuisines de plusieurs établissements"
+                    },
+                    "Vengeance": {
+                      "points1": "Points de compétence initiaux: 75",
+                      "effet": "Atlan gagne ce talent à Altabianca après avoir avancé dans sa quête personnelle. Il lui permet de relancer un jet de dés raté. Si la relance est réussie, il lance ensuite un D10 et ses points de compétence pour la compétence 'Vengeance' baissent de la valeur obtenue",
+                      "Modification des chances de réussite": "Episode 20 et 26 : Perte de 1%",
+                      "points2": "Points de compétence modifiés: 73"
+                    },
+                    "Pouvoir de résurrection": {
+                      "effet": "Pour avoir vu le rituel de l'Arbre-cœur aller jusqu'à son terme, Atlan a obtenu le pouvoir de résurrection. Il peut placer une marque sur une personne de son choix et s'il meurt, il reviendra à la vie dans le corps de la personne marquée"
+                    }
+                  }
+                },
+                {
+                  "lore": {
+                    "lore1": "Atlan Grethen de Quirk est une référence au marathon de speedrun caritatif Awesome Games Done Quick"
+                  }
+                }
+              ]
+            },
+            {
+              "pj2": [
+                {
+                  "global": {
+                    "nom": "Clodomir de Cuivrechamps",
+                    "surnoms": {
+                      "surnom1": "Clodowood",
+                      "surnom2": "Clodométal"
+                    },
+                    "joueur": "Daz",
+                    "classe": "Magicien de la nuit 2",
+                    "origine": "Malbouzon",
+                    "espece": "Humain",
+                    "age": "inconnu",
+                    "caracteristiques": {
+                      "PV": 8,
+                      "Force": 8,
+                      "Dextérite": 4,
+                      "Endurance": 6,
+                      "Charisme": 13,
+                      "Combat rapproché": 35,
+                      "Combat à distance": 30,
+                      "Compétence sociale": 60,
+                      "Dommages": "1D2",
+                      "Armure":
+                    }
+                  }
+                },
+                {
+                  "biographie": {
+                    "partie1": "Clodomir recherche son maître de magie après avoir fait un voyage initiatique d'un an, et cherche à devenir sorcier à part entière",
+                    "partie2": "Clodomir est un jeune homme frêle, peu assuré, avec le teint pâle. Il rencontre Atlan et Niklas lors de son voyage alors qu'ils tentent de vendre des potions pour se faire de l'argent",
+                    "partie3": "Il est un apprenti sorcier au début de l'aventure, disciple non officiel de Melanda, mais est promu au rang de Magicien de la nuit après avoir retrouvé cette dernière à Wandermere et avoir passé le test qu'elle lui avait préparé",
+                    "partie4": "Après avoir effectué le rituel du dieu de la sagesse, Clodomir décide de se faire appeler Clodowood, en référence à son nouveau corps fait de bois",
+                    "partie5": "Désormais, il se fait appeler Clodométal, suite à son passage à Kniga"
+                  }
+                },
+                {
+                  "titres": {
+                    "Magicien de la nuit": "Clodomir succède au titre de son maître de magie, Melanda",
+                    "Protecteur d'Altabianca": "Clodomir a été nommé protecteur d'Altabianca par le roi Leonid Senata. Il bénéficie d'un statut particulier sur l'île et presque toutes les portes d'Altabianca lui sont ouvertes",
+                    "Chevalier d'Aria": "Clodowood a été adoubé chevalier par le prince/roi Estienne d'Aria. Il s'agit d'un titre de noblesse qui lui donne droit à un cheval gratuit et une armure de chevalier d'Aria",
+                    "Maître de l'Académie noire": "Clodowood a été nommé maître de la nouvelle Académie noire de magie par la reine Aurianne d'Aria",
+                    "Protecteur du Pays Môn": "Clodowood a été nommé protecteur du Pays Môn par la reine Kalish. Il bénéficie d'un statut particulier dans le pays et d'une maison avec un potager dans le village de la griffe",
+                    "Plus gros mangeur de Varna": "Clodométal a gagné le titre de plus gros mangeur de Varna en mangeant chaque plat du repas de Délicieuse à l'Auberge de la Salamandre"
+                  }
+                },
+                {
+                  "modificateurs": {
+                    "Malédiction d'Urshanabi": {
+                      "description": "Maudit par Urshanabi, rencontré sur l'île d'Esperanza, pour avoir quitté l'île sans avoir tué Gus le chauve",
+                      "effets": [
+                        {
+                          "effet1": "-6 PV MAX"
+                        }
+                      ]
+                    },
+                    "Marquage au fer chaud sur l'épaule": {
+                      "description": "Dans les prisons d'Aqabah, Caldera marque Clodomir au fer chaud sur l'épaule",
+                      "effets": [
+                        {
+                          "effet1": "-6 PX MAX"
+                        }
+                      ]
+                    },
+                    "Transfer de l'âme dans une statue de bois": {
+                      "description1": "Pour avoir complété l'épreuve du Dieu de la sagesse, le groupe d'aventuriers a appris un rituel pour transférer une âme dans une statue de bois taillée d'un bloc",
+                      "effets": [
+                        {
+                          "effet1": "Toutes afflictions soignées et obtention d'un corps en bois, plus grand que son corps original"
+                        }
+                      ]
+                    },
+                    "Serment sur le fleuve des morts": {
+                      "description1": "Clodomir a juré sur le fleuve des morts de bien s'occuper de Jotuna, la fille de Ramla Shunsuy, une esclave du village d'Axum dans la région d'Aqabah",
+                      "effets": [
+                        {
+                          "effet1": "Clodomir est lié par le serment du fleuve des morts et doit bien s'occuper de Jotuna"
+                        }
+                      ]
+                    },
+                    "Découverte d'Irem": {
+                      "description": "La découverte de la cité légendaire d'Irem est un grand exploit",
+                      "effets": [
+                        {
+                          "effet1": "+1 PV MAX"
+                        }
+                      ]
+                    },
+                    "Pieds sectionnés": {
+                      "description": "Clodowood s'est pris le pied dans un piège à ours en tentant de traquer un orisial",
+                      "effets": [
+                        {
+                          "effet1": "-1 PV MAX"
+                        }
+                      ]
+                    },
+                    "Découverte des 3 Cellas": {
+                      "description": "Clodowood a découvert l'emplacement des 3 Cellas du Roi des rois.",
+                      "effets": [
+                        {
+                          "effet1": "+1 PV MAX"
+                        }
+                      ]
+                    },
+                    "Transfer de l'âme dans un corps de Rhodium": {
+                      "description": "À Kniga, Clodowood se paye un nouveau corps mécanique en Rhodium et devient Clodométal",
+                      "effets": [
+                        {
+                          "effet1": "PV infinis"
+                        },
+                        {
+                          "effet2": "Sa seule faiblesse : un morceau de bois à l'intérieur de son corps qui contient son âme"
+                        },
+                        {
+                          "effet6": "Clodomir ne peut pas utiliser la magie tant que le cristal de Kniga dans son corps est allumé"
+                        },
+                        {
+                          "effet3": "+75% en intimidation"
+                        },
+                        {
+                          "effet4": "+5 en force"
+                        },
+                        {
+                          "effet5": "+5 en endurance"
+                        }
+                      ]
+                    },
+                    "Vision du rituel de l'Arbre-cœur": {
+                      "description": "Clodomir a assisté au rituel de l'Arbre-cœur jusqu'à son terme",
+                      "effets": [
+                        {
+                          "effet1": "+1 PV MAX"
+                        },
+                        {
+                          "effet2": "Obtention du pouvoir de résurrection"
+                        }
+                      ]
+                    },
+                    "Découverte de l'orbe du roi des rois": {
+                      "description": "Clodomir a découvert l'orbe sacré du roi des rois",
+                      "effets": [
+                        {
+                          "effet1": "+1 PV MAX"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "compétences": {
+                    "Perception": 75,
+                    "Discrétion": 60,
+                    "Mentir, convaincre": 60,
+                    "Lire et écrire": 70,
+                    "Artisanat": 50,
+                    "Intimider": 75
+                  }
+                },
+                {
+                  "talents": {
+                    "Apprentissage de la magie": {
+                      "points": "Points de compétences : 40"
+                    },
+                    "Utilisation de la magie": {
+                      "points": "Points de compétences : 100",
+                      "cartes": {
+                        "effets": [
+                          {
+                            "effet1": "Clodomir possède un deck classique de 52 cartes (+joker). Pour utiliser un sort, il doit tirer une carte aléatoire de son deck. La nature de la magie qu'il peut alors utiliser dépend de la couleur (Cœurs, Carreaux, Piques, Trèfles) de la carte tirée et la puissance dépend de la valeur de la carte"
+                          }
+                          {
+                            "effet2": "Carreaux : Manipulation de la matière"
+                          },
+                          {
+                            "effet3": "Cœurs : Manipulation des cœurs"
+                          },
+                          {
+                            "effet4": "Piques : Invocation des esprits et des morts"
+                          },
+                          {
+                            "effet5": "Trèfles : Invocation des éléments"
+                          },
+                          {
+                            "effet6": "Lorsqu'une carte a été utilisée, elle est retirée du deck. Ainsi, Clodomir ne peut, dans son état actuel, lancer que 52 sorts (+joker) au total durant l'intégralité de l'aventure. Il est à noter cependant que Clodomir est un Apprenti sorcier au début de l'aventure, il est possible qu'il puisse gagner de nouvelles compétences au fil de l'aventure"
+                          },
+                          {
+                            "effet7": "Les valeurs de cartes peuvent être : 2 à 10, valet, dame, roi et as. L'as est la carte la plus haute. Le joker est également une carte possible et qui permet de lancer n'importe quel type de sort"
+                          }
+                        ]
+                      },
+                      "Magicien de la nuit": "Après avoir été promu au rang de Magicien de la nuit, Clodomir peut maintenant tirer deux cartes en début de session et les mettre de côté pendant la partie. S'il souhaite utiliser sa magie, il peut choisir une des cartes qu'il a tirées ou décider d'en tirer une nouvelle (qui devra être utilisée directement). S'il utilise une des cartes découvertes en avance, il tire une nouvelle carte pour remplacer dans sa main celle qui a été utilisée. À la fin de la session, les cartes non utilisées de sa main sont remises dans le paquet"
+                    }
+                  },
+                  "Connaissances des secrets": {
+                    "points": "Points de compétences : 70",
+                  },
+                  "Parler aux animaux": {
+                    "points": "Points de compétences : 20",
+                    "effets": [
+                      {
+                        "effet1": "Clodomir peut communiquer avec les animaux. Les communications sont limitées à de simples instructions"
+                      },
+                      {
+                        "effet2": "Clodomir apprend ce talent en lisant le Codex Animalis Intelligentia"
+                      }
+                    ]
+                  },
+                  "Maître des échecs": {
+                    "points": "Points de compétences : 99",
+                    "effet": "Clodomir est un maître du jeu d'échec. Il découvre son talent à Aqabah, en jouant contre Marie Akumakur, joueuse d'échec rencontrée dans le palais du sultan d'Aqabah"
+                  },
+                  "Clodowood": {
+                    "effets": [
+                      {
+                        "effet1": "Après avoir transféré son âme dans un nouveau corps de bois, Niklas a équipé le corps de Clodowood de 3 fonctionnalités particulières"
+                      },
+                      {
+                        "effet2": "Un coffre de rangement dans le dos"
+                      },
+                      {
+                        "effet3": "Un « bilboquet du destin » pour questionner le destin (ou juste amuser les foules)"
+                      },
+                      {
+                        "effet4": "Une partie sur la cuisse permettant de faire du feu en la frottant"
+                      }
+                    ]
+                  },
+                  "Clodométal": {
+                    "effets": [
+                      {
+                        "effet1": "À Kniga, Clodowood se fait construire un corps en Rhodium. Il devient invulnérable, gagne en endurance et en force et devient plus intimidant, mais ne peut plus utiliser la magie à cause du Cristal de Kniga qui se trouve dans son corps et lui permet de se mouvoir. Il peut cependant désactiver ce cristal pour lancer des sorts, mais il ne pourra pas bouger tant que le cristal ne sera pas réactivé"
+                      },
+                      {
+                        "effet2": "De plus, aucune magie d'Aria ne peut être utilisée dans un rayon de 15m autour de lui"
+                      }
+                    ]
+                  },
+                  "Pouvoir de résurrection": {
+                    "effet": "Pour avoir vu le rituel de l'Arbre-cœur aller jusqu'à son terme, Atlan a obtenu le pouvoir de résurrection. Il peut placer une marque sur une personne de son choix et s'il meurt, il reviendra à la vie dans le corps de la personne marquée"
+                  }
+                }
+              ]
+            },
+            {
+              "lore": {
+                "lore1": "Le nom du personnage est une référence au prestidigitateur américain David Copperfield (Cuivrechamps = Copperfield)"
+              }
+            }
+          ]
+        },
+      ]
+    },
+    {
+      "pj3": [
+        {
+          "global": {
+            "nom": "Kaitra D'Ashanul",
+            "surnoms": {
+              "surnom1": "Kaitrax"
+            },
+            "joueur": "Lydia",
+            "classe": "Gladiatrice"
+            "origine": "Cité d'Ashanul (sultanat d'Aqabah)",
+            "espece": "Humain",
+            "age": "inconnu",
+            "caracteristiques": {
+              "PV": 15,
+              "Force": 16,
+              "Dextérite": 15,
+              "Endurance": 13,
+              "Charisme": 7,
+              "Combat rapproché": 75,
+              "Combat à distance": 75,
+              "Compétence sociale": 30,
+              "Dommages": "2 x 1D8",
+              "Armure":
+            }
+          }
+        },
+        {
+          "biographie": {
+            "partie1": "Kaitra veut trouver la gloire et la fortune, tout en espérant oublier son passé",
+            "partie2": "Née d'une famille très pauvre dans la cité d'Ashanul, elle a été vendue par ses parents et devint une esclave destinée à périr dans une arène. Malgré son petit gabarit, elle se découvre un don pour le combat. Elle survit dans l'arène et devient une gladiatrice expérimentée, en témoignent ses cicatrices. Elle voyage alors un peu et se rend à Irem, attirée par la rumeur d'un certain trésor. La chasse au trésor échoue et Kaitra se fait arrêter par les gardes du sultan",
+            "partie3": "Elle réussit néanmoins à s'échapper et après avoir pu quitter le sultanat d'Aqabah, elle finit par rencontrer Atlan, Niklas et Clodomir alors qu'ils se font attaquer par des bandits dans une forêt. Elle les aident à s'en sortir et décide de rejoindre le groupe"
+          }
+        },
+        {
+          "titres": {
+            "Guilde des poissonniers": "Kaitra est une membre de la guilde des poissonniers et bénéficie de tout le réseau de voleurs dans le monde, bien qu'elle doit également respecter les obligations de ce statut",
+            "Protectrice d'Altabianca": "Kaitra a été nommée protectrice d'Altabianca par le roi Leonid Senata. Elle bénéficie d'un statut particulier sur l'île et presque toutes les portes d'Altabianca lui sont ouvertes",
+            "Esclave d'Aqabah": "Bien qu'elle ait été libérée par le général Cassandre par le passé, elle est a nouveau marquée au fer chaud dans les geôles d'Aqabah et porte la marque des esclaves sur son œil droit",
+            "Chevalier d'Aria": "Kaitra a été adoubée chevalier par le prince/roi Estienne d'Aria. Il s'agit d'un titre de noblesse qui lui donne droit à un cheval gratuit et une armure de chevalier d'Aria",
+            "Protecteur du Pays Môn": "Kaitra a été nommée protectrice du Pays Môn par la reine Kalish. Elle bénéficie d'un statut particulier dans le pays et d'une maison avec un potager dans le village de la griffe",
+            "Plus grosse mangeuse de Varna": "Kaitra a gagné le titre de plus grosse mangeuse de Varna en mangeant chaque plat du repas de Délicieuse à l'Auberge de la Salamandre"
+          }
+        },
+        {
+          "modificateurs": {
+            "Serment sur le fleuve des morts": {
+              "description": "Kaitra a fait un serment sur le fleuve des morts à Cassandre, la générale d'Aria. Elle a jurée de se rendre à Irem à la recherche du sceptre Herméneutique",
+              "effets": [
+                {
+                  "effet1": "Kaitra doit se rendre à Irem sous peine de briser le serment et en subir les conséquences",
+                },
+                {
+                  "effet2": "Kaitra s'est rendu à Irem et s'est donc libérée du serment"
+                }
+              ]
+            },
+            "Malédiction du dieu Qalil": {
+              "description": "Maudite par un prêtre du dieu Qalil pour avoir interrompue un combat à mort dans l'arène d'Aqabah",
+              "effets": [
+                {
+                  "effet1": "Kaitra ne peut plus manipuler d'arme"
+                }
+              ]
+            },
+            "Marquage au fer chaud sur l’œil droit": {
+              "description1": "Dans les prisons d'Aqabah, Kaitra perd son œil droit, crevé par le fer chaud que lui applique Caldera",
+              "effets": [
+                {
+                  "effet1": "Toutes afflictions soignées et obtention d'un corps en bois, plus grand que son corps original",
+                },
+                {
+                  "effet2": "+1 PV MAX",
+                }
+              ]
+            },
+            "Découverte d'Irem": {
+              "description": "La découverte de la cité légendaire d'Irem est un grand exploit",
+              "effets": [
+                {
+                  "effet1": "+1 PV MAX"
+                }
+              ]
+            },
+            "Bénédiction du Dieu invisible": {
+              "description": "Kaitra a prêté allégeance au Dieu invisible, à la statue d'Irem. La bénédiction du dieu de la magie lui permet d'obtenir des pouvoirs magiques",
+              "effets": [
+                {
+                  "effet1": "Kaitra gagne 5 cartes de magie."
+                }
+              ]
+            },
+            "Découverte des 3 Cellas": {
+              "description": "Kaitra a découvert l'emplacement des 3 Cellas du Roi des rois.",
+              "effets": [
+                {
+                  "effet1": "+1 PV MAX"
+                }
+              ]
+            },
+            "Tue Xa, la sorcière terrible du Kohest": {
+              "description": "Kaitra a tué la terrible sorcière Xa du Kohest",
+              "effets": [
+                {
+                  "effet1": "+2 PV MAX"
+                }
+              ]
+            },
+            "Vision du rituel de l'Arbre-cœur": {
+              "description": "Kaitra a assisté au rituel de l'Arbre-cœur jusqu'à son terme",
+              "effets": [
+                {
+                  "effet1": "+1 PV MAX"
+                },
+                {
+                  "effet2": "Obtention du pouvoir de résurrection"
+                }
+              ]
+            },
+            "Découverte de l'orbe du roi des rois": {
+              "description": "Kaitra a découvert l'orbe sacré du roi des rois",
+              "effets": [
+                {
+                  "effet1": "+1 PV MAX"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "compétences": {
+            "Perception": 40,
+            "Discrétion": 20,
+            "Mentir, convaincre": 80,
+            "Lire et écrire": 60,
+            "Réflexe": 70
+          }
+        },
+        {
+          "talents": {
+            "Vengeance": {
+              "points": "Points de compétences : 60"
+            },
+            "Fatalité": {
+              "points": "Points de compétences : 60",
+              "effets": [
+                {
+                  "effet1": "Une compétence de combat apprise pendant ses combats dans l'arène. Kaitra assène 2 coups de hache sur son ennemi et donne un coup final en lançant sa hache"
+                }
+              ]
+            },
+            "Parler aux animaux": {
+              "points": "Points de compétences : 55",
+              "effets": [
+                {
+                  "effet1": "Kaitra peut communiquer avec les animaux. Les communications sont limitées à de simples instructions"
+                }
+              ]
+            },
+            "Apprentissage de la magie": {
+              "points": "Points de compétences : 32",
+              "effets": [
+                {
+                  "effet1": "Une compétence gagnée lorsque Kaitra retrouve Kaheena D'Ashanul, son ancienne partenaire, sur l'île d'Esperanza. Elle permet d'encourager ses alliés et de leur donner un 2e tour gratuit avant l'action des adversaires. Kaitra ne peut pas utiliser cette compétence sur elle-même. Chaque utilisation de cette compétence réduit les chances de réussites suivantes de la compétence"
+                }
+              ]
+            },
+            "Souffle du dragon": {
+              "points": "Points de compétences : 68",
+              "effets": [
+                {
+                  "effet1": "Une compétence apprise de Batuo LePirf dans le ghetto d'Aqabah à Aria, l'héritière de l'art ancien d'Amasya. Kaitra peut mettre à terre une personne qui l'attaque"
+                }
+              ]
+            },
+            "Pouvoir de résurrection": {
+              "effets": [
+                {
+                  "effet1": "Pour avoir vu le rituel de l'Arbre-cœur aller jusqu'à son terme, Kaitra a obtenu le pouvoir de résurrection. Elle peut placer une marque sur une personne de son choix et si elle meurt, elle reviendra à la vie dans le corps de la personne marquée"
+                },
+                {
+                  "effet2": "Dans l'épisode 32, elle pose la marque sur Morgueanne, une mage de l'Académie de magie"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lore": {
+        "lore1": "Le nom du personnage est une référence à un terme utilisé dans la communauté de jeux de baston : le « dash-cancel » (D'Ashanul > dash annule)",
+        "lore2": "D'après FibreTigre, « Kaitra » est une référence à un bouclier"
+      }
+    }
+  ]
+},
+]
+},
+},
+{
+"pj4": [
+{
+"global": {
+  "nom": "Niklas von Trunkel",
+  "surnoms": {
+    "surnom1": "Nikoletta"
+  },
+  "joueur": "Lam",
+  "classe": "Alchimiste",
+  "origine": "Kniga",
+  "espece": "Humain",
+  "age": "inconnu",
+  "caracteristiques": {
+    "PV": 8,
+    "Force": 9,
+    "Dextérite": 15,
+    "Endurance": 8,
+    "Charisme": 11,
+    "Combat rapproché": 30,
+    "Combat à distance": 67,
+    "Compétence sociale": 60,
+    "Dommages": 1,
+    "Armure": 2
+  }
+}
+},
+{
+"biographie": {
+  "partie1": "Niklas doit trouver le «Sceptre Herméneutique», le rapporter à l'université de Kniga et ainsi laver son honneur",
+  "partie2": "Alchimiste étudiant à l'Academie d'alchimie de Kniga, est, selon ses propres dires, l'un des premiers à avoir réussi à transformer du plomb en or. Après quelques célébrations un peu excessives, ses professeurs lui demandent de partir à la recherche d'un sceptre, ce qu'il considère alors comme une ultime épreuve pour affirmer son génie. Il quitte ainsi son pays pour rejoindre le Royaume d'Aria, où il découvrira que son allure et son attitude ne sont pas forcément appréciées des locaux. Il risque de se faire brûler vif alors qu'il fait la rencontre d'Atlan, qui vient à son secours",
+  "partie3": "Dans le monastère du Dieu Exilé dans la forêt de Sauvagny, Niklas ramassera un étrange talisman qui va le maudire, brûlant sa main à vif et marquant au fer rouge un X dans sa paume. Ce médaillon réagit dès que Niklas se trouve proche d'un temple, d'une statue ou d'une fresque représentant le Dieu Exilé. En effet le signe du X représente un dieu néfaste ennemi de ce dernier",
+  "partie4": "Arrivé à Aria, Niklas insiste énormément pour aller au Quartier des plaisirs, ce qu'il fera seul le soir. Fortement alcoolisé, il se fera dépouiller de ses biens par des membres de la Guilde des Poissonniers",
+  "partie5": "Niklas est d'ailleurs indirectement lié à la sorcière Xa. En effet, cette dernière, en torturant l'alchimiste a demandé à celui-ci de ramener la cuillère de Gourmandise la pâtissière royale. Niklas ramènera la cuillère au Nuage enchanteur où un corbeau la récupèrera",
+  "partie6": "Lors d'une soirée organisée par la famille Treherne, Niklas, fortement alcoolisé, sympathisera avec un médecin. Il lui rendra d'ailleurs visite par la suite pour pouvoir fabriquer des potions",
+  "partie7": "Niklas est le père de 2 sœurs jumelles, Herlukea et Jahra, qu'il a eu avec Olympia Fonte"
+}
+},
+{
+"titres": {
+  "Protecteur d'Altabianca": "Niklas a été nommé protecteur d'Altabianca par le roi Leonid Senata. Il bénéficie d'un statut particulier sur l'île et presque toutes les portes d'Altabianca lui sont ouvertes",
+  "Esclave d'Aqabah": "Niklas a été marqué au fer chaud dans les geôles d'Aqabah et porte la marque des esclaves",
+  "Chevalier d'Aria": "Niklas a été adoubé chevalier par le prince/roi Estienne d'Aria. Il s'agit d'un titre de noblesse qui lui donne droit à un cheval gratuit et une armure de chevalier d'Aria",
+  "Protecteur du Pays Môn": "Niklas a été nommé protecteur du Pays Môn par la reine Kalish. Il bénéficie d'un statut particulier dans le pays et d'une maison avec un potager dans le village de la griffe",
+  "Plus gros mangeur de Varna": "Niklas a gagné le titre de plus gros mangeur de Varna en mangeant chaque plat du repas de Délicieuse à l'Auberge de la Salamandre"
+}
+},
+{
+"modificateurs": {
+  "Malédiction du dieu Ennemi": {
+    "description": "Niklas a été maudit en touchant l'amulette du dieu ennemi",
+    "effets": [
+      {
+        "effet1": "-1 PV MAX",
+      },
+      {
+        "effet2": "Cette malédiction a été levée en se greffant la main du Corbeau noir à la place de la main maudite"
+      }
+    ]
+  },
+  "La main du Corbeau noir": {
+    "description": "Niklas s'est greffé la main du Corbeau noir à la place de sa main maudite. L'opération a été effectuée par la sorcière Ska, sur l'île d'Esperanza. De plus, cette dernière est trop grande, proportionnellement, par rapport au corps de Niklas",
+    "effets": [
+      {
+        "effet1": "La main du Corbeau noir conserve certains souvenirs de ce dernier et peut agir de manière indépendante dans certaines situations"
+      }
+    ]
+  },
+  "Gros coup de pied au cul": {
+    "description1": "Dans le palais des plaisirs d'Aqabah, Niklas se fait violemment expulser à coup de pieds au cul pour son attitude envers Badaa Inta",
+    "effets": [
+      {
+        "effet1": "-1 PV MAX",
+      }
+    ]
+  },
+  "Marquage au fer chaud sur le visage": {
+    "description1": "Dans les prisons d'Aqabah, Caldera marque Niklas au fer chaud sur le visage",
+    "effets": [
+      {
+        "effet1": "-1 PV MAX",
+      }
+    ]
+  },
+  "Découverte d'Irem": {
+    "description": "La découverte de la cité légendaire d'Irem est un grand exploit",
+    "effets": [
+      {
+        "effet1": "+1 PV MAX"
+      }
+    ]
+  },
+  "Bénédiction d'Ina": {
+    "description": "Niklas a prêté allégeance à la Déesse Ina à la statue d'Irem",
+    "effets": [
+      {
+        "effet1": "PV MAX +2 "
+      },
+      {
+        "effet2": "...AVant de finalement ignorer la quête divine d'Ina à Aria. Il a donc perdu la bénédiction"
+      }
+    ]
+  },
+  "Main gauche sectionnée": {
+    "description": "Niklas a eu sa main gauche sectionnée en essayant de dérober des objets du musée des merveilles via le miroir de la lune",
+    "effets": [
+      {
+        "effet1": "Niklas a remplacé sa main gauche par la main droite mécanique de Kniga récupéré dans le laboratoire de Morov"
+      }
+    ]
+  },
+  "Regain d'honneur à l'académie d'achimie de Kniga": {
+    "description": "Niklas a ramené le sceptre Herméneutique à Kniga et lavé son honneur après un exposé brillant devant toute l'académie d'alchimie",
+    "effets": [
+      {
+        "effet1": "+1 PV MAX"
+      },
+      {
+        "effet2": "+ 30 points de compétences à répartir comme il l'entend"
+      }
+    ]
+  },
+  "Empoisonnement": {
+    "description": "Niklas a rencontré Maghius Mondriant qui l'a empoisonné, car il le considère responsable de la disparition de sa fille et du malheur qui en a découlé pour sa famille",
+    "effets": [
+      {
+        "effet1": "Niklas est empoisonné et ne peut pas récupérer de PV"
+      },
+      {
+        "effet2": "Niklas a consulté la guilde d'alchimiste qui lui a concocté un antidote"
+      }
+    ]
+  },
+  "Découverte des 3 Cellas": {
+    "description": "Niklas a découvert l'emplacement des 3 Cellas du Roi des rois.",
+    "effets": [
+      {
+        "effet1": "+1 PV MAX"
+      }
+    ]
+  },
+  "Changement de sexe": {
+    "description": "Niklas a consommé du Ciscake et est devenu(e) Nikoletta",
+    "effets": [
+      {
+        "effet1": "Niklas a changé de sexe pour devenir une femme"
+      }
+    ]
+  },
+  "Vision du rituel de l'Arbre-cœur": {
+    "description": "Niklas a assisté au rituel de l'Arbre-cœur jusqu'à son terme",
+    "effets": [
+      {
+        "effet1": "+1 PV MAX"
+      },
+      {
+        "effet2": "Obtention du pouvoir de résurrection"
+      }
+    ]
+  },
+  "Mutations de l'eau du Parcoul": {
+    "description": "Niklas a bu l'eau de la fontaine de source du Parcoul et a subit des mutations",
+    "effets": [
+      {
+        "effet1": "Niklas a un troisième œil derrière la nuque"
+      },
+      {
+        "effet2": "Niklas a un troisième sein au milieu des deux autres"
+      }
+    ]
+  },
+  "Découverte de l'orbe du roi des rois": {
+    "description": "Kaitra a découvert l'orbe sacré du roi des rois",
+    "effets": [
+      {
+        "effet1": "+1 PV MAX"
+      }
+    ]
+  }
+}
+},
+{
+"compétences": {
+  "Perception": 65,
+  "Discrétion": 20,
+  "Mentir, convaincre": 62,
+  "Lire et écrire": 50,
+  "Courir, sauter": 40,
+  "Intimidation": 50,
+  "Voler": 40,
+  "Soigner": 60,
+  "Serrures et pièges": 65,
+  "Reflexes": 50,
+  "Artisanat": 70
+}
+},
+{
+"talents": {
+  "Fabriquer une potion connue": {
+    "points": "Points de compétences : 100",
+    "effets": [
+      {
+        "effet1": "Niklas peut (re)fabriquer des potions qu'il a déjà concocté auparavant. Lorsqu'il prépare un type de potion pour la première fois, il a besoin des ingrédients nécessaires et les consomme. Cependant, par la suite, il n'a plus besoin des ingrédients et peut recréer une potion qu'il a déjà créée, il a simplement besoin d'une fiole vide"
+      }
+    ]
+  },
+  "Déterminer une substance": {
+    "points": "Points de compétences : 60",
+    "effets": [
+      {
+        "effet1": "Niklas peut déterminer la nature d'une substance qu'il trouve. Il l'utilise la première fois pour identifier une herbe qui été utilisée par Baudouin dans le village d'Arance pour cuisiner un poulet. Il se trouve qu'il s'agissait d'un poison"
+      }
+    ]
+  },
+  "Mélanger des trucs au hasard": {
+    "points": "Points de compétences : 60",
+  },
+  "Artisanat": {
+    "points": "Points de compétences : 100",
+    "effets": [
+      {
+        "effet1": "Niklas possède des talents en artisanat lui permettant de construire ou réparer des objets ou travaux de petite à moyenne envergure. Il utilisera notamment ce talent pour reconstruire le pont de Claveau et réparer la statue de la déesse Ina dans ce même village. Il l'utilise également pour créer un radeau de fortune, qu'il nomme Junior, lorsque le Malawi Ardent coule alors que les aventuriers se dirigeaient vers Esperanza"
+      }
+    ]
+  },
+  "Magie de la mort": {
+    "effets": [
+      {
+        "effet1": "Niklas apprend de la sorcière Ska le rituel de la magie de la mort. Le rituel consiste à prononcer une prière au dieu de la mort (l'araignée) et d'offrir un sacrifice humain ou animal dans la minute qui suit. Plus cette magie est utilisée, plus son utilisateur sera entouré d'une aura de la mort"
+      },
+      {
+        "effet2": "Convoquer un fantôme"
+      },
+      {
+        "effet3": "Demander un conseil aux esprits"
+      },
+      {
+        "effet2": "Réveiller un cadavre pendant une nuit entière (en tant que zombie)"
+      },
+      {
+        "effet2": "Envoyer des cauchemars"
+      },
+      {
+        "effet2": "Maudire une personne"
+      },
+    ]
+  },
+  "Magie de la mort": {
+    "effets": [
+      {
+        "effet1": "Niklas peut utiliser de la magie qu'il a récupéré de Kaitra dans le temple des magiciens de la nuit"
+      }
+    ]
+  },
+  "Pouvoir de résurrection": {
+    "effets": [
+      {
+        "effet1": "Pour avoir vu le rituel de l'Arbre-cœur aller jusqu'à son terme, Niklas a obtenu le pouvoir de résurrection. Il peut placer une marque sur une personne de son choix et s'il meurt, il reviendra à la vie dans le corps de la personne marquée"
+      },
+      {
+        "effet2": "Dans l'épisode 32, elle pose la marque sur Jotun"
+      }
+    ]
+  }
+}
+}
+]
+},
+"Repertoire de potions": [
+{
+"description": "Cette section liste les potions qu'a déjà fabriqué Niklas ou qu'il est capable de préparer. Selon le type de potion, un échec de la préparation peut mener à la perte de la fiole utilisée pour la préparation ainsi que des dommages collatéraux plus ou moins importants. Les chances de réussite d'une préparation peuvent augmenter si la potion est préparée dans un environnement adapté (ex: atelier du médecin)"
+},
+{
+"potion1": {
+"nom": "Feu destructeur d'Ingramus",
+"chances de fabrication": "50%",
+"effet": "Déferle un enfer de flammes à l'endroit où la potion est jetée. La potion est plus efficace si elle est bien agitée avant utilisation. Cette potion a notamment été utilisée pour tuer l'araignée géante rencontrée dans la forêt de Sauvagny. Niklas en a préparé une autre dans l'atelier du médecin à Aria (épisode 5). Potion que Kaitra utilisera au fort de Naporia pour anéantir le 'géant' qui occupait les lieux"
+},
+"potion2": {
+"nom": "Glue von Trunkel",
+"chances de fabrication": "75%",
+"effet": "Potion permettant de recoller des morceaux d'objets brisés. Une fois à l’air libre, elle colle tout en 30 secondes. Elle est particulièrement forte et est notamment utilisée pour réparer la hache de Kaitra et la statue d'Ina de Claveau. À Naporia, il voudra en recréer une, mais par une erreur de manipulation, cette dernière va lui coller dans les mains, l'handicapant ainsi grandement. Il se servira de cette 'capacité' pour garder sous son contrôle le jeune et intrépide Amory"
+},
+"potion3": {
+"nom": "Hallucinatrunkel",
+"chances de fabrication": "70%",
+"effet": "Une potion à base de racines de Mandragore provoquant des hallucinations et rendant les personnes affectées inaptes à réfléchir sainement pendant la durée de l'effet. Il s'agit d'une aire d'effet, les utilisateurs doivent donc prendre leurs précautions avant de la jeter. Cette potion a notamment été utilisée à Claveau, pendant le banquet visant à se débarrasser de Caldera"
+},
+"potion4": {
+"nom": "Passe-muraille de Karloff",
+"chances de fabrication": "60%",
+"effet": "Une potion qui peut faire fondre n'importe quoi excepté le verre. Utilisée dans la crypte du roi oublié pour ouvrir une porte en métal"
+},
+"potion5": {
+"nom": "Potion de soin",
+"chances de fabrication": "",
+"effet": "Une potion à base de Mérilia permettant de récupérer des points de vie. Niklas n'a jamais préparé de potion de soin à ce jour, mais il l'a découvert en analysant l'ingrédient qui la compose aux abords de la forêt de Sauvagny"
+},
+"potion6": {
+"nom": "Potion de suicide",
+"chances de fabrication": "50%",
+"effet": "Une potion à base de Relinium. Les personnes la consommant ou reniflant ses émanations vont tenter de se suicider dans les minutes qui suivent"
+},
+"potion7": {
+"nom": "Potion de réanimation",
+"chances de fabrication": "40%",
+"effet": "Une potion à base de Vitania. Permet de réanimer une personne mourante (0 point de vie ou moins) et la ramène à 1 point de vie mais en état de choc"
+},
+"potion8": {
+"nom": "Potion d'intelligence pour animaux",
+"chances de fabrication": "50%",
+"effet": "Une potion à base de Bétel d'Irem. Permet de stimuler les capacités cognitives d'un animal jusqu'à le rendre capable de parler et d'effectuer des réflexions complexes. L'effet est cependant temporaire et l'animal devra régulièrement consommer de la potion d'intelligence pour conserver ses capacités de réflexion. La méthode de création de la potion est décrite dans le Codex Animalis Intelligentia récupéré dans le laboratoire de Morov à Aqabah."
+},
+"potion9": {
+"nom": "Aconit von Trunkel",
+"chances de fabrication": "100%",
+"effet": "Une potion à base de feuille d'Aconit. Il s'agit d'un poison mortel extrêmement foudroyant. Le simple contact avec cette mixture peut tuer quelqu'un"
+},
+"potion10": {
+"nom": "Bolet d'hair",
+"chances de fabrication": "40%",
+"effet": "Une potion à base de Peltrie, un champignon rose ramassé par Niklas. Permet de faire pousser abondamment les cheveux ou autres poils"
+},
+"potion11": {
+"nom": "Potion oursifiante de Shazam",
+"chances de fabrication": "60%",
+"effet": "Potion donnée par Shazam au groupe en fournissant la recette. Elle permet de transformer quelqu'un en ours"
+},
+"potion12": {
+"nom": "Potion désoursifiante de Shazam",
+"chances de fabrication": "100%",
+"effet": "Une potion à base de feuille d'Aconit. Il s'agit d'un poison mortel extrêmement foudroyant. Le simple contact avec cette mixture peut tuer quelqu'un"
+},
+}
+]
+{
+"lore": {
+"lore1": "Le nom du personnage est une référence à l'expression désormais célèbre sur (le tchat de) la JVTV : « Nique Trunks ». C'est également le pseudonyme de Trunks sur le serveur Discord de la JVTV"
+}
+}
+]
+},
+]
+}
+]
+}
+]
+},
+{
+"nom": "Stars"
+},
+{
+"nom": "1979"
+},
+{
+"hors-série": [
+{
+"nom": "Battle royale à Notre Dame Des Landes"
+},
+{
+"nom": "Tomb Raider"
+}
+]
+}
+]
+}
