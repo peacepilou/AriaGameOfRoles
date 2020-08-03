@@ -188,7 +188,7 @@
                   "Combat à distance": 30,
                   "Compétence sociale": 60,
                   "Dommages": "1D2",
-                  "Armure":
+                  "Armure": ""
                 }
               }
             },
@@ -334,7 +334,7 @@
                     "effets": [
                       {
                         "effet1": "Clodomir possède un deck classique de 52 cartes (+joker). Pour utiliser un sort, il doit tirer une carte aléatoire de son deck. La nature de la magie qu'il peut alors utiliser dépend de la couleur (Cœurs, Carreaux, Piques, Trèfles) de la carte tirée et la puissance dépend de la valeur de la carte"
-                      }
+                      },
                       {
                         "effet2": "Carreaux : Manipulation de la matière"
                       },
@@ -359,7 +359,7 @@
 
                 },
                 "Connaissances des secrets": {
-                  "points": "Points de compétences : 70",
+                  "points": "Points de compétences : 70"
                 },
                 "Parler aux animaux": {
                   "points": "Points de compétences : 20",
@@ -437,7 +437,7 @@
                   "Combat à distance": 75,
                   "Compétence sociale": 30,
                   "Dommages": "2 x 1D8",
-                  "Armure":
+                  "Armure": ""
                 }
               }
             },
@@ -464,7 +464,7 @@
                   "description": "Kaitra a fait un serment sur le fleuve des morts à Cassandre, la générale d'Aria. Elle a jurée de se rendre à Irem à la recherche du sceptre Herméneutique",
                   "effets": [
                     {
-                      "effet1": "Kaitra doit se rendre à Irem sous peine de briser le serment et en subir les conséquences",
+                      "effet1": "Kaitra doit se rendre à Irem sous peine de briser le serment et en subir les conséquences"
                     },
                     {
                       "effet2": "Kaitra s'est rendu à Irem et s'est donc libérée du serment"
@@ -483,10 +483,10 @@
                   "description1": "Dans les prisons d'Aqabah, Kaitra perd son œil droit, crevé par le fer chaud que lui applique Caldera",
                   "effets": [
                     {
-                      "effet1": "Toutes afflictions soignées et obtention d'un corps en bois, plus grand que son corps original",
+                      "effet1": "Toutes afflictions soignées et obtention d'un corps en bois, plus grand que son corps original"
                     },
                     {
-                      "effet2": "+1 PV MAX",
+                      "effet2": "+1 PV MAX"
                     }
                   ]
                 },
@@ -600,7 +600,7 @@
                   ]
                 }
               }
-            }
+            },
             {
               "lore": {
                 "lore1": "Le nom du personnage est une référence à un terme utilisé dans la communauté de jeux de baston : le « dash-cancel » (D'Ashanul > dash annule)",
@@ -662,7 +662,7 @@
               "description": "Niklas a été maudit en touchant l'amulette du dieu ennemi",
               "effets": [
                 {
-                  "effet1": "-1 PV MAX",
+                  "effet1": "-1 PV MAX"
                 },
                 {
                   "effet2": "Cette malédiction a été levée en se greffant la main du Corbeau noir à la place de la main maudite"
@@ -681,7 +681,7 @@
               "description1": "Dans le palais des plaisirs d'Aqabah, Niklas se fait violemment expulser à coup de pieds au cul pour son attitude envers Badaa Inta",
               "effets": [
                 {
-                  "effet1": "-1 PV MAX",
+                  "effet1": "-1 PV MAX"
                 }
               ]
             },
@@ -689,7 +689,7 @@
               "description1": "Dans les prisons d'Aqabah, Caldera marque Niklas au fer chaud sur le visage",
               "effets": [
                 {
-                  "effet1": "-1 PV MAX",
+                  "effet1": "-1 PV MAX"
                 }
               ]
             },
@@ -824,7 +824,7 @@
               ]
             },
             "Mélanger des trucs au hasard": {
-              "points": "Points de compétences : 60",
+              "points": "Points de compétences : 60"
             },
             "Artisanat": {
               "points": "Points de compétences : 100",
@@ -853,7 +853,7 @@
                 },
                 {
                   "effet2": "Maudire une personne"
-                },
+                }
               ]
             },
             "Utilisation de la magie": {
@@ -938,14 +938,12 @@
           "nom": "Potion désoursifiante de Shazam",
           "chances de fabrication": "100%",
           "effet": "Une potion à base de feuille d'Aconit. Il s'agit d'un poison mortel extrêmement foudroyant. Le simple contact avec cette mixture peut tuer quelqu'un"
-          },
           }
-          ]
-          {
+          }
+          ],
             "lore": {
               "lore1": "Le nom du personnage est une référence à l'expression désormais célèbre sur (le tchat de) la JVTV : « Nique Trunks ». C'est également le pseudonyme de Trunks sur le serveur Discord de la JVTV"
               }
-            }
           }
           ]
         }
