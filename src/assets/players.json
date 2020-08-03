@@ -414,7 +414,7 @@
             }
           ]
         },
-          {
+        {
           "pj3": [
             {
               "global": {
@@ -533,14 +533,54 @@
                     }
                   ]
                 },
-                "Découverte de l'orbe du roi des rois": {
-                  "description": "Kaitra a découvert l'orbe sacré du roi des rois",
-                  "effets": [
-                    {
-                      "effet1": "+1 PV MAX"
-                    }
-                  ]
-                }
+                "Magicien de la nuit": "Après avoir été promu au rang de Magicien de la nuit, Clodomir peut maintenant tirer deux cartes en début de session et les mettre de côté pendant la partie. S'il souhaite utiliser sa magie, il peut choisir une des cartes qu'il a tirées ou décider d'en tirer une nouvelle (qui devra être utilisée directement). S'il utilise une des cartes découvertes en avance, il tire une nouvelle carte pour remplacer dans sa main celle qui a été utilisée. À la fin de la session, les cartes non utilisées de sa main sont remises dans le paquet"
+              },
+              "Connaissances des secrets": {
+                "points": "Points de compétences : 70"
+              },
+              "Parler aux animaux": {
+                "points": "Points de compétences : 20",
+                "effets": [
+                  {
+                    "effet1": "Clodomir peut communiquer avec les animaux. Les communications sont limitées à de simples instructions"
+                  },
+                  {
+                    "effet2": "Clodomir apprend ce talent en lisant le Codex Animalis Intelligentia"
+                  }
+                ]
+              },
+              "Maître des échecs": {
+                "points": "Points de compétences : 99",
+                "effet": "Clodomir est un maître du jeu d'échec. Il découvre son talent à Aqabah, en jouant contre Marie Akumakur, joueuse d'échec rencontrée dans le palais du sultan d'Aqabah"
+              },
+              "Clodowood": {
+                "effets": [
+                  {
+                    "effet1": "Après avoir transféré son âme dans un nouveau corps de bois, Niklas a équipé le corps de Clodowood de 3 fonctionnalités particulières"
+                  },
+                  {
+                    "effet2": "Un coffre de rangement dans le dos"
+                  },
+                  {
+                    "effet3": "Un « bilboquet du destin » pour questionner le destin (ou juste amuser les foules)"
+                  },
+                  {
+                    "effet4": "Une partie sur la cuisse permettant de faire du feu en la frottant"
+                  }
+                ]
+              },
+              "Clodométal": {
+                "effets": [
+                  {
+                    "effet1": "À Kniga, Clodowood se fait construire un corps en Rhodium. Il devient invulnérable, gagne en endurance et en force et devient plus intimidant, mais ne peut plus utiliser la magie à cause du Cristal de Kniga qui se trouve dans son corps et lui permet de se mouvoir. Il peut cependant désactiver ce cristal pour lancer des sorts, mais il ne pourra pas bouger tant que le cristal ne sera pas réactivé"
+                  },
+                  {
+                    "effet2": "De plus, aucune magie d'Aria ne peut être utilisée dans un rayon de 15m autour de lui"
+                  }
+                ]
+              },
+              "Pouvoir de résurrection": {
+                "effet": "Pour avoir vu le rituel de l'Arbre-cœur aller jusqu'à son terme, Atlan a obtenu le pouvoir de résurrection. Il peut placer une marque sur une personne de son choix et s'il meurt, il reviendra à la vie dans le corps de la personne marquée"
               }
             },
             {
@@ -609,7 +649,7 @@
             }
           ]
         },
-          {
+        {
           "pj4": [
           {
             "global": {
@@ -1222,8 +1262,5 @@
     }
   ]
 }
-
-
-
 
 
