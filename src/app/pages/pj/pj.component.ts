@@ -14,7 +14,6 @@ export class PjComponent implements OnInit {
 
   ngOnInit(): void {
     this.service.getAll().subscribe(data => {this.json = data, console.log(this.json)})
-
   }
 
 }
