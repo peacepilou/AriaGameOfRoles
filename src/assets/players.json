@@ -3,7 +3,7 @@
     {
       "personnages joueurs": [
         {
-          "pj1": [
+          "pj": [
             {
               "global": {
                 "nom": "Atlan Grethen de Quirk",
@@ -165,7 +165,7 @@
           ]
         },
         {
-          "pj2": [
+          "pj": [
             {
               "global": {
                 "nom": "Clodomir de Cuivrechamps",
@@ -415,7 +415,7 @@
           ]
         },
         {
-          "pj3": [
+          "pj": [
             {
               "global": {
                 "nom": "Kaitra D'Ashanul",
@@ -651,7 +651,7 @@
           ]
         },
         {
-          "pj4": [
+          "pj": [
           {
             "global": {
               "nom": "Niklas von Trunkel",
