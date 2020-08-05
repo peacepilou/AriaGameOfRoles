@@ -1,6 +1,19 @@
 export interface PJ1 {
   pj1: Pj1[];
 }
+export interface PJ {
+  pj: Pj[];
+}
+export interface Pj {
+  global?: Global;
+  biographie?: Biographie;
+  titres?: Titres;
+  modificateurs?: Modificateurs;
+  'compétences'?: Comptences;
+  talents?: Talents;
+  lore?: Lore;
+}
+
 
 export interface Pj1 {
   global?: Global;
