@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PlayerService } from 'src/app/shared/player.service';
-import { Personnages } from 'src/app/models/Campagnes';
+import { Personnages } from 'src/app/models/Personages';
 
 @Component({
   selector: 'app-pj',
