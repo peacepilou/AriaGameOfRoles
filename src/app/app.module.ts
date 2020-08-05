@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule} from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PjComponent } from './pages/pj/pj.component';
+import { PjComponent } from './pages/personnages/pj/pj.component';
 import { GlobalComponent } from './commonComponents/global/global.component';
 import { BiographieComponent } from './commonComponents/biographie/biographie.component';
 import { TitresComponent } from './commonComponents/titres/titres.component';
@@ -13,8 +13,9 @@ import { TalentsComponent } from './commonComponents/talents/talents.component';
 import { LoreComponent } from './commonComponents/lore/lore.component';
 import { PotionsComponent } from './commonComponents/potions/potions.component';
 import { RepertoirePotionComponent } from './commonComponents/repertoire-potion/repertoire-potion.component';
-import { PnjComponent } from './commonComponents/pages/pnj/pnj.component';
+import { PnjComponent } from './pages/personnages/pnj/pnj.component';
 import { RencontreComponent } from './commonComponents/rencontre/rencontre.component';
+import { PersonnagesComponent } from './pages/personnages/personnages.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { RencontreComponent } from './commonComponents/rencontre/rencontre.compo
     PotionsComponent,
     RepertoirePotionComponent,
     PnjComponent,
-    RencontreComponent
+    RencontreComponent,
+    PersonnagesComponent
   ],
   imports: [
     BrowserModule,
