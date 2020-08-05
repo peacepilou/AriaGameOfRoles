@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Modificateurs } from 'src/app/models/PJ1';
 
 @Component({
   selector: 'app-modificateurs',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./modificateurs.component.scss']
 })
 export class ModificateursComponent implements OnInit {
-
+  @Input() modificateurs: Modificateurs
   constructor() { }
 
   ngOnInit(): void {

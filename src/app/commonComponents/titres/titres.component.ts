@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Titres } from 'src/app/models/PJ1';
 
 @Component({
   selector: 'app-titres',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./titres.component.scss']
 })
 export class TitresComponent implements OnInit {
-
+  @Input() titres: Titres
   constructor() { }
 
   ngOnInit(): void {

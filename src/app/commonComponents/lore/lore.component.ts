@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Lore } from 'src/app/models/PJ1';
 
 @Component({
   selector: 'app-lore',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoreComponent implements OnInit {
 
+  @Input() lore: Lore
   constructor() { }
 
   ngOnInit(): void {
