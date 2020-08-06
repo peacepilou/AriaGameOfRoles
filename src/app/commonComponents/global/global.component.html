@@ -1,1 +1,13 @@
-<p>global works!</p>
+<p>Nom: {{global.nom}}</p>
+<p>Joueur: {{global.joueur}}</p>
+<p>Classe: {{global.classe}}</p>
+<p>Origine: {{global.origine}}</p>
+<p>Espece: {{global.espece}}</p>
+<p>Age: {{global.age}}</p>
+
+<!-- <div *ngFor="let item of g">{{item}}</div> -->
+
+<div>
+  <app-surnom [surnoms]="surnoms"></app-surnom>
+</div>
+  <app-caracteristiques [caracteristiques]="caracteristiques"></app-caracteristiques>
