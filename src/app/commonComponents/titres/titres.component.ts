@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Titres } from 'src/app/models/PJ1';
 
 @Component({
@@ -6,11 +6,16 @@ import { Titres } from 'src/app/models/PJ1';
   templateUrl: './titres.component.html',
   styleUrls: ['./titres.component.scss']
 })
-export class TitresComponent implements OnInit {
+export class TitresComponent implements OnChanges {
   @Input() titres: Titres
+  t: string[] = [];
   constructor() { }
-
-  ngOnInit(): void {
+  ngOnChanges(changes: SimpleChanges): void {
+    for (const key in this.titres) {
+      if (Object.prototype.hasOwnProperty.call(this.titres, key)) {
+        const element = this.titres[key];
+        this.t.push(key + ' : ' + element)
+      }
+    }
   }
-
 }
