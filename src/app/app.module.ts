@@ -18,8 +18,6 @@ import { RencontreComponent } from './commonComponents/rencontre/rencontre.compo
 import { PersonnagesComponent } from './pages/personnages/personnages.component';
 import { SurnomComponent } from './commonComponents/global/surnom/surnom.component';
 import { CaracteristiquesComponent } from './commonComponents/global/caracteristiques/caracteristiques.component';
-import { DescriptionComponent } from './commonComponents/modificateurs/description/description.component';
-import { EffetsComponent } from './commonComponents/modificateurs/description/effets/effets.component';
 
 @NgModule({
   declarations: [
@@ -39,8 +37,6 @@ import { EffetsComponent } from './commonComponents/modificateurs/description/ef
     PersonnagesComponent,
     SurnomComponent,
     CaracteristiquesComponent,
-    DescriptionComponent,
-    EffetsComponent
   ],
   imports: [
     BrowserModule,
