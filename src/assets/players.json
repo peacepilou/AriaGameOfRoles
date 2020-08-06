@@ -914,7 +914,14 @@
                 }
               ]
             }
+          }
           },
+          {
+            "lore": {
+              "lore1": "Le nom du personnage est une référence à l'expression désormais célèbre sur (le tchat de) la JVTV : « Nique Trunks ». C'est également le pseudonyme de Trunks sur le serveur Discord de la JVTV"
+              }
+          },
+          {
           "Repertoire de potions": [
           {
           "description": "Cette section liste les potions qu'a déjà fabriqué Niklas ou qu'il est capable de préparer. Selon le type de potion, un échec de la préparation peut mener à la perte de la fiole utilisée pour la préparation ainsi que des dommages collatéraux plus ou moins importants. Les chances de réussite d'une préparation peuvent augmenter si la potion est préparée dans un environnement adapté (ex: atelier du médecin)"
@@ -981,10 +988,7 @@
           "effet": "Une potion à base de feuille d'Aconit. Il s'agit d'un poison mortel extrêmement foudroyant. Le simple contact avec cette mixture peut tuer quelqu'un"
           }
           }
-          ],
-            "lore": {
-              "lore1": "Le nom du personnage est une référence à l'expression désormais célèbre sur (le tchat de) la JVTV : « Nique Trunks ». C'est également le pseudonyme de Trunks sur le serveur Discord de la JVTV"
-              }
+          ]
           }
           ]
         }
