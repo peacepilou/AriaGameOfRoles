@@ -11,7 +11,6 @@ import { ModificateursComponent } from './commonComponents/modificateurs/modific
 import { CompetencesComponent } from './commonComponents/competences/competences.component';
 import { TalentsComponent } from './commonComponents/talents/talents.component';
 import { LoreComponent } from './commonComponents/lore/lore.component';
-import { PotionsComponent } from './commonComponents/potions/potions.component';
 import { RepertoirePotionComponent } from './commonComponents/repertoire-potion/repertoire-potion.component';
 import { PnjComponent } from './pages/personnages/pnj/pnj.component';
 import { RencontreComponent } from './commonComponents/rencontre/rencontre.component';
@@ -30,7 +29,6 @@ import { CaracteristiquesComponent } from './commonComponents/global/caracterist
     CompetencesComponent,
     TalentsComponent,
     LoreComponent,
-    PotionsComponent,
     RepertoirePotionComponent,
     PnjComponent,
     RencontreComponent,

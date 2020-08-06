@@ -2,6 +2,7 @@ import { Component, Input, SimpleChanges, OnChanges } from '@angular/core';
 import { PlayerService } from 'src/app/shared/player.service';
 import { PersonnagesJoueur } from 'src/app/models/Personages';
 import { Global, Biographie, Titres, Modificateurs, Talents, Lore, Comptences } from 'src/app/models/PJ1';
+import { RepertoireDePotion } from 'src/app/models/PJ4';
 
 @Component({
   selector: 'app-pj',
@@ -19,6 +20,7 @@ export class PjComponent implements OnChanges {
   competences: Comptences
   talents: Talents
   lore: Lore
+  repertoire: RepertoireDePotion;
 
   constructor(private service: PlayerService) { }
 
@@ -30,5 +32,8 @@ export class PjComponent implements OnChanges {
     this.competences = this.pj["pj"][4]["compétences"]
     this.talents = this.pj["pj"][5]["talents"]
     this.lore = this.pj["pj"][6]["lore"]
+    if (this.pj["pj"][7] != undefined) {
+      this.repertoire = this.pj["pj"][7]["Repertoire de potions"]
+    }
   }
 }
