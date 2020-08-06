@@ -16,10 +16,25 @@ export class ModificateursComponent implements OnChanges {
     for (const key in this.modificateurs) {
       if (Object.prototype.hasOwnProperty.call(this.modificateurs, key)) {
         const element = this.modificateurs[key];
-        this.m.push(key)
+        this.m.push(key);
         if (typeof element === 'object') {
           for (const k in element) {
-            this.n.push(element[k])
+            if (Object.prototype.hasOwnProperty.call(this.modificateurs, key)) {
+              const e = element[k];
+              if (typeof e !== 'object') {
+                this.m.push(e);
+              }
+              else if (typeof e === 'object') {
+                for (const c in e) {
+                  const f = e[c];
+                  if (typeof f === 'object') {
+                    for (const l in f) {
+                      this.m.push(f[l])
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
