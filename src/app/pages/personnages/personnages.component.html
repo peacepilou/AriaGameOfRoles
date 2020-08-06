@@ -3,3 +3,8 @@
     <app-pj [pj]= pjs[i]></app-pj>
   </div>
 </div>
+<div *ngIf="pnjs">
+  <div *ngFor="let pnj of pnjs, index as i">
+    <app-pnj [pnj]= pnjs[i]></app-pnj>
+  </div>
+</div>

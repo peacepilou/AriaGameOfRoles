@@ -3,6 +3,7 @@ export interface PNJ {
 }
 
 export interface PersonnagesNonjoueur {
+  pnj?: Pnj[];
   pnj1?: Pnj1[];
   pnj2?: Pnj2[];
   pnj3?: Pnj3[];
@@ -13,6 +14,17 @@ export interface PersonnagesNonjoueur {
   pnj8?: Pnj8[];
   pnj9?: Pnj9[];
   pnj10?: Pnj10[];
+}
+
+export interface Pnj {
+  nom: string;
+  surnoms: Surnoms;
+  biographie: string;
+  partie1: Partie1;
+  partie2: Partie1;
+  partie3: Partie1;
+  partie4: Partie1;
+  partie5: Partie1;
 }
 
 export interface Pnj10 {

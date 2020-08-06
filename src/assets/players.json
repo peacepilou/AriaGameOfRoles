@@ -997,7 +997,7 @@
     {
     "personnages non-joueurs": [
       {
-        "pnj1": [
+        "pnj": [
           {
             "nom": "Jotun",
             "biographie": "Jotun est un personnage non joueur récurrent dans les campagnes de Game of Rôles. Il apparaît comme carte personnage possible dans la campagne de Battle Royale à Notre Dame des Landes et est un personnage récurrent dans la Campagne d'Aria. Il apparaît également au début de la campagne Stars dans le rôle d'un pilote de voiture de courses illégales",
@@ -1033,7 +1033,7 @@
         ]
       },
       {
-        "pnj2": [
+        "pnj": [
           {
             "nom": "Julia",
             "biographie": "Julia est l'assistante du sénéchal Persimonie à Claveau. Elle deviendra ensuite logisticienne pour le compte du Royaume d'Aria puis Reine des rois du royaume d'Aria",
@@ -1057,7 +1057,7 @@
         ]
       },
       {
-        "pnj3": [
+        "pnj": [
           {
             "nom": "Musa Al Hadi",
             "biographie": "Musa Al Hadi est un voyageur en provenance du sultanat d'Aqabah. Il est vêtu d'une tunique de soie précieuse, de bottes pointues et porte un turban. Il semble sympathique aux premiers abords. C'est un érudit qui parcourt le monde à dos de chameau à la recherche de savoir ancien concernant la tombe du Roi des rois. Il également le fils du Sultan d'Aqabah qui voyage incognito",
@@ -1081,7 +1081,7 @@
         ]
       },
       {
-        "pnj4": [
+        "pnj": [
           {
             "nom": "Kaheena D'Ashanul",
             "biographie": "Kaheena D'Ashanul est une ancienne esclave et gladiatrice qui vient de la cité d'Ashanul. Bien que non liées par le sang, Kaitra et elle se considèrent comme des sœurs. Kaheena et Kaitra sont originaires de la même cité, Ashanul, qui se trouve dans le sultanat d'Aqabah. Elles sont à l'époque toutes les deux esclaves et contraintes de devenir des gladiatrices pour amuser les foules. C'est pendant cette période que les deux gladiatrices forment des liens forts.Cependant, une générale d'Aria, Cassandre, finit par acheter la liberté de ces deux esclaves en échange d'une mission : elles doivent se rendre à Irem, où les rumeurs racontent qu'on peut trouver le sceptre du roi des rois, et ramener ce dernier à Aria. La mission cependant tourne mal et les deux gladiatrices sont sur le point de se faire capturer. Kaheena va faire diversion pour permettre à Kaitra de s'échapper, se faisant, elle se fait capturer par les forces du sultan et emprisonnée et réduite à nouveau en esclave sur une galère. Kaheena est une référence à la reine guerrière berbère Dihya, aussi connue sous le surnom de Kahina ou Kahena",
@@ -1106,7 +1106,7 @@
         ]
       },
       {
-        "pnj5": [
+        "pnj": [
           {
             "nom": "Kaheena D'Ashanul",
             "biographie": "Amory Tréherne est le jeune fils de la famille Tréherne, une famille noble très puissante d'Aria. Il a un jour disparu et ses parents offrent une importante récompense à ceux qui le ramèneront ou qui ont des informations sur lui. Amory est un jeune garçon de 14 ans qui n'était pas satisfait de la vie de noble qui lui était destinée. Il décide un jour de fuguer et quitte ainsi le confort de la cité d'Aria pour partir à l'aventure. Il s'installe alors aux alentours de Naporia, dans un chateau en ruine abandonné. Là-bas, il rencontre un groupe d'enfants orphelins ou abandonnés, la bande de Petite poule, dirigée alors par la jeune DaweedKanabi (alias Petite poule) et composée de Helltony, Nikita, Gruikmusic et Sidol. La bande de petite poule est un petit groupe d'orphelin qui survit en commettant des vols à l'étalage mineurs dans le village de Naporia. Amory s'intègre dans la bande et devient le leader 'de facto', même si DaweedKanabi le considère comme son conseiller. À partir de ce moment, il leur partage son propre rêve qui est de devenir un pirate et commander son propre navire et tous se mettent à rêver de la même chose. Cependant, avec l'augmentation du nombre de membres du groupe a aussi augmenté les vols à l'étalage de ce même groupe. Ce qui était autrefois considéré comme une nuisance mineure par le bourgmestre de Naporia, Icare, est devenu un peu plus problématique. Au point que ce dernier décide d'officiellement déposer une requête au bureau des doléances de la cité d'Aria afin qu'ils envoient quelqu'un pour s'occuper de la situation.",
@@ -1126,7 +1126,7 @@
         ]
       },
       {
-        "pnj6": [
+        "pnj": [
           {
             "nom": "Melanda",
             "biographie": "Melanda est une magicienne puissante d'âge avancé, historiquement installée à Wandermere. Elle est aussi le maître de magie de Clodomir. Après un conflit avec l'un de ses disciples, elle s'est installée un moment à Fouillat, puis s'est exilée dans le temple secret des magiciens de la nuit, dont l'emplacement est inconnu",
@@ -1146,7 +1146,7 @@
         ]
       },
       {
-        "pnj7": [
+        "pnj": [
           {
             "nom": "Bonne Fortune",
             "biographie": "C'est un personnage dont l'affiliation est ambiguë et qui entretient des relations opportunistes avec les protagonistes : parfois allié, parfois ennemi, selon que ses objectifs s'alignent ou non avec ceux du groupe d'aventuriers. Ses relations avec le groupe vont cependant progressivement se dégrader, leurs objectifs semblant de plus en plus s'opposer",
@@ -1170,7 +1170,7 @@
         ]
       },
       {
-        "pnj8": [
+        "pnj": [
           {
             "nom": "Olympia Fonte",
             "biographie": "Olympia Fonte est un personnage non joueur récurrent dans la campagne de Game of Rôles",
@@ -1198,7 +1198,7 @@
         ]
       },
       {
-        "pnj9": [
+        "pnj": [
           {
             "nom": "Shazam",
             "biographie": "Il s'avérera que Shazam est un magicien très particulier qui, suite à une mauvaise expérience avec une machine à voyager dans le temps, voyage constamment vers son passé, oubliant ainsi les quêtes qu'il a donné précédemment aux joueurs. L'une de ses spécialités, selon ses dires, est de mettre des démons dans des objets, dans le but de leurs donner des propriétés magiques. Il a offert aux joueurs de choisir un objet magique créer ainsi parmi trois: Les pierres de téléportation, qu'on doit lécher pour utiliser puis qui colle à la langue pendant deux heures, la cape d'invisibilité qui parle constamment avec la voix d'Eddie Murphy et l'épée molle, qui manque de confiance en elle, que l'on doit encourager pour faire grandir, durcir et même s'enflammer. Les joueurs choisiront les pierres de téléportation, qui sont actuellement, après de nombreuses péripéties, aux mains de Pentar0o, alias Rupert le requin, le roi des voleurs et maître de la guilde des poissonniers",
@@ -1227,7 +1227,7 @@
         ]
       },
       {
-        "pnj10": [
+        "pnj": [
           {
             "nom": "Vladimir",
             "surnoms" : {
