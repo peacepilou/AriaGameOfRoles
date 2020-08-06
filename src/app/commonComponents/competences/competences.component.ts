@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Comptences } from 'src/app/models/PJ1';
 
 @Component({
@@ -6,13 +6,19 @@ import { Comptences } from 'src/app/models/PJ1';
   templateUrl: './competences.component.html',
   styleUrls: ['./competences.component.scss']
 })
-export class CompetencesComponent implements OnInit {
+export class CompetencesComponent implements OnChanges {
 
-  @Input() competences: Comptences
+  @Input() competences: Comptences;
+  c: string[] = [];
 
   constructor() { }
-
-  ngOnInit(): void {
+  ngOnChanges(changes: SimpleChanges): void {
+    for (const key in this.competences) {
+      if (Object.prototype.hasOwnProperty.call(this.competences, key)) {
+        const element = this.competences[key];
+        this.c.push(key + ' : ' + element)
+      }
+    }
   }
 
 }
