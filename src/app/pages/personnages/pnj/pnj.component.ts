@@ -13,14 +13,18 @@ export class PnjComponent implements OnChanges {
   nom: string;
   biographie: string;
   surnoms: Surnoms;
+  rencontres: any;
   constructor() { }
 
   ngOnChanges(): void {
     this.nom = this.pnj["pnj"][0]["nom"]
     this.biographie = this.pnj["pnj"][0]["biographie"]
-    if(this.pnj["pnj"][0]["surnoms"] !== undefined){
-    this.surnoms = this.pnj["pnj"][0]["surnoms"]
-    console.log(this.surnoms)}
+    if (this.pnj["pnj"][0]["surnoms"] !== undefined) {
+      this.surnoms = this.pnj["pnj"][0]["surnoms"]
+    }
+    if (this.pnj["pnj"][0]["rencontres"] !== undefined) {
+      this.rencontres = this.pnj["pnj"][0]["rencontres"]
+    }
   }
 
 }

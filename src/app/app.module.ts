@@ -13,7 +13,7 @@ import { TalentsComponent } from './pages/personnages/pj/talents/talents.compone
 import { LoreComponent } from './pages/personnages/pj/lore/lore.component';
 import { RepertoirePotionComponent } from './pages/personnages/pj/repertoire-potion/repertoire-potion.component';
 import { PnjComponent } from './pages/personnages/pnj/pnj.component';
-import { RencontreComponent } from './pages/personnages/pj/rencontre/rencontre.component';
+import { RencontreComponent } from './pages/personnages/pnj/rencontre/rencontre.component';
 import { PersonnagesComponent } from './pages/personnages/personnages.component';
 import { SurnomComponent } from './pages/personnages/pj/global/surnom/surnom.component';
 import { CaracteristiquesComponent } from './pages/personnages/pj/global/caracteristiques/caracteristiques.component';
