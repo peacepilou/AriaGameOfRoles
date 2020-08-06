@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Lore } from 'src/app/models/PJ1';
 
 @Component({
@@ -6,12 +6,17 @@ import { Lore } from 'src/app/models/PJ1';
   templateUrl: './lore.component.html',
   styleUrls: ['./lore.component.scss']
 })
-export class LoreComponent implements OnInit {
+export class LoreComponent implements OnChanges {
 
-  @Input() lore: Lore
+  @Input() lore: Lore;
+  l:string[] = [];
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnChanges(changes: SimpleChanges): void {    for (const key in this.lore) {
+      if (Object.prototype.hasOwnProperty.call(this.lore, key)) {
+        const element = this.lore[key];
+        this.l.push(element)
+      }
+    }
   }
-
 }
