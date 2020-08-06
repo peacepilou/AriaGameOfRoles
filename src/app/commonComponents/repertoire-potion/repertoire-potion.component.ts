@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, SimpleChanges, OnChanges } from '@angular/core';
 
 @Component({
   selector: 'app-repertoire-potion',
   templateUrl: './repertoire-potion.component.html',
   styleUrls: ['./repertoire-potion.component.scss']
 })
-export class RepertoirePotionComponent implements OnInit {
+export class RepertoirePotionComponent implements OnChanges {
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
+  ngOnChanges(changes: SimpleChanges): void {}
 
 }

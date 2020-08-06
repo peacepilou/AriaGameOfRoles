@@ -16,6 +16,10 @@ import { RepertoirePotionComponent } from './commonComponents/repertoire-potion/
 import { PnjComponent } from './pages/personnages/pnj/pnj.component';
 import { RencontreComponent } from './commonComponents/rencontre/rencontre.component';
 import { PersonnagesComponent } from './pages/personnages/personnages.component';
+import { SurnomComponent } from './commonComponents/global/surnom/surnom.component';
+import { CaracteristiquesComponent } from './commonComponents/global/caracteristiques/caracteristiques.component';
+import { DescriptionComponent } from './commonComponents/modificateurs/description/description.component';
+import { EffetsComponent } from './commonComponents/modificateurs/description/effets/effets.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +36,11 @@ import { PersonnagesComponent } from './pages/personnages/personnages.component'
     RepertoirePotionComponent,
     PnjComponent,
     RencontreComponent,
-    PersonnagesComponent
+    PersonnagesComponent,
+    SurnomComponent,
+    CaracteristiquesComponent,
+    DescriptionComponent,
+    EffetsComponent
   ],
   imports: [
     BrowserModule,

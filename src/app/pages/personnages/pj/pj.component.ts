@@ -24,11 +24,11 @@ export class PjComponent implements OnChanges {
 
   ngOnChanges(changes: SimpleChanges): void {
     this.global = this.pj["pj"][0]["global"]
-    this.biographie = this.pj["pj"][0]["biographie"]
-    this.titres = this.pj["pj"][0]["titres"]
-    this.modificateurs = this.pj["pj"][0]["modificateurs"]
-    this.competences = this.pj["pj"][0]["compétences"]
-    this.talents = this.pj["pj"][0]["talents"]
-    this.lore = this.pj["pj"][0]["lore"]
+    this.biographie = this.pj["pj"][1]["biographie"]
+    this.titres = this.pj["pj"][2]["titres"]
+    this.modificateurs = this.pj["pj"][3]["modificateurs"]
+    this.competences = this.pj["pj"][4]["compétences"]
+    this.talents = this.pj["pj"][5]["talents"]
+    this.lore = this.pj["pj"][6]["lore"]
   }
 }
