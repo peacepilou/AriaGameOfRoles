@@ -3,7 +3,7 @@
     {
       "personnages joueurs": [
         {
-          "pj1": [
+          "pj": [
             {
               "global": {
                 "nom": "Atlan Grethen de Quirk",
@@ -165,7 +165,7 @@
           ]
         },
         {
-          "pj2": [
+          "pj": [
             {
               "global": {
                 "nom": "Clodomir de Cuivrechamps",
@@ -415,7 +415,7 @@
           ]
         },
         {
-          "pj3": [
+          "pj": [
             {
               "global": {
                 "nom": "Kaitra D'Ashanul",
@@ -534,7 +534,7 @@
                   ]
                 },
                 "Magicien de la nuit": "Après avoir été promu au rang de Magicien de la nuit, Clodomir peut maintenant tirer deux cartes en début de session et les mettre de côté pendant la partie. S'il souhaite utiliser sa magie, il peut choisir une des cartes qu'il a tirées ou décider d'en tirer une nouvelle (qui devra être utilisée directement). S'il utilise une des cartes découvertes en avance, il tire une nouvelle carte pour remplacer dans sa main celle qui a été utilisée. À la fin de la session, les cartes non utilisées de sa main sont remises dans le paquet"
-              },
+              ,
               "Connaissances des secrets": {
                 "points": "Points de compétences : 70"
               },
@@ -582,6 +582,7 @@
               "Pouvoir de résurrection": {
                 "effet": "Pour avoir vu le rituel de l'Arbre-cœur aller jusqu'à son terme, Atlan a obtenu le pouvoir de résurrection. Il peut placer une marque sur une personne de son choix et s'il meurt, il reviendra à la vie dans le corps de la personne marquée"
               }
+            }
             },
             {
               "compétences": {
@@ -650,7 +651,7 @@
           ]
         },
         {
-          "pj4": [
+          "pj": [
           {
             "global": {
               "nom": "Niklas von Trunkel",
@@ -913,7 +914,14 @@
                 }
               ]
             }
+          }
           },
+          {
+            "lore": {
+              "lore1": "Le nom du personnage est une référence à l'expression désormais célèbre sur (le tchat de) la JVTV : « Nique Trunks ». C'est également le pseudonyme de Trunks sur le serveur Discord de la JVTV"
+              }
+          },
+          {
           "Repertoire de potions": [
           {
           "description": "Cette section liste les potions qu'a déjà fabriqué Niklas ou qu'il est capable de préparer. Selon le type de potion, un échec de la préparation peut mener à la perte de la fiole utilisée pour la préparation ainsi que des dommages collatéraux plus ou moins importants. Les chances de réussite d'une préparation peuvent augmenter si la potion est préparée dans un environnement adapté (ex: atelier du médecin)"
@@ -980,10 +988,7 @@
           "effet": "Une potion à base de feuille d'Aconit. Il s'agit d'un poison mortel extrêmement foudroyant. Le simple contact avec cette mixture peut tuer quelqu'un"
           }
           }
-          ],
-            "lore": {
-              "lore1": "Le nom du personnage est une référence à l'expression désormais célèbre sur (le tchat de) la JVTV : « Nique Trunks ». C'est également le pseudonyme de Trunks sur le serveur Discord de la JVTV"
-              }
+          ]
           }
           ]
         }
