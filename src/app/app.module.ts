@@ -15,12 +15,22 @@ import { RepertoirePotionComponent } from './pages/personnages/pj/repertoire-pot
 import { PnjComponent } from './pages/personnages/pnj/pnj.component';
 import { RencontreComponent } from './pages/personnages/pnj/rencontre/rencontre.component';
 import { PersonnagesComponent } from './pages/personnages/personnages.component';
-import { SurnomComponent } from './pages/personnages/pj/global/surnom/surnom.component';
-import { CaracteristiquesComponent } from './pages/personnages/pj/global/caracteristiques/caracteristiques.component';
 import { CardPjComponent } from './pages/personnages/pj/card-pj/card-pj.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {ScrollPanelModule} from 'primeng/scrollpanel';
+import { SurnomComponent } from './pages/personnages/pj/global/surnom/surnom.component';
+import { CaracteristiquesComponent } from './pages/personnages/pj/global/caracteristiques/caracteristiques.component';
+import { MapsComponent } from './pages/maps/maps.component';
+import { DescriptionComponent } from './pages/maps/description/description.component';
+import { GeographieComponent } from './pages/maps/geographie/geographie.component';
+import { EconomieComponent } from './pages/maps/economie/economie.component';
+import { PolitiqueComponent } from './pages/maps/politique/politique.component';
+import { CultureComponent } from './pages/maps/culture/culture.component';
+import { PortsComponent } from './pages/maps/ports/ports.component';
+import { ProverbesComponent } from './pages/maps/proverbes/proverbes.component';
+import { ContesComponent } from './pages/maps/contes/contes.component';
+import { EnigmesComponent } from './pages/maps/enigmes/enigmes.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +50,16 @@ import {ScrollPanelModule} from 'primeng/scrollpanel';
     SurnomComponent,
     CaracteristiquesComponent,
     CardPjComponent,
+    MapsComponent,
+    DescriptionComponent,
+    GeographieComponent,
+    EconomieComponent,
+    PolitiqueComponent,
+    CultureComponent,
+    PortsComponent,
+    ProverbesComponent,
+    ContesComponent,
+    EnigmesComponent,
   ],
   imports: [
     BrowserModule,
