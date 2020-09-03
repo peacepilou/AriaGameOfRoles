@@ -18,6 +18,16 @@ import { RencontreComponent } from './commonComponents/rencontre/rencontre.compo
 import { PersonnagesComponent } from './pages/personnages/personnages.component';
 import { SurnomComponent } from './commonComponents/global/surnom/surnom.component';
 import { CaracteristiquesComponent } from './commonComponents/global/caracteristiques/caracteristiques.component';
+import { MapsComponent } from './pages/maps/maps.component';
+import { DescriptionComponent } from './pages/maps/description/description.component';
+import { GeographieComponent } from './pages/maps/geographie/geographie.component';
+import { EconomieComponent } from './pages/maps/economie/economie.component';
+import { PolitiqueComponent } from './pages/maps/politique/politique.component';
+import { CultureComponent } from './pages/maps/culture/culture.component';
+import { PortsComponent } from './pages/maps/ports/ports.component';
+import { ProverbesComponent } from './pages/maps/proverbes/proverbes.component';
+import { ContesComponent } from './pages/maps/contes/contes.component';
+import { EnigmesComponent } from './pages/maps/enigmes/enigmes.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +47,16 @@ import { CaracteristiquesComponent } from './commonComponents/global/caracterist
     PersonnagesComponent,
     SurnomComponent,
     CaracteristiquesComponent,
+    MapsComponent,
+    DescriptionComponent,
+    GeographieComponent,
+    EconomieComponent,
+    PolitiqueComponent,
+    CultureComponent,
+    PortsComponent,
+    ProverbesComponent,
+    ContesComponent,
+    EnigmesComponent,
   ],
   imports: [
     BrowserModule,
