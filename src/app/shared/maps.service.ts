@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Maps } from '../models/Maps';
 
 @Injectable({
   providedIn: 'root'
@@ -9,7 +11,7 @@ export class MapsService {
 
   constructor(private http: HttpClient) { }
 
-  getAll(){
-    return this.http.get(this.url);
+  getAll(): Observable<Maps>{
+    return this.http.get<Maps>(this.url);
   }
 }

@@ -1,389 +1,341 @@
 {
-  "cartes": [
-    {
-      "Aria": [
-        {
-          "description": "Aria est un puissant royaume qui dispose d'une armée, d'une flotte, d'un ordre de magiciens très puissants, d'une économie intense, et sa position centrale en a fait le siège historique du Roi des Rois. D'ailleurs la couronne du Roi des Rois, le dernier artefact donné par le dieu exilé dont la position est connue dans le monde, est portée par le Roi ou la Reine d'Aria.  Aria, la capitale du royaume, est la plus grande cité du monde. Elle fut il y a longtemps aussi la capitale de l’empire unique qui dominait le monde. Au début de l'aventure, le royaume est dirigé par le roi Blaise de lignée divine, avec pour fils le prince Estienne et pour fille la princesse Aurianne (16 ans)",
-          "Géographie": [
-            {
-              "Géographie générale": "À L’ouest du royaume un détroit sépare le continent du sultanat d’Aqabah, dont on voit les côtes depuis la plage. Au nord se retrouve le Kohest, un pays de montagnes qui semble ne pas avoir de fin. À l’est se trouve la Cité Empire de Varna. Au nord se trouve un petit passage vers l’Osmanlie. Une chaîne de montagnes coupe le centre du royaume d’est en ouest : les monts Staumos. Au pied sud de ces monts se trouve le gouffre de Staumos. Au nord des monts Staumos, à Malbouzon, nait un fleuve nommé la Craonne qui sillonne le nord du pays avant de revenir par l’est, et plonger dans le fleuve Parcoul à Rideau. Le Parcoul prend sa source à l'extrême nord est du royaume, d’une montagne très impressionnante appelée la Montagne sacrée (où se trouve un village nommé Claveau). Il coule jusqu’à Rideau, puis plonge vers le sud et traverse Aria. Au sud de Rideau se dresse une immense forêt primitive appelée forêt de Sauvagny (ou « les bois noirs ») qui s’étend un peu partout dans le royaume mais descend au moins jusqu’à la capitale. Le village le plus à l’est du royaume, proche de Varna, est Arance.",
-              "Contrées": [
-                {
-                "Le fief du Rideau": "Le Fief du Rideau est l'un des Fiefs du Royaume d'Aria, situé au nord de la capitale et qui comprend la cité du Rideau. Ses limites sont : au nord par le Kohest, au sud par la forêt de Sauvagny, à l'est par la cité empire de Varna et les frontières de l'Osmanlie, à l'ouest par le fief de Malbouzon. Le Fief comprend plusieurs toponymes visités par les héros : Arance, dédié au commerce et à l'agriculture, Claveau, où l'on extrait le métal de la Montagne sacrée, et Rideau, la ville centrale du Fief. Le Fief s'étend tout le long du Parcoul, un grand fleuve qui naît à la Montagne sacrée et se jette dans la Mer de la morsure à Aria. Les rives sud du Parcoul sont utilisées pour l'agriculture. Le Fief est puissant, et pourrait prétendre à devenir un petit royaume. Il est dirigé par le Seigneur Anne du Rideau (Anne est un prénom masculin dans ce cas), et doit gérer notamment la menace des invasions intermittentes de l'Osmanlie. À ce titre, sa loyauté envers le royaume d'Aria qui est indiscutable se trouve dans les faits parfois remise en question quand Aria ne comprend pas la menace omniprésente de l'Osmanlie",
-                "Fief de Malbouzon": "Le Fief de Malbouzon est un domaine très rural. Il s'étend sur une zone contenue entre le nord des monts Staumos et le sud du Kohest, et s'étend tout le long d'un fleuve nommé la Craonne qui prend naissance dans les monts Staumos et qui arrive sur le terrain plat à Malbouzon. La Craonne file plein est pour se jeter dans le Parcoul à Rideau, endroit où commence le fief du Rideau. Clodomir de Cuivrechamps, un sorcier talentueux au passé encore inconnu, a été déposé enfant à Malbouzon, et il y a fait son enfance avant d'être embarqué par son futur maître de magie, Melanda. Shikitsune est un habitant de Malbouzon qui fait du commerce fluvial entre Malbouzon et Rideau. Les habitants de Malbouzon font une fête sacrée par an pour honorer Ina, appelée « la fête du pardon ». Théoriquement, tout est pardonné ce jour",
-                "Le fief d'Aria": "Le fief d'Aria est une région du Royaume d'Aria qui englobe principalement la cité d'Aria sur le littoral de la Mer de la morsure au sud et remonte jusqu'à la forêt de Sauvagny au nord. À l'ouest de la cité d'Aria se trouve la ville de Naporia, une ville marchande spécialisée dans la pêche de la morue, et qui soumet parfois des requêtes au bureau des doléances de la cité d'Aria pour régler des affaires locales. Encore à l'ouest, se trouve la ville de Wandermere, une ville spécialisée dans la production de vin de luxe. Encore plus à l'Ouest se trouve le village dévasté de Fouillat. Et pleine Ouest se situe la ville de Voide , sa spécialités est l'alcool de mouette",
-                "Fief des Tempêtes": "Le Fief des Tempêtes est l'un des Fiefs du Royaume d'Aria, situé toutes à l'Ouest du Pays et qui dispose comme seigneurie Valcouleur.  Ses limites sont : au Nord par le Fief de Malbouzon et le Pays Môn, au Sud par la Mer de la morsure, à l'Est par le Fief de ? qui contient Wandermere et Naporia, à l'Ouest par ?. Le Fief comprend plusieurs toponymes visités par les héros : Voide, Spécialisé dans le commerce d'alcool de mouette, Fouillat,qui fut pillée par des pirates est en pleine reconstruction, Valcouleur, la ville centrale mais paysanne du Fief qui est reliée à la cité d'Aria par la grande route de l'Ouest, La Vallée des orisials, une vallée perdue où se trouve le temple des magiciens de la nuit. Le Fief s'étend tout le long de la partie ouest de la côte d'argent,au bord de la Mer de la morsure",
-                "Le fief de la Route de l'Ouest": "Situé à l'est du fief des Tempêtes, il s'étend sur la côte d'argent et comprend les villes de Wandermere et de Naporia",
-                "Sauvagny": {
-                  "description": "La forêt de Sauvagny est une immense forêt primitive située au sud du Rideau. Elle est parfois appelée 'les bois noirs' ou encore le 'Pays sauvage' en raison du fait qu'elle s'étend un peu partout dans le royaume et descend au moins jusqu'à la capitale. Un chemin de terre bordé de fougères dorées longe le cours puissant du Parcoul et permet de se rentre à Aria en restant proche de l'orée de la forêt. La canopée est si dense que le soleil pénètre à peine et qu'il y fait un peu froid. Le long de ce chemin pousse du Mérilia et une mousse noire, de la Gothica. La forêt de Sauvagny n'est pas accueillante et il est déconseillé de s'y aventurer. De nombreux chemins abandonnés mènent au cœur de la forêt. Si on les suit, on arrive dans « le Pays Sauvage », un ancien royaume dont on ne sait presque rien et qui est notamment hanté de spectres, d'insectes et d'araignées géantes. On y croise des ruines anciennes couvertes de mousse, des arbres au tronc immense, ainsi qu'un sentier bordé de statues de créatures animales qui semble vous observer quand vous passez. On peut y trouver parfois des morceaux de lumivert",
-                  "citation": "La forêt de Sauvagny est dangereuse. Il y a des bêtes sauvages, et d’autres choses. Des choses magiques. Il y a un chemin sûr pour aller à Aria : celui qui longe le Parcoul. Donc c’est simple, vous allez toujours à droite. Jamais à gauche. Répétez : jamais à gauche. Chevalier Garnier",
-                  "géographie": {
-                      "Monastère du Dieu exilé": {
-                        "description": "Enfoncé dans la forêt se trouve un monastère à moitié écroulé. Il fait une cinquantaine de mètres de large, en forme de structure carrée. Un coin du monastère plonge dans un marais. Les murs font plusieurs mètres de haut et la lourde porte d'entrée en chêne ancien est fermée. Sous la mousse, de l'autre côté de l'enceinte, se trouve une petite porte dissimulée qui permet d'y entrer.  A l'intérieur se trouve une cour centrale surmontée d'une grande statue décapitée du Dieu exilé. Autour de cette cour, on peut apercevoir 8 petites cellules de moine, une cuisine, une grande chapelle, et une autre plus modeste. La plus petite chapelle est plutôt délabrée. Elle a été érigée en l'honneur de la Déesse Ina et est dédiée aux disparus. La légende raconte qu'en priant Ina et en pensant à quelqu'un envers qui on a de la bienveillance, une vision de cette personne nous apparaîtra. La grande chapelle fait la taille d'une petite église. Les bancs en bois ont pourri avec le temps. Le plafond assez haut est richement décoré en dorures. La scène représente le Roi des rois assis sur un trône, à qui le Dieu Exilé donne les trois reliques sacrées d'Aria : le Sceptre Herméneutique, l'Orbe Sacré et la Couronne du Roi des Rois. Au sol se trouve un tabernacle cubique verrouillé par une combinaison à 7 chiffres. Derrière ce coffre, une statue avec un texte à la base",
-                        "texte": "De son royaume céleste vint le roi des dieux et il donna trois miracles aux hommes : la couronne, l'orbe et le sceptre. Si les trois miracles étaient possédés par le même élu, alors celui-ci devenait le roi des rois, seul capable de régner avec sagesse sur l'entièreté du monde"
-                      },
-                      "Tombe d'un Roi inconnu": "Sous les racines d'un arbre immense se trouve une petite tombe abritant le corps d'un roi ancien ainsi que divers trésors. Dans cette tombe rôdent des scolopendres géants et aveugles, mais particulièrement sensibles aux bruits et aux odeurs. La tombe est scellée par une porte en métal gravée d'un symbole étrange. Derrière cette porte, une pièce ronde. Dans un sarcophage ouvert se trouve un petit squelette au crâne déformé, avec une flèche en travers de sa cage thoracique. Il a également une petite couronne de fer gravée d'un symbole. Autour du sarcophage, on peut trouver un aigle momifié d'une race inconnue, une lance en ivoire taillée dans un seul bloc, une tablette recouverte d'une écriture étrange, et quelques pièces en os",
-                      "Cabane de Xa": "La sorcière Xa habite dans une large clairière baignée de soleil[1], à côté d'un grand torrent. Sous un châtaignier à la ramure immense se trouve une grande cabane au toit de fougère séchée. Un crane d'oiseau est cloué à la porte qui est peinte de grandes fleurs colorées. A l'intérieur, les poutres de bois sont gravées de lunes avec un visage, et plantées de clous où pendent des herbes odorantes et variées. Il y a également un lit de paille recouvert de draps brodés, et deux cuisines, l'une pour les soupes, et l'autre pour l'alchimie"
-                    }
-                  }
-                }
-              ]
+  "cartes": [{
+    "Aria": [{
+      "description": "Aria est un puissant royaume qui dispose d'une armée, d'une flotte, d'un ordre de magiciens très puissants, d'une économie intense, et sa position centrale en a fait le siège historique du Roi des Rois. D'ailleurs la couronne du Roi des Rois, le dernier artefact donné par le dieu exilé dont la position est connue dans le monde, est portée par le Roi ou la Reine d'Aria.  Aria, la capitale du royaume, est la plus grande cité du monde. Elle fut il y a longtemps aussi la capitale de l’empire unique qui dominait le monde. Au début de l'aventure, le royaume est dirigé par le roi Blaise de lignée divine, avec pour fils le prince Estienne et pour fille la princesse Aurianne (16 ans)",
+      "Géographie": [{
+        "Géographie générale": "À L’ouest du royaume un détroit sépare le continent du sultanat d’Aqabah, dont on voit les côtes depuis la plage. Au nord se retrouve le Kohest, un pays de montagnes qui semble ne pas avoir de fin. À l’est se trouve la Cité Empire de Varna. Au nord se trouve un petit passage vers l’Osmanlie. Une chaîne de montagnes coupe le centre du royaume d’est en ouest : les monts Staumos. Au pied sud de ces monts se trouve le gouffre de Staumos. Au nord des monts Staumos, à Malbouzon, nait un fleuve nommé la Craonne qui sillonne le nord du pays avant de revenir par l’est, et plonger dans le fleuve Parcoul à Rideau. Le Parcoul prend sa source à l'extrême nord est du royaume, d’une montagne très impressionnante appelée la Montagne sacrée (où se trouve un village nommé Claveau). Il coule jusqu’à Rideau, puis plonge vers le sud et traverse Aria. Au sud de Rideau se dresse une immense forêt primitive appelée forêt de Sauvagny (ou « les bois noirs ») qui s’étend un peu partout dans le royaume mais descend au moins jusqu’à la capitale. Le village le plus à l’est du royaume, proche de Varna, est Arance.",
+        "Contrées": [{
+          "Le fief du Rideau": "Le Fief du Rideau est l'un des Fiefs du Royaume d'Aria, situé au nord de la capitale et qui comprend la cité du Rideau. Ses limites sont : au nord par le Kohest, au sud par la forêt de Sauvagny, à l'est par la cité empire de Varna et les frontières de l'Osmanlie, à l'ouest par le fief de Malbouzon. Le Fief comprend plusieurs toponymes visités par les héros : Arance, dédié au commerce et à l'agriculture, Claveau, où l'on extrait le métal de la Montagne sacrée, et Rideau, la ville centrale du Fief. Le Fief s'étend tout le long du Parcoul, un grand fleuve qui naît à la Montagne sacrée et se jette dans la Mer de la morsure à Aria. Les rives sud du Parcoul sont utilisées pour l'agriculture. Le Fief est puissant, et pourrait prétendre à devenir un petit royaume. Il est dirigé par le Seigneur Anne du Rideau (Anne est un prénom masculin dans ce cas), et doit gérer notamment la menace des invasions intermittentes de l'Osmanlie. À ce titre, sa loyauté envers le royaume d'Aria qui est indiscutable se trouve dans les faits parfois remise en question quand Aria ne comprend pas la menace omniprésente de l'Osmanlie",
+          "Fief de Malbouzon": "Le Fief de Malbouzon est un domaine très rural. Il s'étend sur une zone contenue entre le nord des monts Staumos et le sud du Kohest, et s'étend tout le long d'un fleuve nommé la Craonne qui prend naissance dans les monts Staumos et qui arrive sur le terrain plat à Malbouzon. La Craonne file plein est pour se jeter dans le Parcoul à Rideau, endroit où commence le fief du Rideau. Clodomir de Cuivrechamps, un sorcier talentueux au passé encore inconnu, a été déposé enfant à Malbouzon, et il y a fait son enfance avant d'être embarqué par son futur maître de magie, Melanda. Shikitsune est un habitant de Malbouzon qui fait du commerce fluvial entre Malbouzon et Rideau. Les habitants de Malbouzon font une fête sacrée par an pour honorer Ina, appelée « la fête du pardon ». Théoriquement, tout est pardonné ce jour",
+          "Le fief d'Aria": "Le fief d'Aria est une région du Royaume d'Aria qui englobe principalement la cité d'Aria sur le littoral de la Mer de la morsure au sud et remonte jusqu'à la forêt de Sauvagny au nord. À l'ouest de la cité d'Aria se trouve la ville de Naporia, une ville marchande spécialisée dans la pêche de la morue, et qui soumet parfois des requêtes au bureau des doléances de la cité d'Aria pour régler des affaires locales. Encore à l'ouest, se trouve la ville de Wandermere, une ville spécialisée dans la production de vin de luxe. Encore plus à l'Ouest se trouve le village dévasté de Fouillat. Et pleine Ouest se situe la ville de Voide , sa spécialités est l'alcool de mouette",
+          "Fief des Tempêtes": "Le Fief des Tempêtes est l'un des Fiefs du Royaume d'Aria, situé toutes à l'Ouest du Pays et qui dispose comme seigneurie Valcouleur.  Ses limites sont : au Nord par le Fief de Malbouzon et le Pays Môn, au Sud par la Mer de la morsure, à l'Est par le Fief de ? qui contient Wandermere et Naporia, à l'Ouest par ?. Le Fief comprend plusieurs toponymes visités par les héros : Voide, Spécialisé dans le commerce d'alcool de mouette, Fouillat,qui fut pillée par des pirates est en pleine reconstruction, Valcouleur, la ville centrale mais paysanne du Fief qui est reliée à la cité d'Aria par la grande route de l'Ouest, La Vallée des orisials, une vallée perdue où se trouve le temple des magiciens de la nuit. Le Fief s'étend tout le long de la partie ouest de la côte d'argent,au bord de la Mer de la morsure",
+          "Le fief de la Route de l'Ouest": "Situé à l'est du fief des Tempêtes, il s'étend sur la côte d'argent et comprend les villes de Wandermere et de Naporia",
+          "Sauvagny": {
+            "description": "La forêt de Sauvagny est une immense forêt primitive située au sud du Rideau. Elle est parfois appelée 'les bois noirs' ou encore le 'Pays sauvage' en raison du fait qu'elle s'étend un peu partout dans le royaume et descend au moins jusqu'à la capitale. Un chemin de terre bordé de fougères dorées longe le cours puissant du Parcoul et permet de se rentre à Aria en restant proche de l'orée de la forêt. La canopée est si dense que le soleil pénètre à peine et qu'il y fait un peu froid. Le long de ce chemin pousse du Mérilia et une mousse noire, de la Gothica. La forêt de Sauvagny n'est pas accueillante et il est déconseillé de s'y aventurer. De nombreux chemins abandonnés mènent au cœur de la forêt. Si on les suit, on arrive dans « le Pays Sauvage », un ancien royaume dont on ne sait presque rien et qui est notamment hanté de spectres, d'insectes et d'araignées géantes. On y croise des ruines anciennes couvertes de mousse, des arbres au tronc immense, ainsi qu'un sentier bordé de statues de créatures animales qui semble vous observer quand vous passez. On peut y trouver parfois des morceaux de lumivert",
+            "citation": "La forêt de Sauvagny est dangereuse. Il y a des bêtes sauvages, et d’autres choses. Des choses magiques. Il y a un chemin sûr pour aller à Aria : celui qui longe le Parcoul. Donc c’est simple, vous allez toujours à droite. Jamais à gauche. Répétez : jamais à gauche. Chevalier Garnier",
+            "géographie": {
+              "Monastère du Dieu exilé": {
+                "description": "Enfoncé dans la forêt se trouve un monastère à moitié écroulé. Il fait une cinquantaine de mètres de large, en forme de structure carrée. Un coin du monastère plonge dans un marais. Les murs font plusieurs mètres de haut et la lourde porte d'entrée en chêne ancien est fermée. Sous la mousse, de l'autre côté de l'enceinte, se trouve une petite porte dissimulée qui permet d'y entrer.  A l'intérieur se trouve une cour centrale surmontée d'une grande statue décapitée du Dieu exilé. Autour de cette cour, on peut apercevoir 8 petites cellules de moine, une cuisine, une grande chapelle, et une autre plus modeste. La plus petite chapelle est plutôt délabrée. Elle a été érigée en l'honneur de la Déesse Ina et est dédiée aux disparus. La légende raconte qu'en priant Ina et en pensant à quelqu'un envers qui on a de la bienveillance, une vision de cette personne nous apparaîtra. La grande chapelle fait la taille d'une petite église. Les bancs en bois ont pourri avec le temps. Le plafond assez haut est richement décoré en dorures. La scène représente le Roi des rois assis sur un trône, à qui le Dieu Exilé donne les trois reliques sacrées d'Aria : le Sceptre Herméneutique, l'Orbe Sacré et la Couronne du Roi des Rois. Au sol se trouve un tabernacle cubique verrouillé par une combinaison à 7 chiffres. Derrière ce coffre, une statue avec un texte à la base",
+                "texte": "De son royaume céleste vint le roi des dieux et il donna trois miracles aux hommes : la couronne, l'orbe et le sceptre. Si les trois miracles étaient possédés par le même élu, alors celui-ci devenait le roi des rois, seul capable de régner avec sagesse sur l'entièreté du monde"
+              },
+              "Tombe d'un Roi inconnu": "Sous les racines d'un arbre immense se trouve une petite tombe abritant le corps d'un roi ancien ainsi que divers trésors. Dans cette tombe rôdent des scolopendres géants et aveugles, mais particulièrement sensibles aux bruits et aux odeurs. La tombe est scellée par une porte en métal gravée d'un symbole étrange. Derrière cette porte, une pièce ronde. Dans un sarcophage ouvert se trouve un petit squelette au crâne déformé, avec une flèche en travers de sa cage thoracique. Il a également une petite couronne de fer gravée d'un symbole. Autour du sarcophage, on peut trouver un aigle momifié d'une race inconnue, une lance en ivoire taillée dans un seul bloc, une tablette recouverte d'une écriture étrange, et quelques pièces en os",
+              "Cabane de Xa": "La sorcière Xa habite dans une large clairière baignée de soleil[1], à côté d'un grand torrent. Sous un châtaignier à la ramure immense se trouve une grande cabane au toit de fougère séchée. Un crane d'oiseau est cloué à la porte qui est peinte de grandes fleurs colorées. A l'intérieur, les poutres de bois sont gravées de lunes avec un visage, et plantées de clous où pendent des herbes odorantes et variées. Il y a également un lit de paille recouvert de draps brodés, et deux cuisines, l'une pour les soupes, et l'autre pour l'alchimie"
             }
-          ],
-          "Ports":"Les ports de la côte du royaume sont, d'ouest en est, Voide, Fouillat, Wandermere, Naporia et la cité d'Aria",
-          "Economie": {
-            "description":"Le Royaume d'Aria possède un système monétaire propre mais autorise également, dans certains cas, le troc de marchandises",
-            "Système monétaire": [
-              {
-                "description": "Le Royaume utilise un système monétaire à 3 types de pièces",
-                "pièce1": "La pièce de cuivre se nomme liard, (ou encore sceptre), la plus petite unité du système monétaire",
-                "pièce2": "La pièce d'argent se nomme denier, (ou encore orbe), qui vaut 10 pièces de cuivre",
-                "pièce3": "La pièce d'or se nomme écu, (ou encore couronne), qui vaut 10 pièces d'argent"
-              }
-            ]
-          },
-          "Politique": [
-            {
-              "Dynastie d'Aria": [
-                {
-                  "Roi des Rois": "mort",
-                  "Roi Blaise d'Aria": "mort",
-                  "Prince Estienne d'Aria": "mort",
-                  "Reine Aurianne d'Aria": "vivante"
-                }
-              ],
-              "Dynastie de Julia": "La dynastie d'Aria s'arrête après la mort du roi Estienne et de la trahison d'Aurianne d'Aria. Une nouvelle reine est nommée directement par le Dieu exilé, sorti de son exil par la Compagnie créance, qui devient la première Reine des rois de sa lignée"
+          }
+        }]
+      }],
+      "Ports": "Les ports de la côte du royaume sont, d'ouest en est, Voide, Fouillat, Wandermere, Naporia et la cité d'Aria",
+      "Economie": {
+        "description": "Le Royaume d'Aria possède un système monétaire propre mais autorise également, dans certains cas, le troc de marchandises",
+        "Système monétaire": [{
+          "description": "Le Royaume utilise un système monétaire à 3 types de pièces",
+          "pièce1": "La pièce de cuivre se nomme liard, (ou encore sceptre), la plus petite unité du système monétaire",
+          "pièce2": "La pièce d'argent se nomme denier, (ou encore orbe), qui vaut 10 pièces de cuivre",
+          "pièce3": "La pièce d'or se nomme écu, (ou encore couronne), qui vaut 10 pièces d'argent"
+        }]
+      },
+      "Politique": [{
+          "Dynastie d'Aria": [{
+            "Roi des Rois": "mort",
+            "Roi Blaise d'Aria": "mort",
+            "Prince Estienne d'Aria": "mort",
+            "Reine Aurianne d'Aria": "vivante"
+          }],
+          "Dynastie de Julia": "La dynastie d'Aria s'arrête après la mort du roi Estienne et de la trahison d'Aurianne d'Aria. Une nouvelle reine est nommée directement par le Dieu exilé, sorti de son exil par la Compagnie créance, qui devient la première Reine des rois de sa lignée"
+        },
+        {
+          "Systèmes légaux": {
+            "Chatiments corporels": {
+              "description": "Le châtiment corporel est une sanction possible dans le royaume d'Aria",
+              "exemple1": "le pilori",
+              "exemple2": "la main coupée pour les voleurs",
+              "aboli1": "les ordalies",
+              "aboli2": "le marquage au fer rouge"
             },
-            {
-              "Systèmes légaux": {
-                "Chatiments corporels": {
-                  "description": "Le châtiment corporel est une sanction possible dans le royaume d'Aria",
-                  "exemple1": "le pilori",
-                  "exemple2": "la main coupée pour les voleurs",
-                  "aboli1": "les ordalies",
-                  "aboli2": "le marquage au fer rouge"
-                },
-                "Peine de mort": "La peine de mort a cours dans le royaume d'Aria. Les criminels peuvent donc être pendus ou décapités, selon qu'ils sont soit roturiers, soit nobles. Le bûcher peut être utilisé pour des sorciers et autres magiciens incriminés",
-                "Duel": "Seuls les nobles peuvent régler un différend en duel",
-                "L'Ordre des miséricordieux": "La pratique de la magie par des personnes non affiliées à une académie officiellement reconnue est interdite, et les mages errants sont pourchassés par l'ordre des miséricordieux, un corps d’élite de mages, tout de noir vêtus. Cet ordre traque également les magiciens s’approchant de la folie de la fin, un mal qui touche les magiciens à qui il ne reste plus qu'une utilisation de magie. Ce mal les rend très instables et leur magie peut devenir incontrôlable et faire basculer le monde dans l'enfer",
-                "Vente d'esclaves": "La vente d'esclaves est interdite dans le royaume d'Aria",
-                "La loi pain et configure": "Promulguée sous le règne de la reine Julia et proposée par Atlan, cette loi indique que 2 miches de pain seront distribués gratuitement aux citoyens nécessiteux par jour, avec de la confiture une fois par semaine",
-                "La loi 'Legalize Kanabi'": "Promulguée sous le règne de la reine Julia et proposée par Nikoletta, cette loi légalise la vente contrôlée de narcotique légers comme le Thoum et sa consommation"
-              }
+            "Peine de mort": "La peine de mort a cours dans le royaume d'Aria. Les criminels peuvent donc être pendus ou décapités, selon qu'ils sont soit roturiers, soit nobles. Le bûcher peut être utilisé pour des sorciers et autres magiciens incriminés",
+            "Duel": "Seuls les nobles peuvent régler un différend en duel",
+            "L'Ordre des miséricordieux": "La pratique de la magie par des personnes non affiliées à une académie officiellement reconnue est interdite, et les mages errants sont pourchassés par l'ordre des miséricordieux, un corps d’élite de mages, tout de noir vêtus. Cet ordre traque également les magiciens s’approchant de la folie de la fin, un mal qui touche les magiciens à qui il ne reste plus qu'une utilisation de magie. Ce mal les rend très instables et leur magie peut devenir incontrôlable et faire basculer le monde dans l'enfer",
+            "Vente d'esclaves": "La vente d'esclaves est interdite dans le royaume d'Aria",
+            "La loi pain et configure": "Promulguée sous le règne de la reine Julia et proposée par Atlan, cette loi indique que 2 miches de pain seront distribués gratuitement aux citoyens nécessiteux par jour, avec de la confiture une fois par semaine",
+            "La loi 'Legalize Kanabi'": "Promulguée sous le règne de la reine Julia et proposée par Nikoletta, cette loi légalise la vente contrôlée de narcotique légers comme le Thoum et sa consommation"
+          }
+        },
+        {
+          "Relations extérieures": {
+            "description": "Le royaume d'Aria est en conflit armé avec deux contrées étrangères",
+            "L'Osmanlie": "Pays aux frontières nord du royaume et qui envoie régulièrement des contingents. Les attaques de ce pays sont principalement contenues par le seigneur du Rideau",
+            "Le sultanat d'Aqabah": "La cité d'Aria a mené une campagne active contre le sultanat et envoyé un contingent sous le commandement du prince Estienne d'Aria. Le royaume a demandé aux fiefs de participer à l'effort de guerre et de fournir des hommes, mais le fief du Rideau a décidé de n'envoyer que 4 personnes pour ne pas affaiblir son armée qui doit déjà repousser les attaques de l'Osmanlie. Ce conflit est né autour du [Sceptre Herméneutique|sceptre du roi des rois]] qu'Aria aurait prêté à Aqabah pendant une période de trouble, mais qu'elle n'aurait jamais récupéré alors qu'Aqabah affirme l'avoir rendu. En réalité, le navire transportant le sceptre vers Aria a été attaqué par des pirates, qui se sont emparés de ce dernier, puis l'ont caché dans le Pays Mon. Pendant sa campagne militaire à Irem, où il perdit la quasi intégralité de son armée, le prince Estienne confirme que le sceptre n'est pas caché à Irem. La compagnie créance retrouve le sceptre sous un figuier dans le Pays Mon, confirmant une bonne fois pour toute qu'Aqabah n'avait rien à voir avec la disparition de ce dernier. Les relations avec Aqabah s'améliorent après la montée au trône d'Aria de Julia. Conseillée par les aventuriers, elle cède les îles d'or à Aqabah en compensation de l'accusation infondée et l'action militaire entreprise contre elle",
+            "Altabianca": "La royauté d'Aria a envoyé un agent à Altabianca, pendant le mariage du prince Leonid et de la princesse Giocanda, pour kidnapper Cecilia Medico, la petite sœur de Giocanda, afin de mettre la pression sur la Principauté d'Altabianca et s'assurer qu'elle ne se range pas aux côtés d'Aqabah pendant le conflit. Les relations s'améliorent cependant grandement lorsque Julia monte au trône et que le prince d'Altabianca découvre que les membres de la compagnie créance, qui avaient été nommés Protecteurs d'Altabianca sous l'influence de la puissante magie de Clodomir, étaient ses proches conseillers",
+            "Kniga": "Aria aurait acheté un cristal jaune de Kniga géant, et la livraison semble avoir eu lieu, mais Kniga n'a jamais reçu le paiement du cristal. Les relations avec Kniga restent tendue depuis cet événement puisque aucune solution n'a été trouvée pour le moment. Kniga demande à Aria de lui céder le gouffre de Stromos en compensation, ou le fief des tempêtes, ce qu'Aria refuse, même après l'ascension au trône de Julia. Les relations se réchauffent un peu après qu'Aria propose à Kniga de partager le contrôle du fief des tempêtes avec Aria et de lui acheter pour 10 000 pièces d'or d'équipement militaire",
+            "Varna": "Varna et Aria semble être alliés et se partage la tâche de maintenir les frontières avec l'Osmanlie fermées"
+          }
+        }
+      ],
+      "Culture": [{
+          "Cultes": {
+            "description": "Les habitants du Royaume d'Aria vouent un culte à différentes divinités, dont la principale est le Dieu exilé",
+            "Le Roi des Dieux/Le Dieu exilé": "Il s'agit du plus puissant des dieux, qui agissait dans tout le monde à l'époque où ce dernier était encore unifié. Il portait alors le nom de Roi des Dieux et exauçait les prières des croyants qui venaient lui faire des requêtes lorsqu'il les trouvait juste. Son plus proche fidèle était le Roi des rois, un humain qui gouvernait le monde et qui recevait ses directives directement du dieu lui-même. Cependant, l'arrivée du dieu ennemi a bousculé énormément de choses. Il en a résulté un affrontement mythique entre les deux divinités au Bord du Monde, proche de l'abîme. Lorsque l'ennemi tomba dans l'abîme, il s'est accroché au Roi des Dieux et ce dernier, par peur de mourir a refusé de se sacrifier, ramenant l'ennemi dans ce monde. Depuis cet événement tragique, le Roi des Dieux, porte le nom du Dieu Exilé et reste au bord de l'abîme rongé par la honte et la culpabilité. Il ne répond plus aux prières et n'exauce plus de miracles. Les croyants actuels prient en espérant son retour. Ce dieu est fortement associé à la ville d'Aria, ainsi qu'à sa famille royale. On y trouve donc une religion fortement ancrée dans la culture populaire. Cependant, à mesure que l'on s'éloigne de la ville, les sanctuaires dédiés au Dieu exilé semblent de plus en plus abandonnés, témoignant de la baisse de popularité de ce dieu. Ce dieu est couramment représenté sous la forme d'un dieu décapité. Les aventuriers ont croisé plusieurs lieux de culte associés au dieu exilé dans le royaume d'Aria, comme un monastère dans la forêt de Sauvagny, un temple à Naporia ou le temple principal situé dans la cité d'Aria",
+            "Le Roi des Rois": "Serviteur privilégié du Roi des Dieux quand il était tout puissant, le Roi des rois (qui était parfois une reine) organisait avec justice les affaires de tous les royaumes. Le Roi des rois avait trois attributs divins pour assurer sa fonction : une couronne, actuellement sur la tête du Roi d’Aria, qui donnait à son porteur un sens parfait de la justice. Il y a également un sceptre, qui assurait à son porteur une aura charismatique lui donnant le pouvoir de s’imposer sur les autres. Personne ne sait où il se trouve, mais une rumeur indique qu’il serait à Aqabah, la 2e puissance après Aria. Enfin, il y avait un orbe, qui permettait de voir à travers les brumes de l’espace et du temps",
+            "Le Dieu ennemi/l'Ennemi": "Antagoniste apparent du Dieu exilé. Les personnes vouant un culte à ce dieu ou ayant été maudites ne peuvent pas entrer dans les temples du Dieu exilé ni recevoir des soins ou des bénédictions de la déesse Ina. Après sa victoire contre le Dieu exilé, il s’est fait homme pour mieux pervertir le monde. Il donne de mauvais conseils, provoque la ruine, s’empare des cœurs. Ce dieu n'est pas prié par les habitants car sont influence a été rendue presque nulle grâce à l'Ordre des protecteurs. Niklas s'est fait maudire par le Dieu ennemi après avoir ramassé un talisman représentant le sigle de ce dieu malfaisant",
+            "La Déesse Ina": "C’est une déesse active qui répond aux prières : elle est chargée de la guérison et du pardon. Elle apaise les souffrances de ceux qui l’implorent, sans pour autant faire de miracles. Déesse du pardon, elle vient en aide à tous sans distinction. Il s'agit d'une déesse plutôt populaire et on peut trouver des temples ou sanctuaires d'Ina un peu partout dans le royaume. À Claveau, Niklas a réparé la statue d'Ina, en accomplissant un magnifique chef-d'oeuvre",
+            "La Déesse Joyper": "Déesse du pain, ses fidèles peuvent bénir le pain. Les effets ne sont pas clairs, mais la déesse Joyper semble être reconnue par les tavernes et restaurants d'Aria",
+            "Le Dieu poisson/Gobie": "Dieu vénéré notamment par la guilde des poissonniers ou guilde des voleurs. Il possède un temple au cœur de la basse Aria dans la cité d'Aria. Il est le dieu des voleurs, du mensonge, mais aussi de la défense du faible contre le fort. Son culte est très fort à Varna, mais aussi dans toutes les capitales où se trouve une organisation de voleurs. On peut effectuer un serment en son nom",
+            "Le Dieu invisible": "Dieu vénéré dans les montagnes sacrées près de Claveau, ainsi que dans l'est du monde. Dieu silencieux et primitif, les légendes prétendent qu'il vit sous la Montagne Sacrée. Il s'agit du dieu des sorciers. Lors de la campagne d'Aria, les aventuriers en ont entendu parler par Caldera, qui a détruit la statue d'Ina pour témoigner de son respect envers le dieu invisible",
+            "Le Dieu Dagan": "Dieu de la mer prié par les marins et pirates d'Aria"
+          }
+        },
+        {
+          "Calendrier": [{
+            "jours": {
+              "Ikta": "pour le Dieu Gobie",
+              "Qalila": "pour le Dieu Qalil",
+              "Dagana": "pour le Dieu Dagan",
+              "Enlia": "pour le Dieu Enlil",
+              "Inana": "pour la Déesse Ina",
+              "Invisibile": "pour le Dieu invisible",
+              "Exilus": "pour le Dieu exilé"
             },
-            {
-              "Relations extérieures": {
-                "description": "Le royaume d'Aria est en conflit armé avec deux contrées étrangères",
-                "L'Osmanlie": "Pays aux frontières nord du royaume et qui envoie régulièrement des contingents. Les attaques de ce pays sont principalement contenues par le seigneur du Rideau",
-                "Le sultanat d'Aqabah": "La cité d'Aria a mené une campagne active contre le sultanat et envoyé un contingent sous le commandement du prince Estienne d'Aria. Le royaume a demandé aux fiefs de participer à l'effort de guerre et de fournir des hommes, mais le fief du Rideau a décidé de n'envoyer que 4 personnes pour ne pas affaiblir son armée qui doit déjà repousser les attaques de l'Osmanlie. Ce conflit est né autour du [Sceptre Herméneutique|sceptre du roi des rois]] qu'Aria aurait prêté à Aqabah pendant une période de trouble, mais qu'elle n'aurait jamais récupéré alors qu'Aqabah affirme l'avoir rendu. En réalité, le navire transportant le sceptre vers Aria a été attaqué par des pirates, qui se sont emparés de ce dernier, puis l'ont caché dans le Pays Mon. Pendant sa campagne militaire à Irem, où il perdit la quasi intégralité de son armée, le prince Estienne confirme que le sceptre n'est pas caché à Irem. La compagnie créance retrouve le sceptre sous un figuier dans le Pays Mon, confirmant une bonne fois pour toute qu'Aqabah n'avait rien à voir avec la disparition de ce dernier. Les relations avec Aqabah s'améliorent après la montée au trône d'Aria de Julia. Conseillée par les aventuriers, elle cède les îles d'or à Aqabah en compensation de l'accusation infondée et l'action militaire entreprise contre elle",
-                "Altabianca": "La royauté d'Aria a envoyé un agent à Altabianca, pendant le mariage du prince Leonid et de la princesse Giocanda, pour kidnapper Cecilia Medico, la petite sœur de Giocanda, afin de mettre la pression sur la Principauté d'Altabianca et s'assurer qu'elle ne se range pas aux côtés d'Aqabah pendant le conflit. Les relations s'améliorent cependant grandement lorsque Julia monte au trône et que le prince d'Altabianca découvre que les membres de la compagnie créance, qui avaient été nommés Protecteurs d'Altabianca sous l'influence de la puissante magie de Clodomir, étaient ses proches conseillers",
-                "Kniga": "Aria aurait acheté un cristal jaune de Kniga géant, et la livraison semble avoir eu lieu, mais Kniga n'a jamais reçu le paiement du cristal. Les relations avec Kniga restent tendue depuis cet événement puisque aucune solution n'a été trouvée pour le moment. Kniga demande à Aria de lui céder le gouffre de Stromos en compensation, ou le fief des tempêtes, ce qu'Aria refuse, même après l'ascension au trône de Julia. Les relations se réchauffent un peu après qu'Aria propose à Kniga de partager le contrôle du fief des tempêtes avec Aria et de lui acheter pour 10 000 pièces d'or d'équipement militaire",
-                "Varna": "Varna et Aria semble être alliés et se partage la tâche de maintenir les frontières avec l'Osmanlie fermées"
-              }
-            }
-          ],
-          "Culture": [
-            {
-              "Cultes": {
-                "description": "Les habitants du Royaume d'Aria vouent un culte à différentes divinités, dont la principale est le Dieu exilé",
-                "Le Roi des Dieux/Le Dieu exilé": "Il s'agit du plus puissant des dieux, qui agissait dans tout le monde à l'époque où ce dernier était encore unifié. Il portait alors le nom de Roi des Dieux et exauçait les prières des croyants qui venaient lui faire des requêtes lorsqu'il les trouvait juste. Son plus proche fidèle était le Roi des rois, un humain qui gouvernait le monde et qui recevait ses directives directement du dieu lui-même. Cependant, l'arrivée du dieu ennemi a bousculé énormément de choses. Il en a résulté un affrontement mythique entre les deux divinités au Bord du Monde, proche de l'abîme. Lorsque l'ennemi tomba dans l'abîme, il s'est accroché au Roi des Dieux et ce dernier, par peur de mourir a refusé de se sacrifier, ramenant l'ennemi dans ce monde. Depuis cet événement tragique, le Roi des Dieux, porte le nom du Dieu Exilé et reste au bord de l'abîme rongé par la honte et la culpabilité. Il ne répond plus aux prières et n'exauce plus de miracles. Les croyants actuels prient en espérant son retour. Ce dieu est fortement associé à la ville d'Aria, ainsi qu'à sa famille royale. On y trouve donc une religion fortement ancrée dans la culture populaire. Cependant, à mesure que l'on s'éloigne de la ville, les sanctuaires dédiés au Dieu exilé semblent de plus en plus abandonnés, témoignant de la baisse de popularité de ce dieu. Ce dieu est couramment représenté sous la forme d'un dieu décapité. Les aventuriers ont croisé plusieurs lieux de culte associés au dieu exilé dans le royaume d'Aria, comme un monastère dans la forêt de Sauvagny, un temple à Naporia ou le temple principal situé dans la cité d'Aria",
-                "Le Roi des Rois": "Serviteur privilégié du Roi des Dieux quand il était tout puissant, le Roi des rois (qui était parfois une reine) organisait avec justice les affaires de tous les royaumes. Le Roi des rois avait trois attributs divins pour assurer sa fonction : une couronne, actuellement sur la tête du Roi d’Aria, qui donnait à son porteur un sens parfait de la justice. Il y a également un sceptre, qui assurait à son porteur une aura charismatique lui donnant le pouvoir de s’imposer sur les autres. Personne ne sait où il se trouve, mais une rumeur indique qu’il serait à Aqabah, la 2e puissance après Aria. Enfin, il y avait un orbe, qui permettait de voir à travers les brumes de l’espace et du temps",
-                "Le Dieu ennemi/l'Ennemi": "Antagoniste apparent du Dieu exilé. Les personnes vouant un culte à ce dieu ou ayant été maudites ne peuvent pas entrer dans les temples du Dieu exilé ni recevoir des soins ou des bénédictions de la déesse Ina. Après sa victoire contre le Dieu exilé, il s’est fait homme pour mieux pervertir le monde. Il donne de mauvais conseils, provoque la ruine, s’empare des cœurs. Ce dieu n'est pas prié par les habitants car sont influence a été rendue presque nulle grâce à l'Ordre des protecteurs. Niklas s'est fait maudire par le Dieu ennemi après avoir ramassé un talisman représentant le sigle de ce dieu malfaisant",
-                "La Déesse Ina": "C’est une déesse active qui répond aux prières : elle est chargée de la guérison et du pardon. Elle apaise les souffrances de ceux qui l’implorent, sans pour autant faire de miracles. Déesse du pardon, elle vient en aide à tous sans distinction. Il s'agit d'une déesse plutôt populaire et on peut trouver des temples ou sanctuaires d'Ina un peu partout dans le royaume. À Claveau, Niklas a réparé la statue d'Ina, en accomplissant un magnifique chef-d'oeuvre",
-                "La Déesse Joyper": "Déesse du pain, ses fidèles peuvent bénir le pain. Les effets ne sont pas clairs, mais la déesse Joyper semble être reconnue par les tavernes et restaurants d'Aria",
-                "Le Dieu poisson/Gobie": "Dieu vénéré notamment par la guilde des poissonniers ou guilde des voleurs. Il possède un temple au cœur de la basse Aria dans la cité d'Aria. Il est le dieu des voleurs, du mensonge, mais aussi de la défense du faible contre le fort. Son culte est très fort à Varna, mais aussi dans toutes les capitales où se trouve une organisation de voleurs. On peut effectuer un serment en son nom",
-                "Le Dieu invisible": "Dieu vénéré dans les montagnes sacrées près de Claveau, ainsi que dans l'est du monde. Dieu silencieux et primitif, les légendes prétendent qu'il vit sous la Montagne Sacrée. Il s'agit du dieu des sorciers. Lors de la campagne d'Aria, les aventuriers en ont entendu parler par Caldera, qui a détruit la statue d'Ina pour témoigner de son respect envers le dieu invisible",
-                "Le Dieu Dagan": "Dieu de la mer prié par les marins et pirates d'Aria"
-              }
-            },
-            {
-              "Calendrier": [
-                {
-                  "jours": {
-                    "Ikta": "pour le Dieu Gobie",
-                    "Qalila": "pour le Dieu Qalil",
-                    "Dagana": "pour le Dieu Dagan",
-                    "Enlia": "pour le Dieu Enlil",
-                    "Inana": "pour la Déesse Ina",
-                    "Invisibile": "pour le Dieu invisible",
-                    "Exilus": "pour le Dieu exilé"
-                  },
-                  "mois": ["de l'affection", "de l’apparence", "de la décision", "des fleurs", "des semis", "de l'eau", "des légendes", "le long mois", "des voyages", "des dieux", "du froid", "de l'espoir"]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "Pays Môn" : [
-        {
-        "description": "Le Pays Môn est une région au nord du Fief des Tempêtes du royaume d'Aria. C'est un territoire connu pour être très pluvieux et peuplé d'êtres de petite taille, le peuple Môn. Ses habitants disent que la pluie sont les larmes du Roi des dieux, qui pleure la mort de la déesse Môn. Le Pays Môn est régulièrement envahi par le peuple blanc venu du Nord, qui tous les hivers viennent piller les ressources du pays. Le peuple Môn prend cette invasion régulière de son territoire avec un certain stoïcisme : un dicton dit : 'Mieux vaut vivre à genoux, qu'être mort debout'",
-        "Géographie": [
-          {
-            "Géographie générale": "Le Pays Môn ne fait pas partie du Royaume d'Aria. Le territoire est composé de 5 gros bourgs, disposé en pentagone, et est connu pour abrité un grand figuier sacré",
-            "Nanda": "Bourg du sud du pays Môn. Les constructions sont en bois, et le village est entourée d'une palissade de bois. Ses habitants sont essentiellement des cultivateurs Môn",
-            "Sungai": "Bourg construit sur une colline, à son sommmet se trouve une construction en forme de bateau. A proximité se trouve la forêt mystérieuse, où vivent les sangliers bleus",
-            "Irra": "",
-            "Ka": "",
-            "La griffe": "Ville principale du pays Môn, sa forteresse en pierre abrite le Figuier sacré"
-            }
-          ]
-        }
-      ],
-      "Pays Blanc": "Le Pays Blanc désigne une île située au Nord du Pays Môn, par delà l'Océan Blanc. Le Peuple Blanc, notoirement belliqueux, envahit chaque hiver le pays Môn pour piller ses ressources. Nos héros rencontrent le Peuple blanc lors de l'épisode 23 (saison 2) intitulé 'la révolte des gens de petite taille'. La Compagnie créance vaincra un à un les différents clans des hommes blancs jusqu'à leur Chef (installé dans la ville de La Griffe), suite à quoi les Hommes Blancs retourneront sur leurs terres. Nos aventuriers n'ont néanmoins pas suivi ces deniers, ce qui fait de Pays Blanc une terre encore inconnue. On connaît relativement peu de choses sur le Peuple blanc et son histoire. A en croire les légendes Môn, les hommes blancs sont sauvages, païens, esclavagistes et cannibales. Le Roi des dieux et son amante la déesse Môn auraient découvert ce peuple au delà de l'océan situé au nord de Nanda en suivant une route dans le ciel menant au Pays Blanc, un « pays sans amour » ou le pouvoir des Dieux n’avait plus prise. Les hommes blancs auraient alors tué Môn et auraient été maudits par le Roi des Dieux après que celui-ci ait pris la fuite: ils seraient condamnés à ne jamais connaître la prospérité. Chaque Hiver qui suivirent obligèrent ainsi le peuple blanc à débarquer au Pays Môn pour s'y ravitailler, mais le Roi des Dieux les y attendait avec une armée et les repoussait. Depuis l'exil de ce dernier, le Pays Môn serait ainsi ravagé chaque hiver par l'invasion des hommes blancs. Le peuple Môn a essayé de se révolter contre les hommes blancs, mais la révolte fut matée dans le sang… Depuis, ils estiment « qu’il vaut mieux vivre à genoux que mourir debout ». Aussi, le Peuple blanc ne perpétue plus de massacres sur les Môn: ils se contentent d'occuper la région pendant la saison froide, en vivant sur les réserves Môn, en s'emparant de ce qu'ils veulent, femmes et objets, et en tuant quelquefois pour quelques raisons arbitraires... Lorsqu'ils ne jouent pas au lancer de nains les soirs de beuverie! Pour devenir un Homme Blanc, il faut réussir un rite d’initiation constitué de 3 épreuves : La chasse (chasser un animal), la guerre (combat singulier), la fête (faire le fête mais visiblement, alcool aidant, personne ne se souvient de cette épreuve).La philosophie du Peuple Blanc semble se résumer à cette maxime: 'n'hésite pas à prendre par la force ce que tu désires au lieu de demander comme un faible'",
-      "Mer de la Morsure": [
-        {
-        "description": "La mer de la Morsure est une mer intérieure qui se situe au sud du royaume d'Aria, à l'est du sultanat d'Aqabah et au nord de la principauté de Kniga. Elle tire surement son nom de sa forme de bouche entourant le sud (Côte d'argent) et le nord (Côte de la mort) des deux continents",
-        "Géographie": [
-          {
-            "Géographie générale": "",
-            "Île de l'abandon": "Île de naufragés au sud de la cité d'Aria",
-            "Archipel du couchant": "Un petit îlot désert parmi l'archipel à l'ouest de la cité d'Aria contient quelques ruines qui laisse entendre que l'endroit était autrefois habité. Les héros découvrent notamment un statue d'un dieu de la mer oublié",
-            "Altabianca": "Altabianca est l'endroit le plus riche du monde. L'île entière n'est qu'une seule et même ville avec un grand château se dressant sur la plus haute falaise",
-            "Altanegra": "Altanegra est une île située au cœur de la Mer de la morsure, au sud-ouest d'Altabianca. On ne connaît que très peu de choses sur Altanegra car nos héros ne s'y sont jamais rendus. La princesse d'Altanegra, Giocanda Medico (fille de Ketouki et d'Ignefrance Medico), s'est dernièrement mariée au prince Leonid Senata d'Altabianca, renforçant ainsi les relations entre les deux îles",
-            "Esperanza": "L'île d'Esperanza abriterait un 'royaume' de pirates, contrôlé par le Corbeau noir. La position exacte de cette île n'est pas connue en dehors des pirates qui y vivent et le temps devient souvent brumeux voir tumultueux à l'approche de cette île. Clodomir ressent que la magie semble être moins efficace aux alentours de l'île. Il sait que dans certains endroits du monde, la magie est inefficace, et cela pourrait être l'un de ces endroits"
-            }
-          ]
-        }
-      ],
-      "Aqabah" : [
-        {
-          "description": "Aqabah est une contrée qui se trouve à l'ouest du Royaume d'Aria et à l'ouest de la Mer de la morsure. Le sultanat d'Aqabah est aussi appelé « Aqabah, Madina As Salam », ce qui signifie « Maison de la sagesse » en langue d'Aqabah[1]. La population d'Aqabah vit essentiellement sur la côte est de son continent, donnant sur « la Morsure », l’océan intérieur du monde. Du nord au sud, on y trouve les ports de Suk El Kamis[2], Atraban et Bulayoah. Al-Mahdi est le Calife (chef religieux) et Sultan (chef politique et militaire) du sultanat d'Aqabah, la couleur du sultan est le bleu. Musa al Hadi, un grand voyageur lettré croisé par les héros de Game of Rôles, est issu d'Aqabah. Caldera, un Lynassi croisé à Claveau par les héros, a une culture d'Aqabah hérité de sa mère esclave du sultanat, ainsi il invite les personnages en disant la formule « Ma maison est votre maison ». La légende raconte que pour soutenir le Sultanat, il y a bien longtemps, le Roi des Rois a confié le Sceptre Herméneutique à Aqabah. Depuis, son destin est inconnu, Aqabah prétendant l'avoir rendu et Aria affirmant ne l'avoir jamais récupéré. Le général Cassandre estime que le sceptre serait caché à Irem. La magie, en tout cas celle utilisée par les mages tels que Clodomir, ne fonctionnait pas dans la région d'Aqabah à cause du cristal d'anti-magie à Irem",
-          "Géographie": [
-            {
-              "Géographie générale": "Le sultanat serait centré autour d'une grande métropole éponyme et contient aussi un certain nombre de villes côtières",
-              "La cité d'Aqabah": "Capitale du sultanat, c’est une grande cité qui rayonne sur le long d’un fleuve qui apporte abondance au désert : le fleuve Usfan",
-              "Rub al Kali": "Autour du fleuve Usfan, se trouve le désert appelé le Rub al Kali, ou le « grand vide ».Si on remonte le fleuve Usfan, qui plonge dans le sud-est vers une source inconnue, on a sur la droite les Monts Al Khuraiba",
-              "Le désert noir": "Au delà du Grand Vide se trouve un désert encore plus périlleux : le désert noir, d’où on ne revient jamais",
-              "La cité d'Irem": "Une mystérieuse cité qui se trouverait dans un passage oublié entre « le grand vide » et « le désert noir ». Kaitra a tenté de s'y rendre pour récupérer un trésor. Le général Cassandre pense que le Sceptre Herméneutique est caché dans cette cité",
-              "Ashanul": "Ville d'origine de Kaitra",
-              "Axum": "Axum, rebaptisé Neo-Axum, est un petit village de la région d'Aqabah situé dans le désert du Rub al Kali.Aux dires de l'explorateur Philippot Goodlooz, le village, 'perdu dans les ruines immenses d'une cité engloutie dont on a perdu le nom', est notamment connu pour ses plantations de thoum. Lorsque nos héros découvrent la cité, les habitants, esclaves de Rafiq, sont en train de mourir de faim'. Axum est une cité millénaire à moitié enterrée à côté de laquelle se trouve un petit village agricole. Le soleil se lève et, passée une dernière colline, l’horizon fait place à une immense cité de pierre. Imaginez d’énormes piliers en ruine ! Des colonnes et de statues sculptées de dieux anciens, oubliés, écroulés, à moitié enterrés dans le sable. Passée une allée de sphinx de pierres, on distingue un petit village de maisons carrées autour d’un puits ancien, et plus loin des grands champs de thoum dans lesquels les gens travaillent. Aidé par nos héros avant leur départ, le village construit des fortifications et autres pièges de fortune. Ancien village d'esclaves aux ordres de Rafiq, Neo-Axum se veut 'la ville de la liberté'. En effet, la stèle du roi des rois rend libre tous les hommes d'Axum. Les habitants, notamment Oussama El ren05, envisagent de se rebeller contre Aqabah, voir de libérer tous les esclaves",
-              "Espeyran": "Espeyran est un petit village au sud de la cité d'Aqabah et sur la rive du fleuve Usfan. Le village est composé de petites maisons carrées et de tentes colorées avec des motifs de hérons. Il est peuplé de chasseurs et de pêcheurs dans l'Usfan. Le village est construit autour d'un grand puits central. Des petites barques tressées avec des joncs naviguent sur l'Usfan. Le village est plutôt verdoyant avec de grands palmiers et des flamants roses et on peut voir des collines de roches claires en arrière plan",
-              "Irem": {
-                "description": "Irem est une mystérieuse cité qui se trouve dans un passage oublié entre « le grand vide » et « le désert noir » dans la région d'Aqabah. Kaitra a tenté par le passé de s'y rendre pour récupérer un certain trésor. Le général Cassandre pense que le sceptre herméneutique est caché dans cette cité et à fait jurer à Kaitra sur le fleuve des morts[1], qu'elle se rendrait à nouveau à Irem le rechercher",
-                "Une cité mythique et mystique": "La cité est un lieu ancien et énigmatique qui abrite en son sein plusieurs secrets. Le roi des rois est lié à l'histoire de cette cité, comme semble le montrer les fresques et statues qui ornent l'endroit et ses alentours. L'entrée de la cité est normalement restreinte par 3 portes spéciales. Seuls ceux qui correspondent à certains critères peuvent les traverser, tels que décrit dans le conte de la princesse crépuscule. Cependant, il existe des chemins détournés et secrets, tel que le chemin des Djinns, dont seuls certains conteurs et conteuses connaissent l'existence. Si vous ne rencontrerez pas d'hommes et femmes ordinaires dans cette cité, elle n'est pas pour autant complètement vide. Outre les soldats d'Aqabah surveillant les alentours, des créatures magiques tels que des Djinns ou le passeur du lac se trouvent encore dans la cité. Une flore insulaire peut également être trouvé sur place, telle que le Bétel d'Irem ou encore une espèce de Lys rose à l'aura mystique, inconnue même du commun des alchimistes",
-                "Le cœur d'un conflit": "Irem est devenue le centre d'un conflit entre Aria et Aqabah. Le prince héritier au trône d'Aria, Estienne d'Aria, a lancé une croisade contre Aqabah, qui est accusée de cacher le sceptre du roi des rois prêté par Aria il y a des années pour aider à gérer un moment de troubles dans le sultanat. Suivant les rumeurs, il décide d'envahir le sultanat et de se rendre à la cité d'Irem pour récupérer lui-même le sceptre. Cependant, tout cela a été prédit par le grand astrologue du sultan d'Aqabah, qui a ainsi pris les devants et s'est préparé à accueillir les envahisseurs comme il se doit. Le premier fils du sultan a mis en place un stratagème qui empêche l'utilisation de la magie d'Aria dans la région d'Aqabah. Le cœur de cette contre-mesure se trouve à Irem, sous la forme d'un cristal de Kniga de plus de 30m qui brûle dans la cité. Et afin de protéger le cristal et la cité d'Irem, une armée de 7000 soldats est postée aux portes d'Irem, prêt à repousser leurs ennemis. Cela dit, l'armée d'Aria, composée au départ de plus de 3000 soldats et mages, n'arrivera pas à Irem indemne. Privée de sa magie, elle est quasi-exterminée à son arrivée proche des côtes d'Aqabah. Une pluie de potion d'Ingramus s'abat sur les croisés qui ne peuvent pas utiliser leur magie pour se protéger ou riposter correctement. Le prince d'Aria survit toutefois à cette épreuve et parvient à atteindre les murs de la cité d'Irem avec un peu plus d'une vingtaines de soldats et d'une mage, derniers survivants de la croisade. Cependant, les soldats d'Aqabah se trouvent entre eux et la cité d'Irem. Ils sont sur le point d'abandonner leur quête, mais en rencontrant la Compagnie créance qui se rendait également à Irem, ils découvriront qu'il existe plusieurs façon d'entrer dans la cité mythique",
-                "Points d'intérêt": {
-                  "Musée des merveilles": {
-                    "description": "Un musée gardé par Nemyoue, une djinn qui est également une guide pour les visiteurs éventuels. Ce musée contient des objets rares et insolites, qui ont été offert en général par ceux qui ont passé la 2e porte d'Irem, la porte du talent. Les visiteurs ne peuvent voir qu'un seul objet chacun pendant leur visite",
-                    "objets": {
-                      "Un tableau extra-dimensionnel": "Un tableau représentant une cave d'un boulanger. Il est possible de stocker des objets dans le tableau, qui est une porte vers une autre dimension",
-                      "Une potion lumineuse": "Une potion qui semble disparaître de temps en temps. Elle peut capturer des couleurs qui n'existent pas",
-                      "Le Codex Jocus": "Un recueil des blagues les plus drôles du monde, qui peuvent littéralement tuer par le rire",
-                      "La harpe d'or du sommeil": "Une harpe d'or qui peut endormir n'importe qui, même son musicien, tant qu'on sait jouer",
-                      "La poule mécanique de Kniga": "Une poule mécanique créée par le premier prince de Kniga qui a été offert au musée. Elle est intelligente mais doit être remontée (via une clef dans son dos) tous les jours",
-                      "Fragments d'étoile": "Des fragments d'étoile que seul le feu de Kniga peut faire fondre. Réputé comme métal le plus robuste connu"
-                    }
-                  },
-                  "Chapelle aux quatres dieux": "Contient quatre statues donc une du dieu exilé , une encapuchonné, bras en avant avec une marque en forme de X sur la main (Dieu ennemie) , une représentant un dragon (dieu invisible), une d'une femme portant un vase sur la tête (Ina)"
-                },
-                "lore": "Irem ou Iram est une citée perdue de la péninsule arabique, notamment mentionnée dans le Coran. Elle est également mentionnée dans les écrits de H.P Lovecraft"
-              }
-            }
-          ],
-          "Economie": {
-            "description": "Aqabah est connu pour ses exportations de Thoum, un narcotique léger, ainsi que pour son commerce d'esclaves",
-            "Système monétaire": [
-              {
-                "description1": "Le sultanat utilise un système monétaire à 3 types de pièces",
-                "pièce1": "La pièce de cuivre se nomme Fil, c'est la plus petite unité du système monétaire",
-                "pièce2": "La pièce d'argent se nomme Dirham et vaut 10 pièces de cuivre",
-                "pièce3": "La pièce d'or se nomme Khaleeji et vaut 10 pièces d'argent",
-                "description2": "Un Khaleeji vaut environ 1/3 d'un écu du royaume d'Aria"
-              }
-            ]
-          },
-          "Politique": {
-            "Châtiments corporels": "Le châtiment corporel est une sanction possible dans le sultanat d'Aqabah, tel que le marquage au fer rouge; celui-ci est aussi utilisé pour reconnaître les esclaves",
-            "Vente d'esclaves": "L’esclavagisme à cours dans le sultanat et la vente d'esclaves est autorisée. Kaitra était une esclave elle-même avant d'être affranchie par le général Cassandre en échange d'une mission",
-            "Relations extérieures": "Le sultanat est en conflit armé avec le Royaume d'Aria, qui l'accuse d'avoir caché le sceptre Herméneutique"
-          },
-          "Culture": {
-            "description": "Le sultanat est connu pour sa culture favorisant l'érudition et la sagesse. Par exemple, des érudits tels que Mujahid El Sufi préfèrent être rémunérés en savoir plutôt que de recevoir de l'argent",
-            "Cultes": {
-              "Dieu de la sagesse": "Dieu principal de la région d'Aqabah",
-              "Dieu du pain": "déesse du pain et de la boulangerie",
-              "Dieu du vent": "beaucoup prié par les voyageurs venant à Aqabah au temple du Dieu du vent",
-              "Dieu chat": "se trouve dans un monument abandonné (ce n'est pas un culte local)",
-              "Qalil": "ancien dieu principal d'Aqabah prié par des sectes le soir"
-            }
-          },
-          "Proverbes": {
-            "proverbe1": "Le goudron amer de la dignité vaut mieux que le miel de la tranquillité",
-            "proverbe2": "Conseille l'ignorant, il te prendra pour son ennemi",
-            "proverbe3": "Chose donnée de bon coeur vaut son pesant d'or",
-            "proverbe4": "N'ouvre la bouche que si tu es sûr que ce que tu vas dire est plus beau que le silence",
-            "proverbe5": "Bats ta femme. Si tu ne sais pas pourquoi, elle, elle sait",
-            "proverbe6": "Que la paix soit sur vous , la paix soit également sur vos descendants et sur vos aïeux. Si il y a un jour où il y aura la guerre entre nos peuples, il n'y aura que la paix entre nous deux",
-            "proverbe7": "Qui vous connait petit ne vous respecte pas grand ",
-            "proverbe8": "Qui mange seul s’étrangle seul",
-            "proverbe9": "Une petite pièce donnée avant que le soleil se couche c'est de la chance pour toute la nuit",
-            "proverbe10": "Le pardon est la plus belle fleur de la victoire",
-            "proverbe11": "Les biens de cette vie cessent avec elle",
-            "proverbe12": "Ne dis pas tes peines à autrui, l'épervier et le vautour s'abattent sur le blessé qui gémit"
-          },
-          "Contes et légendes": {
-            "La princesse crépuscule et les 3 épreuves": "Conté en partie par Dahlia, dans le palais des plaisirs, par Makia el Djib, dans le temple du dieu de la sagesse, et enfin par le livre de Jobunn, dans le grand bazar. La princesse crépuscule amoureuse du prince de l'aube cherche à le retrouver, mais c'est impossible. Or, une légende raconte qu'un djinn se trouve dans une lampe magique dans une cité appelée Irem, une cité qui se trouve aux limites du désert noir. La princesse se rend à Irem mais la cité est gardée par trois portes, trois pièges mortels. La première porte est la porte de la bénédiction : il faut avoir la bénédiction d'un dieu ou d'une déesse pour pouvoir la passer. La deuxième porte est la porte du talent : seuls ceux qui peuvent faire une chose que nul autre au monde ne peut faire peuvent passer cette porte. La princesse crépuscule est la seule à être capable à faire se lever(sic) le soleil et de ce fait, elle peut passer cette porte. La troisième porte est la porte de l'amour : ne peut passer que la personne qui connaît et qui vie actuellement un véritable amour"
-          },
-          "lore": {
-            "lore1": "Il est probable que FibreTigre ait fait une confusion en s'inspirant de Bagdad. En arabe, مدينة السلام‎ (madîna as-salâm) signifie « cité de la paix ». C'était le nom de la Ville ronde de Bagdad. Dans cette ancienne ville se trouvait la Maison de la sagesse, بيت الحكمة‎ (bayt al-Hikma)",
-            "lore2": "Il existe un sūq al Khamīs en Lybie",
-            "lore3": "Le Rub' al Khali est un désert existant sur la péninsule Arabique. Son nom (ٱلرُّبْع ٱلْخَالِي) signifie « le quart vide »"
-
-          }
-        }
-      ],
-      "Kniga" : [
-        {
-          "description": "Le continent au sud de la mer de la morsure comporte sur sa côte nord, nommé côte de la mort, une série de grandes cités indépendantes dont fait partie Kniga. Kniga est une cité-état ce trouvant sur les terres dorées; la langue et la culture de ce peuple en ont fait des citoyens raffinés, tournés vers les études, et qui préfèrent les intrigues de cour à la conquête. Ses habitants sont facilement reconnaissables sur le pourtour de la Mer de la Morsure grâce à leurs yeux de couleur dorée et leurs cheveux blonds. Melanda a apprit à Clodomir par le passé que Kniga était un des rares endroits au monde où la magie n'a pas prise, celle-ci est donc remplacée par les sciences, dont l'alchimie et la mécanique. En tant que civilisation avancée, de grandes machines sillonnent les jungles hostiles. On dit même que certaines volent. Ce peuple est la fusion d’indigènes pacifiques et d’une expédition d’Aria qui voulait fonder ici la 3ème académie de Mages. Les habitants de Kniga sont très fiers de leur culture et considèrent les autres nations comme des nations de 'barbares'. Ils sont très hautains et ne croient pas aux dieux ou superstitions de ces contrées lointaines. Le cristal géant de Kniga qui se trouve au cœur de la ville empêche la plupart des magies du nord de fonctionner",
-          "Géographie": [
-            {
-              "Géographie générale": "La cité est une énorme tour métallique qui s'élève à plus d'un kilomètre au dessus du niveau de la mer, posé sur la rive sud de la mer de la Morsure. Les quartiers nobles et le palais du Prince se trouvent à son sommet. Pour monter tout en haut de la cité, il y a un escalier de 12 000 marches qui montent en colimaçon autour de l'énorme cristal de Kniga qui alimente toutes les automates et mécanismes de la cité. Il y a également une vingtaine de vastes ascenseurs pour voyager plus rapidement entre les niveaux",
-              "Le port automatique": "Au pied de la cité, il accueille de vastes quais auxquels accostent d'énormes bateaux mécaniques de proportions gigantesques, mûs grâce aux pouvoirs des cristaux de Kniga. Le port comprend également d'énorme grues mécaniques qui plongent inlassablement des filets de pêche dans la mer, afin de nourrir la cité",
-              "Le palais du prince": "Le palais du Prince est situé au point le plus haut de la cité. Un ascenseur luxueux et bien gardé permet d'y accéder",
-              "Le cristal ardent": "Le cristal géant de Kniga est placé au cœur de la cité, c'est le plus grand cristal du monde, ce qui permet de fournir de l'énergie à toute la ville. Sa base est située au niveau de la mer, et son sommet atteint le niveau de l'Agora",
-              "L'Agora": "Grande place au sommet du grand escalier de la ville sur laquelle se trouve l'entrée de l'université d'Alchimie, la boutique de Shazam et l'accès au Palais du Prince"
-            }
-          ],
-          "Economie": {
-            "description1": "La principauté utilise un système monétaire à 2 types de pièces",
-              "pièce1": "La pièce d'argent (ou marque)",
-              "pièce2": "La pièce d'or (ou grivna), qui vaut 10 pièces d'argent",
-              "description2": "Un grivna vaut environ 2 écus du royaume d'Aria"
-          },
-          "Politique": {
-            "Douane": "Lorsqu'un navire accoste à Kniga, l'équipage doit déclarer les objets de valeurs qu'ils transportent. Une règle un peu spéciale s'applique à l'arrivée à Kniga : les voyageurs doivent déclarer s'ils possèdent des animaux domestiques. Dans l'affirmative, ces animaux seront réquisitionnés pour un dépistage de maladies auprès de Grigori Morov. Si tous est au clair, les animaux sont rendus à leurs propriétaires, dans le cas contraire ils seront exécutés",
-            "Immigration": {
-              "description": "Kniga a une politique très stricte concernant l'immigration des étrangers 'barbares'. Pour qu'un étranger puisse entrer à Kniga, il faut y avoir été invités et/ou prouver qu'il a un travail dans la cité. Les étrangers passent par un bureau d'immigration où ils doivent répondre à un questionnaire. S'ils passent le questionnaire, ils devront prouver qu'ils ont un travail, ou en choisir un sur le panneau d'offre d'emploi affiché dans le bureau. Si les conditions sont remplies, le bureau leurs accordent alors un permis temporaire d'une durée de 15 jours qui leur permet d'entrer dans la cité. Tout manquement aux règles établies entraînera l'expulsion de la cité de Kniga",
-              "règle1": "S'ils ont accepté un job sur le panneau d'offre et que l'employeur valident leur candidature et tamponne leur permis, la validité du permis est étendue à 1 an",
-              "règle2": "Ils n'ont pas le droit de se marier aver les citoyens de Kniga, sauf demande officielle",
-              "règle3": "Ils n'ont pas le droit d'aller dans le quartier des nobles",
-              "règle4": "Ils n'ont pas le droit de faire venir de la famille",
-              "règle5": "Au bout de 5 ans dans la cité, ils peuvent essayer de demander le statut de demi-citoyen"
-            },
-              "Relations extérieures": "La principauté est globalement neutre, mais récemment les relations avec Aria se sont détériorées au sujet du paiement d'un cristal jaune géant qu'aurait commandé la famille royale d'Aria, mais qui n'a pas été payé, notamment le Gouffre de Staumos, un territoire d'Aria convoité par Kniga, devait servir de monnaie d'échange. Julia a été nommée ambassadrice d'Aria à Kniga et a été dépêchée pour tenter de résoudre l'affaire, avec comme ligne de défense qu'aucun cristal n'a été commandée ou n'est arrivé à Aria. Ses arguments ne seront cependant pas entendus et elle est arrêtée. Cependant, grâce à la verbe d'Atlan, elle est innocentée et il est conclu que l'affaire autour du cristal de Kniga nécessite une investigation pour savoir ce qu'il s'est réellement passé"
-          }
-        }
-      ],
-      "Terres dorées": [
-        {
-          "description1": "Les Terres dorées sont un continent situé au sud de Kniga. Recouvertes d'une jungle luxuriante, les Terres dorées sont peuplées par les Panotis, peuple nomade descendant du peuple Nok (l'un des deux peuples ancien du monde d'Aria avec les Môn). Les Panoti sont très petits qui ont une culture des masques, qu'ils considèrent comme des Dieux protecteurs voire des anges gardiens. Voir le visage d'un Panoti revient littéralement à lui voler son âme. On ne connait pas la langue des Panoti car ils ne parleraient pas, ils utiliseraient un autre mode de communication. Une route dallée où des lions sont gravées traverse la forêt. La jungle est gardée par un colosse de pierre (une statue gigantesque) qui ne laisse passer que ceux qui répondent correctement à ses 3 énigmes",
-          "énigme1": "A quelle question ne peut-on répondre oui?",
-          "énigme2": "2 personnes marchent dans le sable mais ne laissent qu'une trace. Qui est-ce?",
-          "énigme3": "Comprendre la morale d'un conte Panoti",
-          "description2": "On y trouve également un temple, sorte de dolmen en 'pierres dorées' fait en airain des jungles (métal extrêmement rare dans lequel est fait le sceptre du roi des rois). On peut y lire le mythe de l'Arbre-cœur, selon lequel dans la jungle se trouve un arbre dont la survie conditionne celle de tous les autres arbres du monde. Toutefois, tous les 500 ans, il faut que la reine des Panoti fusionne avec l'arbre (ou potentiellement une autre reine). Plus loin sur la route, on trouve une grande tour de bois qui semblait être occupée par un homme-arbre (c'est à cet endroit que la compagnie créance a tué Xa la sorcière). Puis la jungle s'ouvre sur une vallée verdoyante au centre de laquelle on trouve un arbre plus grand que la cité de Kniga elle-même, l'Arbre-coeur. A son pied l'arbre est ouvert. Lors du rituel de fusion entre la reine Panoti et l'arbre, des spectres entourent l'arbre. Après la fusion, l'arbre rayonne. La jungle grouille de créatures: toucans, panthères,..."
-        }
-      ],
-      "Cité empire de Varna": [
-        {
-          "description": "La cité empire de Varna se trouve Nord-Est du royaume d'Aria et au sud de l'Osmanlie. Son symbole est le lion. Varna dispose d’une ancienne académie de magie appelée « l’Académie des Cinquante » qui est considéré comme la plus grande académie de magie du monde. Le roi de Varna est Axare[1] un homme-chat à la grande crinière de lion. Varna est comme un état-tampon entre le royaume d'Aria et le khanat d'Osmanlie; une grande muraille donc la souveraineté dépend de Varna sépare les deux grands états",
-          "Géographie": [
-            {
-              "Géographie générale": "",
-              "Cité de Varna": {
-                "Académie des cinquantes": "L'Académie des Cinquantes, grand palais surmonté d'un dôme doré visible depuis tout point dans la ville",
-                "Quartiers Marchands": "Le quartier des marchandises courantes jouxte le port tandis que celui des marchandises de luxe jouxte le Palais Royal",
-                "Place de la Salamandre": "La Place de la Salamandre, lieu bien connu des filous et des voleurs. Un endroit plus vieux, dit-on, que la Cité de Varna elle-même, décorée d'une mosaïque immense représentant un lézard écarlate. On y trouve la banque de Varna, L'heptagramme, un vendeur de sortilèges, Bouillons géniaux, un marchand de potions, le feu de la Salamandre, une taverne enfoncée dans le mur, d'où les gens vont et viennent.Un charmant bassin rempli par une fontaine en tête de poisson. Dans ce bassin, des pièces avec drôle de petit poisson qui semble sourire, endroit où l'entrée de la guilde des voleurs est gardée par des filous",
-                "Place de la Magie": "Sur cette place se trouve la boutique de Shazam à Varna, un vendeur d'amulette, la tente d'un Oracle d'un pays lointain, et une maison vivante",
-                "Quartier religieux": "le quartier des Temples, face à l'Océan, d'où filtrent d'étranges encens"
-              }
-            }
-          ],
-          "Culture": {
-            "description": "Varna nourrit une véritable obsession pour les chats. Les gardes de la muraille le long du sombre pays portent des casques avec des oreilles de chat",
-            "Cultes": {
-              "Dieu poisson": "Le culte du dieu poisson est particulièrement fervent à Varna"
-            }
-          }
-        }
-      ],
-      "Amasya" : [
-        {
-          "description": "L'Amasya est un pays très riche situé à l'Ouest de l'Osmanlie et au Nord du Kohest. Le Dragon a cinq griffes est le symbole de la Famille royal et des sauveurs de l'ancien empire d'Amasya. L’Amasya serait un pays mystérieux de richesses, de guerres et de dragons. Hélas, depuis la chute de l’Osmanlie, toute communication est coupée. Il existe une très grande diaspora d'Amasya en Osmanlie, en effet de nombreux Amasyens furent bannis en 'Sombre pays' devenant des habitants du khanat. Ce peuple a des caractéristiques ethnique proche de l’ethnie Han de notre monde",
-          "Géographie": [{}],
-          "Economie": {
-            "Exportations": "Amasya est un pays connaissant les savoirs de l'élevage de vers à soie. On sait que la soie d'Amasya est la plus pure du monde"
-          },
-          "Culture": {
-            "description": "La langue parlé par les Amasyens est langue syncopée dont les accents montent haut et parfois descendent très bas",
-            "Cultes": {
-              "Dieu dragon": "dieu du savoir magique, ses prêtres, des Amasyens, peuvent initier au rite secret du sit-shamsti qui porte chance pour ceux qui parcourent le Sombre Pays"
-            }
-          },
-          "lore": "Amasya est une ville et une province de la Turquie"
-        }
-      ],
-      "Kohest": [
-        {
-          "description": {
-          "description1": "Le Kohest est un pays de montagnes situé au nord d'Aria. Où se trouve l'ancien village des Trentes sœurs. Tout ce que l'on en sait vient du récit du chevalier Garnier, donné aux héros alors qu'ils font un feu de camp sous le début du Kohest, de l'autre coté du Parcoul.",
-          "description2": "« Au nord d’ici se trouve un pays de montagnes sinistres. Des montagnes, des montagnes, toutes plus pointues les unes que les autres. Les savants de Varna l’appellent le Kohest. Qu’est-ce qu’il y a au nord du Kohest ? On ne le sait pas. Mais donc un jour le Seigneur du Rideau veut savoir. Qui sait, on peut ouvrir à nouveau une route vers l’Amasya, maintenant que le Sombre Pays bloque tout. »",
-          "description3": "« Je pars avec huit chevaliers. Nous sommes la compagnie des neuf. Je suis le plus jeune d’entre eux. Nous sommes bien avancés dans le Kohest quand un jour nous découvrîmes...un village. Un village entièrement composé de Sorcières. »",
-          "description4": " « Pas votre sorcière rebouteuse qui vous jette des sorts. Des femmes habillées en noir, à la peau noire de crasse, couchant avec des serpents, sacrifiant des enfants et se livrant à la plus abjecte magie noire. Avec honneur, Sire Urdsama, notre chef, s’avance dans le village et propose aux impies de rejoindre la cour du Rideau à condition qu’elles cessent leur magie et vénèrent Ina. »",
-          "description5": "« Et elles disent oui. Nous avons dressé un campement hors du village, car l’odeur était insoutenable, et pourtant nous étions bien sales de notre traversée des montagnes. Nous montions la garde, au cas où il y avait quelque traîtrise. Les sorcières se sont livrées à quelque chose de très bizarre. Elles ont fabriqué, avec leurs mains, un tas de boue aussi gros qu’une maison. De notre point de vue, c’était un gros tas de boue. Mais à un moment, le tas s’est levé. Il avait la forme d’un homme, et la taille de plusieurs. C’était un monstre. »",
-          "description6": "« Pas d’yeux, pas de bouche, rien. Juste ce signe à la place d’un visage. (Garnier dessine un signe) Il a écrasé Urdsama et son cheval d’un seul pas. Les autres ont chargé. J’ai fui. Je n’avais pas peur. J’étais juste lucide. Le monde change. Je sais qu’on ne résout pas un conflit déséquilibré en chargeant, sans cesse et sans cesse. »",
-          "description7": " « Je suis allé me terrer dans les montagnes. J’ai attendu, caché. Des jours. J’ai mangé mon cheval pour tenir. Je suis revenu une nuit et j’ai mis le feu à toutes leurs maisons. J’ai passé par le fer toutes ces diablesses. Et j’ai même cru dans la nuit devoir tuer le corps d’un de mes frères qu’elles avaient réanimé. Et je suis rentré auprès du Seigneur. Le Monstre erre toujours dans les montagnes. Rien ne peut le tuer. La voie du Kohest est fermée à tout jamais. »"
-          }
-        }
-      ],
-      "Osmanlie" : [
-        {
-          "description": "L'Osmanlie est une contrée merveilleuse, aussi appelée 'Sombre pays', qui se trouve au Nord du royaume d'Aria et de la cité empire de Varna. Elle est longée par la mer Marmoréenne au Sud ce qui signifie 'la mer de marbre'. Son symbole est un soleil rieur. Au nord est de Varna se trouve donc le sombre pays. Cette région, dans laquelle on exile les criminels, a une longue histoire et a même connu un âge d’or. Toutes les races exotiques sont originaires d'Osmanlie suite à des altérations de la race humaine apparues après un cataclysme de magie, 'la clarté de Tansanli', qui a suivi la chute du Khan",
-          "Géographie": [
-            {
-              "Géographie générale": "Biga est la capitale de l'Osmanlie. À L’est du khanat une chaîne de montagnes sépare l'Osmanlie de l'Amasya. Au Sud se retrouve le Kohest, un pays de montagnes, et le nord de la grande Aria. À l’Ouest se trouve la mer Ancienne. Au nord se trouve le volcan de Tansanli, et les monts du Gonen. Les chaînes de montagnes Entoure l'Ouest et le Nord-Est du khanat : Parmi la chaîne du Nord-Est les Monts du Gonen qui sont à la frontière de l’Haliaslanlar. A l'Est des monts, naît un fleuve nommé 'le Fleuve des morts' qui erre dans le nord du pays avant de revenir par l’est, et plonger dans un fleuve qui descends au Sud du pays",
-              "Mawarannarhr": "Région de l'Osmanlie sableuse ; entouré au sud par la mer Marmoréenne et au nord par les monts du Gonen , et la Mer Ancienne à son ouest et un affluent du fleuve des morts à son est.Cette région désertique est là où se situe Biga",
-              "Biga": "Grande ville et capitale du khanat",
-              "La Vallée des Larmes": "Se situe dans la partie du Manawamarh située entre Biga et le Gonen",
-              "Péninsule de Galibolu": "Région au sud du Mawarannarhr, la péninsule et entourée pas la mer Marmoréenne a l'ouest et la mer Ancienne à l'est à sa pointe se trouve Sannakale",
-              "Sannakale": "De son ancien nom Treya, c'est une ancienne Ville du Khan Sannakale. Elle abrite une place de l'ancien Palais Royal avec une statue équestre en son centre (cheval de troie)",
-              "Les Champs Sanguinaires": "champs de fleurs qui entraînent la mort",
-              "Galibulu": "Petite ville au bord d'un bras de mer qui coupe la péninsule à moitié",
-              "Les bois du Bolayir": "Des bois aux formes changeantes où il y est facile de s'y perdre. “Vous piquez vos montures et obliquez sur le nord ouest, où sur la ligne d'horizon se découpent les cimes tordues des arbres étranges du Bois de Bolayir. Rapidement, vos chevaux arrachent des mottes de terre à un sentier peu fréquenté de l'endroit, et vous baissez la tête pour éviter les branches basses ; une odeur de genévrier, de cyprès et de myrtille embaume, le rythme syncopé de votre cavalcade masque les hululement des hiboux et des merles noirs. Au matin, les bois sombres du Bolayir ont tout d'un bel endroit : papillons d'or et d'argent se battent dans les rayons de lumière traversant une futaie fraîche, peuplée d'oiseaux chantants”",
-              "Péninsule de Pansalimani": "Péninsule au nord de la mer Marmoréenne et entourée par celle-ci",
-              "Imrali Adasi": "Petite île sur la mer Marmoréenne proche de la péninsule de Pansalimani, c'est sur cette île que serait érigée la dernière chapelle du dieu Ennemie ou l'on peut apercevoir sont vrai visage",
-              "Nord de l'Osmanlie": "Région entouré par les monts du Gonen à l'est et les monts de l'Amasya à l'ouest,le delta de et la mer Marmoréenne au sud. Les terres autours du volcan de Tansanli sont appelées terres sacrées, ainsi que par les chaines de montagnes de l’Amasya à son Est",
-              "Delta du Kuthaya": "Une région au nord de la Mer Marmoréenne, entre l'Osmanlie et l'Amasya. C'est de là que sont probablement originaires les Elfes Noirs"
-            }
-          ],
-          "Economie": {
-            "description1": "L'Osmanlie utilise un système monétaire à 2 types de pièces",
-              "pièce1": "La pièce d'argent (ou aspe d’argent ou encore lune)",
-              "pièce2": "La pièce d'or (ou aspe, ou encore soleil), qui vaut 10 pièces d'argent",
-              "description2": "Une aspe vaut environ 5 écus du royaume d'Aria"
-          },
-          "Politique": {
-            "description": "Le khanat d'Osmanlie est dirigé par un Khan et son palais se situe à Biga. Kubilai Khan, le souverain des légendes, est un ancien Khan qui a dirigé le khanat durant l'âge d'or de l'Osmanlie",
-            "Relations extérieures": "L'Osmanlie est très hostile et envahit régulièrement le royaume d'Aria, principalement défendu au Nord par le Fief du Rideau"
-          },
-          "Culture": {
-            "description": "",
-            "Cultes": {
-              "Le Dieu sans nom/Dieu primordial": "On ne connait rien de ce dieu si ce n'est son vrai nom 'Dyeus F’ther'.",
-              "La Déesse Inanna": "Divinité des soins et du pardon, elle est très priée par les habitants de l'Osmanlie",
-              "Le Dieu Udor": "Les Ulassi le prie de manière farouche et le considèrent comme leur père",
-              "Le Dieu Qalil": "Dieu de la violence, révéré principalement par les Lynassi du nord de l'Osmanlie, ces temples revêtent la forme d'une pagode à quatre étages, d'un toit qui lance ses flèches noires et rouges vers le ciel, et dont murs laqués sont percés de petites ouvertures où brûlent des flammes éternelles.ces prêtres paradent en robes rouges, avec d'étranges sabres aux flans",
-              "Le Dieu du vent et des brumes": "Dieu du vent et de la brume, ses temples sont des dômes creux transparents formés d'un matériau translucide semblable à de l'albâtre. Ses prêtres sont vêtues de robes blanches et de Katanas aux cotés. Ils accueillent les offrandes obligatoire pour entrer",
-              "Le Dieu poisson": "Représenté comme un poisson bouffi, il est le dieu des voleurs et des opprimés. ses temples sont petits et possèdent toujours une fente pour y glisser une pièce",
-              "Le Dieu Dragon": "Les temples de ce dieu sont de modestes tables de pierre en extérieur",
-              "Le Dieu Atlach Nacha": "Immense araignée de métal et de roc, gardien de l'Ultime Abysse sous les Monts du Gonen",
-              "La Déesse Ergané": "Révérée par les forgerons, ces temples sont des ateliers de travail où l'on forge des pièces mécaniques, qui lui sont dédiées",
-              "Le Passeur des Âmes": "Seul Divinité des elfes noirs, Urshanabi en noire-langue , en tant que Dieu psychopompe, il guide les âmes sur le fleuve des morts jusqu'à l'Haliaslanlar, l'au-delà en noire-langue , qui est aussi derrière les monts du Gonen"
-            },
-            "lore": "La carte de l'Osmanlie a été fortement inspirée par la région du Bosphore et du nord-ouest de la Turquie, en inversant le nord et le sud. A l’exception de Varna, tous les toponymes ont été conservés, parfois en gardant leur forme ancienne comme « Eis Ten Poli » pour Istanbul ou leur forme moderne en turc « Galibolu » pour Gallipolli. La mer Egée est nommée Mer Ancienne et Athènes porte le nom d'Atina. Le nom vient de l'Empire Ottoman (en turc ottoman: دولت عليه عثمانیه‎, Devlet-i ʿAlīye-i ʿOsmānīye). Le turc Osman dérive l'adjectif qui nous donne le synonyme osmanli"
-          }
-        }
-      ],
-      "Haliaslanlar": [
-        {
-          "description": {
-          "description1": "L’Haliaslanlar est un mot de noire-langue qui signifie 'Pays de rien' ou 'Le néant', aussi appelé Bord du monde ou Ultime Abîme, Il se situe au Nord-Est de l'Osmanlie. Les pic des monts du Gonen sont l'ultimes barrières avant le néant infini du Cosmos là où tombent les fleuves et les mers et où vogue le Passeur des Âmes ou Urshanabi en noire-langue",
-          "description2": "A quoi ressemble l'Haliaslanlar ? Une forêt radieuse, un désert glacé, ou un néant absolu ? Voilà une très intrigante question ! Tout d'abord selon les peuples et cultures la vision de l'Haliaslanlar et différentes",
-          "description3": "Les elfes noires croient qu'Urshinabi guide leurs âmes sur le fleuve des morts jusqu'à l'Haliaslanlar pour eux,cette contrée est vide, on y verrait le cosmos et les eaux des fleuves et mers s'y écouleraient en cascades. Pour eux c'est une métaphore de la mort, le symbole de l'au-delà. Le peuple Nok est un peuple de nain disparu qui a creusé les monts du Gonen de part en part mais certaines légendes disent que le Peuple Nok a creusé si profondément qu'un jour ils ont ouvert la voie vers le (Soleil de Magie' (Pourrait être interprété comme 'l'Haliaslanlar' le confins du monde) brûlant au centre du monde et que celui-ci les a consumés. Le peuples d'Aria et des peuples du sud qui furent sous la coupe du Roi des rois croient que le Roi des Dieux a affronté l'Ennemi au bord du monde, proche de l'abîme (Haliaslanlar). Lorsque l'ennemi tomba dans l'abîme il s'est accroché au Roi des dieux et ce dernier, par peur de mourir, a refusé de se sacrifier, ramenant l'ennemi dans ce monde. Depuis cet événement tragique, le Roi des dieux, porte le nom du Dieu exilé et reste au bord de l'abîme rongé par la honte et la culpabilité. Il ne répond plus aux prières ni aux blasphèmes et n'exauce plus de miracle, mais il est toujours considéré comme le Roi des dieux. Ses fidèles actuels prient en espérant son retour",
-          "description4": "Un pays sans cité et sans loi se dresse au nord des pics infranchissables du Gonen. C'était il y a un millénaire un pays verdoyant, constitué de forêts claires et de cours d'eau. Toutefois, une terrible bataille menée par les Cinquante se tint en cet endroit, et l'on raconte que depuis, il n'y a plus qu'un seul arbre, et sinon, ce n'est qu'un désert de sable vitrifié"
-          }
+            "mois": ["de l'affection", "de l’apparence", "de la décision", "des fleurs", "des semis", "de l'eau", "des légendes", "le long mois", "des voyages", "des dieux", "du froid", "de l'espoir"]
+          }]
         }
       ]
-    }
-  ]
+    }],
+    "Pays Môn": [{
+      "description": "Le Pays Môn est une région au nord du Fief des Tempêtes du royaume d'Aria. C'est un territoire connu pour être très pluvieux et peuplé d'êtres de petite taille, le peuple Môn. Ses habitants disent que la pluie sont les larmes du Roi des dieux, qui pleure la mort de la déesse Môn. Le Pays Môn est régulièrement envahi par le peuple blanc venu du Nord, qui tous les hivers viennent piller les ressources du pays. Le peuple Môn prend cette invasion régulière de son territoire avec un certain stoïcisme : un dicton dit : 'Mieux vaut vivre à genoux, qu'être mort debout'",
+      "Géographie": [{
+        "Géographie générale": "Le Pays Môn ne fait pas partie du Royaume d'Aria. Le territoire est composé de 5 gros bourgs, disposé en pentagone, et est connu pour abrité un grand figuier sacré",
+        "Nanda": "Bourg du sud du pays Môn. Les constructions sont en bois, et le village est entourée d'une palissade de bois. Ses habitants sont essentiellement des cultivateurs Môn",
+        "Sungai": "Bourg construit sur une colline, à son sommmet se trouve une construction en forme de bateau. A proximité se trouve la forêt mystérieuse, où vivent les sangliers bleus",
+        "Irra": "",
+        "Ka": "",
+        "La griffe": "Ville principale du pays Môn, sa forteresse en pierre abrite le Figuier sacré"
+      }]
+    }],
+    "Pays Blanc": [{
+      "description": "Le Pays Blanc désigne une île située au Nord du Pays Môn, par delà l'Océan Blanc. Le Peuple Blanc, notoirement belliqueux, envahit chaque hiver le pays Môn pour piller ses ressources. Nos héros rencontrent le Peuple blanc lors de l'épisode 23 (saison 2) intitulé 'la révolte des gens de petite taille'. La Compagnie créance vaincra un à un les différents clans des hommes blancs jusqu'à leur Chef (installé dans la ville de La Griffe), suite à quoi les Hommes Blancs retourneront sur leurs terres. Nos aventuriers n'ont néanmoins pas suivi ces deniers, ce qui fait de Pays Blanc une terre encore inconnue. On connaît relativement peu de choses sur le Peuple blanc et son histoire. A en croire les légendes Môn, les hommes blancs sont sauvages, païens, esclavagistes et cannibales. Le Roi des dieux et son amante la déesse Môn auraient découvert ce peuple au delà de l'océan situé au nord de Nanda en suivant une route dans le ciel menant au Pays Blanc, un « pays sans amour » ou le pouvoir des Dieux n’avait plus prise. Les hommes blancs auraient alors tué Môn et auraient été maudits par le Roi des Dieux après que celui-ci ait pris la fuite: ils seraient condamnés à ne jamais connaître la prospérité. Chaque Hiver qui suivirent obligèrent ainsi le peuple blanc à débarquer au Pays Môn pour s'y ravitailler, mais le Roi des Dieux les y attendait avec une armée et les repoussait. Depuis l'exil de ce dernier, le Pays Môn serait ainsi ravagé chaque hiver par l'invasion des hommes blancs. Le peuple Môn a essayé de se révolter contre les hommes blancs, mais la révolte fut matée dans le sang… Depuis, ils estiment « qu’il vaut mieux vivre à genoux que mourir debout ». Aussi, le Peuple blanc ne perpétue plus de massacres sur les Môn: ils se contentent d'occuper la région pendant la saison froide, en vivant sur les réserves Môn, en s'emparant de ce qu'ils veulent, femmes et objets, et en tuant quelquefois pour quelques raisons arbitraires... Lorsqu'ils ne jouent pas au lancer de nains les soirs de beuverie! Pour devenir un Homme Blanc, il faut réussir un rite d’initiation constitué de 3 épreuves : La chasse (chasser un animal), la guerre (combat singulier), la fête (faire le fête mais visiblement, alcool aidant, personne ne se souvient de cette épreuve).La philosophie du Peuple Blanc semble se résumer à cette maxime: 'n'hésite pas à prendre par la force ce que tu désires au lieu de demander comme un faible'"
+    }],
+    "Mer de la Morsure": [{
+      "description": "La mer de la Morsure est une mer intérieure qui se situe au sud du royaume d'Aria, à l'est du sultanat d'Aqabah et au nord de la principauté de Kniga. Elle tire surement son nom de sa forme de bouche entourant le sud (Côte d'argent) et le nord (Côte de la mort) des deux continents",
+      "Géographie": [{
+        "Géographie générale": "",
+        "Île de l'abandon": "Île de naufragés au sud de la cité d'Aria",
+        "Archipel du couchant": "Un petit îlot désert parmi l'archipel à l'ouest de la cité d'Aria contient quelques ruines qui laisse entendre que l'endroit était autrefois habité. Les héros découvrent notamment un statue d'un dieu de la mer oublié",
+        "Altabianca": "Altabianca est l'endroit le plus riche du monde. L'île entière n'est qu'une seule et même ville avec un grand château se dressant sur la plus haute falaise",
+        "Altanegra": "Altanegra est une île située au cœur de la Mer de la morsure, au sud-ouest d'Altabianca. On ne connaît que très peu de choses sur Altanegra car nos héros ne s'y sont jamais rendus. La princesse d'Altanegra, Giocanda Medico (fille de Ketouki et d'Ignefrance Medico), s'est dernièrement mariée au prince Leonid Senata d'Altabianca, renforçant ainsi les relations entre les deux îles",
+        "Esperanza": "L'île d'Esperanza abriterait un 'royaume' de pirates, contrôlé par le Corbeau noir. La position exacte de cette île n'est pas connue en dehors des pirates qui y vivent et le temps devient souvent brumeux voir tumultueux à l'approche de cette île. Clodomir ressent que la magie semble être moins efficace aux alentours de l'île. Il sait que dans certains endroits du monde, la magie est inefficace, et cela pourrait être l'un de ces endroits"
+      }]
+    }],
+    "Aqabah": [{
+      "description": "Aqabah est une contrée qui se trouve à l'ouest du Royaume d'Aria et à l'ouest de la Mer de la morsure. Le sultanat d'Aqabah est aussi appelé « Aqabah, Madina As Salam », ce qui signifie « Maison de la sagesse » en langue d'Aqabah[1]. La population d'Aqabah vit essentiellement sur la côte est de son continent, donnant sur « la Morsure », l’océan intérieur du monde. Du nord au sud, on y trouve les ports de Suk El Kamis[2], Atraban et Bulayoah. Al-Mahdi est le Calife (chef religieux) et Sultan (chef politique et militaire) du sultanat d'Aqabah, la couleur du sultan est le bleu. Musa al Hadi, un grand voyageur lettré croisé par les héros de Game of Rôles, est issu d'Aqabah. Caldera, un Lynassi croisé à Claveau par les héros, a une culture d'Aqabah hérité de sa mère esclave du sultanat, ainsi il invite les personnages en disant la formule « Ma maison est votre maison ». La légende raconte que pour soutenir le Sultanat, il y a bien longtemps, le Roi des Rois a confié le Sceptre Herméneutique à Aqabah. Depuis, son destin est inconnu, Aqabah prétendant l'avoir rendu et Aria affirmant ne l'avoir jamais récupéré. Le général Cassandre estime que le sceptre serait caché à Irem. La magie, en tout cas celle utilisée par les mages tels que Clodomir, ne fonctionnait pas dans la région d'Aqabah à cause du cristal d'anti-magie à Irem",
+      "Géographie": [{
+        "Géographie générale": "Le sultanat serait centré autour d'une grande métropole éponyme et contient aussi un certain nombre de villes côtières",
+        "La cité d'Aqabah": "Capitale du sultanat, c’est une grande cité qui rayonne sur le long d’un fleuve qui apporte abondance au désert : le fleuve Usfan",
+        "Rub al Kali": "Autour du fleuve Usfan, se trouve le désert appelé le Rub al Kali, ou le « grand vide ».Si on remonte le fleuve Usfan, qui plonge dans le sud-est vers une source inconnue, on a sur la droite les Monts Al Khuraiba",
+        "Le désert noir": "Au delà du Grand Vide se trouve un désert encore plus périlleux : le désert noir, d’où on ne revient jamais",
+        "La cité d'Irem": "Une mystérieuse cité qui se trouverait dans un passage oublié entre « le grand vide » et « le désert noir ». Kaitra a tenté de s'y rendre pour récupérer un trésor. Le général Cassandre pense que le Sceptre Herméneutique est caché dans cette cité",
+        "Ashanul": "Ville d'origine de Kaitra",
+        "Axum": "Axum, rebaptisé Neo-Axum, est un petit village de la région d'Aqabah situé dans le désert du Rub al Kali.Aux dires de l'explorateur Philippot Goodlooz, le village, 'perdu dans les ruines immenses d'une cité engloutie dont on a perdu le nom', est notamment connu pour ses plantations de thoum. Lorsque nos héros découvrent la cité, les habitants, esclaves de Rafiq, sont en train de mourir de faim'. Axum est une cité millénaire à moitié enterrée à côté de laquelle se trouve un petit village agricole. Le soleil se lève et, passée une dernière colline, l’horizon fait place à une immense cité de pierre. Imaginez d’énormes piliers en ruine ! Des colonnes et de statues sculptées de dieux anciens, oubliés, écroulés, à moitié enterrés dans le sable. Passée une allée de sphinx de pierres, on distingue un petit village de maisons carrées autour d’un puits ancien, et plus loin des grands champs de thoum dans lesquels les gens travaillent. Aidé par nos héros avant leur départ, le village construit des fortifications et autres pièges de fortune. Ancien village d'esclaves aux ordres de Rafiq, Neo-Axum se veut 'la ville de la liberté'. En effet, la stèle du roi des rois rend libre tous les hommes d'Axum. Les habitants, notamment Oussama El ren05, envisagent de se rebeller contre Aqabah, voir de libérer tous les esclaves",
+        "Espeyran": "Espeyran est un petit village au sud de la cité d'Aqabah et sur la rive du fleuve Usfan. Le village est composé de petites maisons carrées et de tentes colorées avec des motifs de hérons. Il est peuplé de chasseurs et de pêcheurs dans l'Usfan. Le village est construit autour d'un grand puits central. Des petites barques tressées avec des joncs naviguent sur l'Usfan. Le village est plutôt verdoyant avec de grands palmiers et des flamants roses et on peut voir des collines de roches claires en arrière plan",
+        "Irem": {
+          "description": "Irem est une mystérieuse cité qui se trouve dans un passage oublié entre « le grand vide » et « le désert noir » dans la région d'Aqabah. Kaitra a tenté par le passé de s'y rendre pour récupérer un certain trésor. Le général Cassandre pense que le sceptre herméneutique est caché dans cette cité et à fait jurer à Kaitra sur le fleuve des morts[1], qu'elle se rendrait à nouveau à Irem le rechercher",
+          "Une cité mythique et mystique": "La cité est un lieu ancien et énigmatique qui abrite en son sein plusieurs secrets. Le roi des rois est lié à l'histoire de cette cité, comme semble le montrer les fresques et statues qui ornent l'endroit et ses alentours. L'entrée de la cité est normalement restreinte par 3 portes spéciales. Seuls ceux qui correspondent à certains critères peuvent les traverser, tels que décrit dans le conte de la princesse crépuscule. Cependant, il existe des chemins détournés et secrets, tel que le chemin des Djinns, dont seuls certains conteurs et conteuses connaissent l'existence. Si vous ne rencontrerez pas d'hommes et femmes ordinaires dans cette cité, elle n'est pas pour autant complètement vide. Outre les soldats d'Aqabah surveillant les alentours, des créatures magiques tels que des Djinns ou le passeur du lac se trouvent encore dans la cité. Une flore insulaire peut également être trouvé sur place, telle que le Bétel d'Irem ou encore une espèce de Lys rose à l'aura mystique, inconnue même du commun des alchimistes",
+          "Le cœur d'un conflit": "Irem est devenue le centre d'un conflit entre Aria et Aqabah. Le prince héritier au trône d'Aria, Estienne d'Aria, a lancé une croisade contre Aqabah, qui est accusée de cacher le sceptre du roi des rois prêté par Aria il y a des années pour aider à gérer un moment de troubles dans le sultanat. Suivant les rumeurs, il décide d'envahir le sultanat et de se rendre à la cité d'Irem pour récupérer lui-même le sceptre. Cependant, tout cela a été prédit par le grand astrologue du sultan d'Aqabah, qui a ainsi pris les devants et s'est préparé à accueillir les envahisseurs comme il se doit. Le premier fils du sultan a mis en place un stratagème qui empêche l'utilisation de la magie d'Aria dans la région d'Aqabah. Le cœur de cette contre-mesure se trouve à Irem, sous la forme d'un cristal de Kniga de plus de 30m qui brûle dans la cité. Et afin de protéger le cristal et la cité d'Irem, une armée de 7000 soldats est postée aux portes d'Irem, prêt à repousser leurs ennemis. Cela dit, l'armée d'Aria, composée au départ de plus de 3000 soldats et mages, n'arrivera pas à Irem indemne. Privée de sa magie, elle est quasi-exterminée à son arrivée proche des côtes d'Aqabah. Une pluie de potion d'Ingramus s'abat sur les croisés qui ne peuvent pas utiliser leur magie pour se protéger ou riposter correctement. Le prince d'Aria survit toutefois à cette épreuve et parvient à atteindre les murs de la cité d'Irem avec un peu plus d'une vingtaines de soldats et d'une mage, derniers survivants de la croisade. Cependant, les soldats d'Aqabah se trouvent entre eux et la cité d'Irem. Ils sont sur le point d'abandonner leur quête, mais en rencontrant la Compagnie créance qui se rendait également à Irem, ils découvriront qu'il existe plusieurs façon d'entrer dans la cité mythique",
+          "Points d'intérêt": {
+            "Musée des merveilles": {
+              "description": "Un musée gardé par Nemyoue, une djinn qui est également une guide pour les visiteurs éventuels. Ce musée contient des objets rares et insolites, qui ont été offert en général par ceux qui ont passé la 2e porte d'Irem, la porte du talent. Les visiteurs ne peuvent voir qu'un seul objet chacun pendant leur visite",
+              "objets": {
+                "Un tableau extra-dimensionnel": "Un tableau représentant une cave d'un boulanger. Il est possible de stocker des objets dans le tableau, qui est une porte vers une autre dimension",
+                "Une potion lumineuse": "Une potion qui semble disparaître de temps en temps. Elle peut capturer des couleurs qui n'existent pas",
+                "Le Codex Jocus": "Un recueil des blagues les plus drôles du monde, qui peuvent littéralement tuer par le rire",
+                "La harpe d'or du sommeil": "Une harpe d'or qui peut endormir n'importe qui, même son musicien, tant qu'on sait jouer",
+                "La poule mécanique de Kniga": "Une poule mécanique créée par le premier prince de Kniga qui a été offert au musée. Elle est intelligente mais doit être remontée (via une clef dans son dos) tous les jours",
+                "Fragments d'étoile": "Des fragments d'étoile que seul le feu de Kniga peut faire fondre. Réputé comme métal le plus robuste connu"
+              }
+            },
+            "Chapelle aux quatres dieux": "Contient quatre statues donc une du dieu exilé , une encapuchonné, bras en avant avec une marque en forme de X sur la main (Dieu ennemie) , une représentant un dragon (dieu invisible), une d'une femme portant un vase sur la tête (Ina)"
+          },
+          "lore": "Irem ou Iram est une citée perdue de la péninsule arabique, notamment mentionnée dans le Coran. Elle est également mentionnée dans les écrits de H.P Lovecraft"
+        }
+      }],
+      "Economie": {
+        "description": "Aqabah est connu pour ses exportations de Thoum, un narcotique léger, ainsi que pour son commerce d'esclaves",
+        "Système monétaire": [{
+          "description1": "Le sultanat utilise un système monétaire à 3 types de pièces",
+          "pièce1": "La pièce de cuivre se nomme Fil, c'est la plus petite unité du système monétaire",
+          "pièce2": "La pièce d'argent se nomme Dirham et vaut 10 pièces de cuivre",
+          "pièce3": "La pièce d'or se nomme Khaleeji et vaut 10 pièces d'argent",
+          "description2": "Un Khaleeji vaut environ 1/3 d'un écu du royaume d'Aria"
+        }]
+      },
+      "Politique": {
+        "Châtiments corporels": "Le châtiment corporel est une sanction possible dans le sultanat d'Aqabah, tel que le marquage au fer rouge; celui-ci est aussi utilisé pour reconnaître les esclaves",
+        "Vente d'esclaves": "L’esclavagisme à cours dans le sultanat et la vente d'esclaves est autorisée. Kaitra était une esclave elle-même avant d'être affranchie par le général Cassandre en échange d'une mission",
+        "Relations extérieures": "Le sultanat est en conflit armé avec le Royaume d'Aria, qui l'accuse d'avoir caché le sceptre Herméneutique"
+      },
+      "Culture": {
+        "description": "Le sultanat est connu pour sa culture favorisant l'érudition et la sagesse. Par exemple, des érudits tels que Mujahid El Sufi préfèrent être rémunérés en savoir plutôt que de recevoir de l'argent",
+        "Cultes": {
+          "Dieu de la sagesse": "Dieu principal de la région d'Aqabah",
+          "Dieu du pain": "déesse du pain et de la boulangerie",
+          "Dieu du vent": "beaucoup prié par les voyageurs venant à Aqabah au temple du Dieu du vent",
+          "Dieu chat": "se trouve dans un monument abandonné (ce n'est pas un culte local)",
+          "Qalil": "ancien dieu principal d'Aqabah prié par des sectes le soir"
+        }
+      },
+      "Proverbes": {
+        "proverbe1": "Le goudron amer de la dignité vaut mieux que le miel de la tranquillité",
+        "proverbe2": "Conseille l'ignorant, il te prendra pour son ennemi",
+        "proverbe3": "Chose donnée de bon coeur vaut son pesant d'or",
+        "proverbe4": "N'ouvre la bouche que si tu es sûr que ce que tu vas dire est plus beau que le silence",
+        "proverbe5": "Bats ta femme. Si tu ne sais pas pourquoi, elle, elle sait",
+        "proverbe6": "Que la paix soit sur vous , la paix soit également sur vos descendants et sur vos aïeux. Si il y a un jour où il y aura la guerre entre nos peuples, il n'y aura que la paix entre nous deux",
+        "proverbe7": "Qui vous connait petit ne vous respecte pas grand ",
+        "proverbe8": "Qui mange seul s’étrangle seul",
+        "proverbe9": "Une petite pièce donnée avant que le soleil se couche c'est de la chance pour toute la nuit",
+        "proverbe10": "Le pardon est la plus belle fleur de la victoire",
+        "proverbe11": "Les biens de cette vie cessent avec elle",
+        "proverbe12": "Ne dis pas tes peines à autrui, l'épervier et le vautour s'abattent sur le blessé qui gémit"
+      },
+      "Contes et légendes": {
+        "La princesse crépuscule et les 3 épreuves": "Conté en partie par Dahlia, dans le palais des plaisirs, par Makia el Djib, dans le temple du dieu de la sagesse, et enfin par le livre de Jobunn, dans le grand bazar. La princesse crépuscule amoureuse du prince de l'aube cherche à le retrouver, mais c'est impossible. Or, une légende raconte qu'un djinn se trouve dans une lampe magique dans une cité appelée Irem, une cité qui se trouve aux limites du désert noir. La princesse se rend à Irem mais la cité est gardée par trois portes, trois pièges mortels. La première porte est la porte de la bénédiction : il faut avoir la bénédiction d'un dieu ou d'une déesse pour pouvoir la passer. La deuxième porte est la porte du talent : seuls ceux qui peuvent faire une chose que nul autre au monde ne peut faire peuvent passer cette porte. La princesse crépuscule est la seule à être capable à faire se lever(sic) le soleil et de ce fait, elle peut passer cette porte. La troisième porte est la porte de l'amour : ne peut passer que la personne qui connaît et qui vie actuellement un véritable amour"
+      },
+      "lore": {
+        "lore1": "Il est probable que FibreTigre ait fait une confusion en s'inspirant de Bagdad. En arabe, مدينة السلام‎ (madîna as-salâm) signifie « cité de la paix ». C'était le nom de la Ville ronde de Bagdad. Dans cette ancienne ville se trouvait la Maison de la sagesse, بيت الحكمة‎ (bayt al-Hikma)",
+        "lore2": "Il existe un sūq al Khamīs en Lybie",
+        "lore3": "Le Rub' al Khali est un désert existant sur la péninsule Arabique. Son nom (ٱلرُّبْع ٱلْخَالِي) signifie « le quart vide »"
+
+      }
+    }],
+    "Kniga": [{
+      "description": "Le continent au sud de la mer de la morsure comporte sur sa côte nord, nommé côte de la mort, une série de grandes cités indépendantes dont fait partie Kniga. Kniga est une cité-état ce trouvant sur les terres dorées; la langue et la culture de ce peuple en ont fait des citoyens raffinés, tournés vers les études, et qui préfèrent les intrigues de cour à la conquête. Ses habitants sont facilement reconnaissables sur le pourtour de la Mer de la Morsure grâce à leurs yeux de couleur dorée et leurs cheveux blonds. Melanda a apprit à Clodomir par le passé que Kniga était un des rares endroits au monde où la magie n'a pas prise, celle-ci est donc remplacée par les sciences, dont l'alchimie et la mécanique. En tant que civilisation avancée, de grandes machines sillonnent les jungles hostiles. On dit même que certaines volent. Ce peuple est la fusion d’indigènes pacifiques et d’une expédition d’Aria qui voulait fonder ici la 3ème académie de Mages. Les habitants de Kniga sont très fiers de leur culture et considèrent les autres nations comme des nations de 'barbares'. Ils sont très hautains et ne croient pas aux dieux ou superstitions de ces contrées lointaines. Le cristal géant de Kniga qui se trouve au cœur de la ville empêche la plupart des magies du nord de fonctionner",
+      "Géographie": [{
+        "Géographie générale": "La cité est une énorme tour métallique qui s'élève à plus d'un kilomètre au dessus du niveau de la mer, posé sur la rive sud de la mer de la Morsure. Les quartiers nobles et le palais du Prince se trouvent à son sommet. Pour monter tout en haut de la cité, il y a un escalier de 12 000 marches qui montent en colimaçon autour de l'énorme cristal de Kniga qui alimente toutes les automates et mécanismes de la cité. Il y a également une vingtaine de vastes ascenseurs pour voyager plus rapidement entre les niveaux",
+        "Le port automatique": "Au pied de la cité, il accueille de vastes quais auxquels accostent d'énormes bateaux mécaniques de proportions gigantesques, mûs grâce aux pouvoirs des cristaux de Kniga. Le port comprend également d'énorme grues mécaniques qui plongent inlassablement des filets de pêche dans la mer, afin de nourrir la cité",
+        "Le palais du prince": "Le palais du Prince est situé au point le plus haut de la cité. Un ascenseur luxueux et bien gardé permet d'y accéder",
+        "Le cristal ardent": "Le cristal géant de Kniga est placé au cœur de la cité, c'est le plus grand cristal du monde, ce qui permet de fournir de l'énergie à toute la ville. Sa base est située au niveau de la mer, et son sommet atteint le niveau de l'Agora",
+        "L'Agora": "Grande place au sommet du grand escalier de la ville sur laquelle se trouve l'entrée de l'université d'Alchimie, la boutique de Shazam et l'accès au Palais du Prince"
+      }],
+      "Economie": {
+        "description1": "La principauté utilise un système monétaire à 2 types de pièces",
+        "pièce1": "La pièce d'argent (ou marque)",
+        "pièce2": "La pièce d'or (ou grivna), qui vaut 10 pièces d'argent",
+        "description2": "Un grivna vaut environ 2 écus du royaume d'Aria"
+      },
+      "Politique": {
+        "Douane": "Lorsqu'un navire accoste à Kniga, l'équipage doit déclarer les objets de valeurs qu'ils transportent. Une règle un peu spéciale s'applique à l'arrivée à Kniga : les voyageurs doivent déclarer s'ils possèdent des animaux domestiques. Dans l'affirmative, ces animaux seront réquisitionnés pour un dépistage de maladies auprès de Grigori Morov. Si tous est au clair, les animaux sont rendus à leurs propriétaires, dans le cas contraire ils seront exécutés",
+        "Immigration": {
+          "description": "Kniga a une politique très stricte concernant l'immigration des étrangers 'barbares'. Pour qu'un étranger puisse entrer à Kniga, il faut y avoir été invités et/ou prouver qu'il a un travail dans la cité. Les étrangers passent par un bureau d'immigration où ils doivent répondre à un questionnaire. S'ils passent le questionnaire, ils devront prouver qu'ils ont un travail, ou en choisir un sur le panneau d'offre d'emploi affiché dans le bureau. Si les conditions sont remplies, le bureau leurs accordent alors un permis temporaire d'une durée de 15 jours qui leur permet d'entrer dans la cité. Tout manquement aux règles établies entraînera l'expulsion de la cité de Kniga",
+          "règle1": "S'ils ont accepté un job sur le panneau d'offre et que l'employeur valident leur candidature et tamponne leur permis, la validité du permis est étendue à 1 an",
+          "règle2": "Ils n'ont pas le droit de se marier aver les citoyens de Kniga, sauf demande officielle",
+          "règle3": "Ils n'ont pas le droit d'aller dans le quartier des nobles",
+          "règle4": "Ils n'ont pas le droit de faire venir de la famille",
+          "règle5": "Au bout de 5 ans dans la cité, ils peuvent essayer de demander le statut de demi-citoyen"
+        },
+        "Relations extérieures": "La principauté est globalement neutre, mais récemment les relations avec Aria se sont détériorées au sujet du paiement d'un cristal jaune géant qu'aurait commandé la famille royale d'Aria, mais qui n'a pas été payé, notamment le Gouffre de Staumos, un territoire d'Aria convoité par Kniga, devait servir de monnaie d'échange. Julia a été nommée ambassadrice d'Aria à Kniga et a été dépêchée pour tenter de résoudre l'affaire, avec comme ligne de défense qu'aucun cristal n'a été commandée ou n'est arrivé à Aria. Ses arguments ne seront cependant pas entendus et elle est arrêtée. Cependant, grâce à la verbe d'Atlan, elle est innocentée et il est conclu que l'affaire autour du cristal de Kniga nécessite une investigation pour savoir ce qu'il s'est réellement passé"
+      }
+    }],
+    "Terres dorées": [{
+      "description1": "Les Terres dorées sont un continent situé au sud de Kniga. Recouvertes d'une jungle luxuriante, les Terres dorées sont peuplées par les Panotis, peuple nomade descendant du peuple Nok (l'un des deux peuples ancien du monde d'Aria avec les Môn). Les Panoti sont très petits qui ont une culture des masques, qu'ils considèrent comme des Dieux protecteurs voire des anges gardiens. Voir le visage d'un Panoti revient littéralement à lui voler son âme. On ne connait pas la langue des Panoti car ils ne parleraient pas, ils utiliseraient un autre mode de communication. Une route dallée où des lions sont gravées traverse la forêt. La jungle est gardée par un colosse de pierre (une statue gigantesque) qui ne laisse passer que ceux qui répondent correctement à ses 3 énigmes",
+      "énigme1": "A quelle question ne peut-on répondre oui?",
+      "énigme2": "2 personnes marchent dans le sable mais ne laissent qu'une trace. Qui est-ce?",
+      "énigme3": "Comprendre la morale d'un conte Panoti",
+      "description2": "On y trouve également un temple, sorte de dolmen en 'pierres dorées' fait en airain des jungles (métal extrêmement rare dans lequel est fait le sceptre du roi des rois). On peut y lire le mythe de l'Arbre-cœur, selon lequel dans la jungle se trouve un arbre dont la survie conditionne celle de tous les autres arbres du monde. Toutefois, tous les 500 ans, il faut que la reine des Panoti fusionne avec l'arbre (ou potentiellement une autre reine). Plus loin sur la route, on trouve une grande tour de bois qui semblait être occupée par un homme-arbre (c'est à cet endroit que la compagnie créance a tué Xa la sorcière). Puis la jungle s'ouvre sur une vallée verdoyante au centre de laquelle on trouve un arbre plus grand que la cité de Kniga elle-même, l'Arbre-coeur. A son pied l'arbre est ouvert. Lors du rituel de fusion entre la reine Panoti et l'arbre, des spectres entourent l'arbre. Après la fusion, l'arbre rayonne. La jungle grouille de créatures: toucans, panthères,..."
+    }],
+    "Cité empire de Varna": [{
+      "description": "La cité empire de Varna se trouve Nord-Est du royaume d'Aria et au sud de l'Osmanlie. Son symbole est le lion. Varna dispose d’une ancienne académie de magie appelée « l’Académie des Cinquante » qui est considéré comme la plus grande académie de magie du monde. Le roi de Varna est Axare[1] un homme-chat à la grande crinière de lion. Varna est comme un état-tampon entre le royaume d'Aria et le khanat d'Osmanlie; une grande muraille donc la souveraineté dépend de Varna sépare les deux grands états",
+      "Géographie": [{
+        "Géographie générale": "",
+        "Cité de Varna": {
+          "Académie des cinquantes": "L'Académie des Cinquantes, grand palais surmonté d'un dôme doré visible depuis tout point dans la ville",
+          "Quartiers Marchands": "Le quartier des marchandises courantes jouxte le port tandis que celui des marchandises de luxe jouxte le Palais Royal",
+          "Place de la Salamandre": "La Place de la Salamandre, lieu bien connu des filous et des voleurs. Un endroit plus vieux, dit-on, que la Cité de Varna elle-même, décorée d'une mosaïque immense représentant un lézard écarlate. On y trouve la banque de Varna, L'heptagramme, un vendeur de sortilèges, Bouillons géniaux, un marchand de potions, le feu de la Salamandre, une taverne enfoncée dans le mur, d'où les gens vont et viennent.Un charmant bassin rempli par une fontaine en tête de poisson. Dans ce bassin, des pièces avec drôle de petit poisson qui semble sourire, endroit où l'entrée de la guilde des voleurs est gardée par des filous",
+          "Place de la Magie": "Sur cette place se trouve la boutique de Shazam à Varna, un vendeur d'amulette, la tente d'un Oracle d'un pays lointain, et une maison vivante",
+          "Quartier religieux": "le quartier des Temples, face à l'Océan, d'où filtrent d'étranges encens"
+        }
+      }],
+      "Culture": {
+        "description": "Varna nourrit une véritable obsession pour les chats. Les gardes de la muraille le long du sombre pays portent des casques avec des oreilles de chat",
+        "Cultes": {
+          "Dieu poisson": "Le culte du dieu poisson est particulièrement fervent à Varna"
+        }
+      }
+    }],
+    "Amasya": [{
+      "description": "L'Amasya est un pays très riche situé à l'Ouest de l'Osmanlie et au Nord du Kohest. Le Dragon a cinq griffes est le symbole de la Famille royal et des sauveurs de l'ancien empire d'Amasya. L’Amasya serait un pays mystérieux de richesses, de guerres et de dragons. Hélas, depuis la chute de l’Osmanlie, toute communication est coupée. Il existe une très grande diaspora d'Amasya en Osmanlie, en effet de nombreux Amasyens furent bannis en 'Sombre pays' devenant des habitants du khanat. Ce peuple a des caractéristiques ethnique proche de l’ethnie Han de notre monde",
+      "Géographie": [{}],
+      "Economie": {
+        "Exportations": "Amasya est un pays connaissant les savoirs de l'élevage de vers à soie. On sait que la soie d'Amasya est la plus pure du monde"
+      },
+      "Culture": {
+        "description": "La langue parlé par les Amasyens est langue syncopée dont les accents montent haut et parfois descendent très bas",
+        "Cultes": {
+          "Dieu dragon": "dieu du savoir magique, ses prêtres, des Amasyens, peuvent initier au rite secret du sit-shamsti qui porte chance pour ceux qui parcourent le Sombre Pays"
+        }
+      },
+      "lore": "Amasya est une ville et une province de la Turquie"
+    }],
+    "Kohest": [{
+      "description": {
+        "description1": "Le Kohest est un pays de montagnes situé au nord d'Aria. Où se trouve l'ancien village des Trentes sœurs. Tout ce que l'on en sait vient du récit du chevalier Garnier, donné aux héros alors qu'ils font un feu de camp sous le début du Kohest, de l'autre coté du Parcoul.",
+        "description2": "« Au nord d’ici se trouve un pays de montagnes sinistres. Des montagnes, des montagnes, toutes plus pointues les unes que les autres. Les savants de Varna l’appellent le Kohest. Qu’est-ce qu’il y a au nord du Kohest ? On ne le sait pas. Mais donc un jour le Seigneur du Rideau veut savoir. Qui sait, on peut ouvrir à nouveau une route vers l’Amasya, maintenant que le Sombre Pays bloque tout. »",
+        "description3": "« Je pars avec huit chevaliers. Nous sommes la compagnie des neuf. Je suis le plus jeune d’entre eux. Nous sommes bien avancés dans le Kohest quand un jour nous découvrîmes...un village. Un village entièrement composé de Sorcières. »",
+        "description4": " « Pas votre sorcière rebouteuse qui vous jette des sorts. Des femmes habillées en noir, à la peau noire de crasse, couchant avec des serpents, sacrifiant des enfants et se livrant à la plus abjecte magie noire. Avec honneur, Sire Urdsama, notre chef, s’avance dans le village et propose aux impies de rejoindre la cour du Rideau à condition qu’elles cessent leur magie et vénèrent Ina. »",
+        "description5": "« Et elles disent oui. Nous avons dressé un campement hors du village, car l’odeur était insoutenable, et pourtant nous étions bien sales de notre traversée des montagnes. Nous montions la garde, au cas où il y avait quelque traîtrise. Les sorcières se sont livrées à quelque chose de très bizarre. Elles ont fabriqué, avec leurs mains, un tas de boue aussi gros qu’une maison. De notre point de vue, c’était un gros tas de boue. Mais à un moment, le tas s’est levé. Il avait la forme d’un homme, et la taille de plusieurs. C’était un monstre. »",
+        "description6": "« Pas d’yeux, pas de bouche, rien. Juste ce signe à la place d’un visage. (Garnier dessine un signe) Il a écrasé Urdsama et son cheval d’un seul pas. Les autres ont chargé. J’ai fui. Je n’avais pas peur. J’étais juste lucide. Le monde change. Je sais qu’on ne résout pas un conflit déséquilibré en chargeant, sans cesse et sans cesse. »",
+        "description7": " « Je suis allé me terrer dans les montagnes. J’ai attendu, caché. Des jours. J’ai mangé mon cheval pour tenir. Je suis revenu une nuit et j’ai mis le feu à toutes leurs maisons. J’ai passé par le fer toutes ces diablesses. Et j’ai même cru dans la nuit devoir tuer le corps d’un de mes frères qu’elles avaient réanimé. Et je suis rentré auprès du Seigneur. Le Monstre erre toujours dans les montagnes. Rien ne peut le tuer. La voie du Kohest est fermée à tout jamais. »"
+      }
+    }],
+    "Osmanlie": [{
+      "description": "L'Osmanlie est une contrée merveilleuse, aussi appelée 'Sombre pays', qui se trouve au Nord du royaume d'Aria et de la cité empire de Varna. Elle est longée par la mer Marmoréenne au Sud ce qui signifie 'la mer de marbre'. Son symbole est un soleil rieur. Au nord est de Varna se trouve donc le sombre pays. Cette région, dans laquelle on exile les criminels, a une longue histoire et a même connu un âge d’or. Toutes les races exotiques sont originaires d'Osmanlie suite à des altérations de la race humaine apparues après un cataclysme de magie, 'la clarté de Tansanli', qui a suivi la chute du Khan",
+      "Géographie": [{
+        "Géographie générale": "Biga est la capitale de l'Osmanlie. À L’est du khanat une chaîne de montagnes sépare l'Osmanlie de l'Amasya. Au Sud se retrouve le Kohest, un pays de montagnes, et le nord de la grande Aria. À l’Ouest se trouve la mer Ancienne. Au nord se trouve le volcan de Tansanli, et les monts du Gonen. Les chaînes de montagnes Entoure l'Ouest et le Nord-Est du khanat : Parmi la chaîne du Nord-Est les Monts du Gonen qui sont à la frontière de l’Haliaslanlar. A l'Est des monts, naît un fleuve nommé 'le Fleuve des morts' qui erre dans le nord du pays avant de revenir par l’est, et plonger dans un fleuve qui descends au Sud du pays",
+        "Mawarannarhr": "Région de l'Osmanlie sableuse ; entouré au sud par la mer Marmoréenne et au nord par les monts du Gonen , et la Mer Ancienne à son ouest et un affluent du fleuve des morts à son est.Cette région désertique est là où se situe Biga",
+        "Biga": "Grande ville et capitale du khanat",
+        "La Vallée des Larmes": "Se situe dans la partie du Manawamarh située entre Biga et le Gonen",
+        "Péninsule de Galibolu": "Région au sud du Mawarannarhr, la péninsule et entourée pas la mer Marmoréenne a l'ouest et la mer Ancienne à l'est à sa pointe se trouve Sannakale",
+        "Sannakale": "De son ancien nom Treya, c'est une ancienne Ville du Khan Sannakale. Elle abrite une place de l'ancien Palais Royal avec une statue équestre en son centre (cheval de troie)",
+        "Les Champs Sanguinaires": "champs de fleurs qui entraînent la mort",
+        "Galibulu": "Petite ville au bord d'un bras de mer qui coupe la péninsule à moitié",
+        "Les bois du Bolayir": "Des bois aux formes changeantes où il y est facile de s'y perdre. “Vous piquez vos montures et obliquez sur le nord ouest, où sur la ligne d'horizon se découpent les cimes tordues des arbres étranges du Bois de Bolayir. Rapidement, vos chevaux arrachent des mottes de terre à un sentier peu fréquenté de l'endroit, et vous baissez la tête pour éviter les branches basses ; une odeur de genévrier, de cyprès et de myrtille embaume, le rythme syncopé de votre cavalcade masque les hululement des hiboux et des merles noirs. Au matin, les bois sombres du Bolayir ont tout d'un bel endroit : papillons d'or et d'argent se battent dans les rayons de lumière traversant une futaie fraîche, peuplée d'oiseaux chantants”",
+        "Péninsule de Pansalimani": "Péninsule au nord de la mer Marmoréenne et entourée par celle-ci",
+        "Imrali Adasi": "Petite île sur la mer Marmoréenne proche de la péninsule de Pansalimani, c'est sur cette île que serait érigée la dernière chapelle du dieu Ennemie ou l'on peut apercevoir sont vrai visage",
+        "Nord de l'Osmanlie": "Région entouré par les monts du Gonen à l'est et les monts de l'Amasya à l'ouest,le delta de et la mer Marmoréenne au sud. Les terres autours du volcan de Tansanli sont appelées terres sacrées, ainsi que par les chaines de montagnes de l’Amasya à son Est",
+        "Delta du Kuthaya": "Une région au nord de la Mer Marmoréenne, entre l'Osmanlie et l'Amasya. C'est de là que sont probablement originaires les Elfes Noirs"
+      }],
+      "Economie": {
+        "description1": "L'Osmanlie utilise un système monétaire à 2 types de pièces",
+        "pièce1": "La pièce d'argent (ou aspe d’argent ou encore lune)",
+        "pièce2": "La pièce d'or (ou aspe, ou encore soleil), qui vaut 10 pièces d'argent",
+        "description2": "Une aspe vaut environ 5 écus du royaume d'Aria"
+      },
+      "Politique": {
+        "description": "Le khanat d'Osmanlie est dirigé par un Khan et son palais se situe à Biga. Kubilai Khan, le souverain des légendes, est un ancien Khan qui a dirigé le khanat durant l'âge d'or de l'Osmanlie",
+        "Relations extérieures": "L'Osmanlie est très hostile et envahit régulièrement le royaume d'Aria, principalement défendu au Nord par le Fief du Rideau"
+      },
+      "Culture": {
+        "description": "",
+        "Cultes": {
+          "Le Dieu sans nom/Dieu primordial": "On ne connait rien de ce dieu si ce n'est son vrai nom 'Dyeus F’ther'.",
+          "La Déesse Inanna": "Divinité des soins et du pardon, elle est très priée par les habitants de l'Osmanlie",
+          "Le Dieu Udor": "Les Ulassi le prie de manière farouche et le considèrent comme leur père",
+          "Le Dieu Qalil": "Dieu de la violence, révéré principalement par les Lynassi du nord de l'Osmanlie, ces temples revêtent la forme d'une pagode à quatre étages, d'un toit qui lance ses flèches noires et rouges vers le ciel, et dont murs laqués sont percés de petites ouvertures où brûlent des flammes éternelles.ces prêtres paradent en robes rouges, avec d'étranges sabres aux flans",
+          "Le Dieu du vent et des brumes": "Dieu du vent et de la brume, ses temples sont des dômes creux transparents formés d'un matériau translucide semblable à de l'albâtre. Ses prêtres sont vêtues de robes blanches et de Katanas aux cotés. Ils accueillent les offrandes obligatoire pour entrer",
+          "Le Dieu poisson": "Représenté comme un poisson bouffi, il est le dieu des voleurs et des opprimés. ses temples sont petits et possèdent toujours une fente pour y glisser une pièce",
+          "Le Dieu Dragon": "Les temples de ce dieu sont de modestes tables de pierre en extérieur",
+          "Le Dieu Atlach Nacha": "Immense araignée de métal et de roc, gardien de l'Ultime Abysse sous les Monts du Gonen",
+          "La Déesse Ergané": "Révérée par les forgerons, ces temples sont des ateliers de travail où l'on forge des pièces mécaniques, qui lui sont dédiées",
+          "Le Passeur des Âmes": "Seul Divinité des elfes noirs, Urshanabi en noire-langue , en tant que Dieu psychopompe, il guide les âmes sur le fleuve des morts jusqu'à l'Haliaslanlar, l'au-delà en noire-langue , qui est aussi derrière les monts du Gonen"
+        },
+        "lore": "La carte de l'Osmanlie a été fortement inspirée par la région du Bosphore et du nord-ouest de la Turquie, en inversant le nord et le sud. A l’exception de Varna, tous les toponymes ont été conservés, parfois en gardant leur forme ancienne comme « Eis Ten Poli » pour Istanbul ou leur forme moderne en turc « Galibolu » pour Gallipolli. La mer Egée est nommée Mer Ancienne et Athènes porte le nom d'Atina. Le nom vient de l'Empire Ottoman (en turc ottoman: دولت عليه عثمانیه‎, Devlet-i ʿAlīye-i ʿOsmānīye). Le turc Osman dérive l'adjectif qui nous donne le synonyme osmanli"
+      }
+    }],
+    "Haliaslanlar": [{
+      "description": {
+        "description1": "L’Haliaslanlar est un mot de noire-langue qui signifie 'Pays de rien' ou 'Le néant', aussi appelé Bord du monde ou Ultime Abîme, Il se situe au Nord-Est de l'Osmanlie. Les pic des monts du Gonen sont l'ultimes barrières avant le néant infini du Cosmos là où tombent les fleuves et les mers et où vogue le Passeur des Âmes ou Urshanabi en noire-langue",
+        "description2": "A quoi ressemble l'Haliaslanlar ? Une forêt radieuse, un désert glacé, ou un néant absolu ? Voilà une très intrigante question ! Tout d'abord selon les peuples et cultures la vision de l'Haliaslanlar et différentes",
+        "description3": "Les elfes noires croient qu'Urshinabi guide leurs âmes sur le fleuve des morts jusqu'à l'Haliaslanlar pour eux,cette contrée est vide, on y verrait le cosmos et les eaux des fleuves et mers s'y écouleraient en cascades. Pour eux c'est une métaphore de la mort, le symbole de l'au-delà. Le peuple Nok est un peuple de nain disparu qui a creusé les monts du Gonen de part en part mais certaines légendes disent que le Peuple Nok a creusé si profondément qu'un jour ils ont ouvert la voie vers le (Soleil de Magie' (Pourrait être interprété comme 'l'Haliaslanlar' le confins du monde) brûlant au centre du monde et que celui-ci les a consumés. Le peuples d'Aria et des peuples du sud qui furent sous la coupe du Roi des rois croient que le Roi des Dieux a affronté l'Ennemi au bord du monde, proche de l'abîme (Haliaslanlar). Lorsque l'ennemi tomba dans l'abîme il s'est accroché au Roi des dieux et ce dernier, par peur de mourir, a refusé de se sacrifier, ramenant l'ennemi dans ce monde. Depuis cet événement tragique, le Roi des dieux, porte le nom du Dieu exilé et reste au bord de l'abîme rongé par la honte et la culpabilité. Il ne répond plus aux prières ni aux blasphèmes et n'exauce plus de miracle, mais il est toujours considéré comme le Roi des dieux. Ses fidèles actuels prient en espérant son retour",
+        "description4": "Un pays sans cité et sans loi se dresse au nord des pics infranchissables du Gonen. C'était il y a un millénaire un pays verdoyant, constitué de forêts claires et de cours d'eau. Toutefois, une terrible bataille menée par les Cinquante se tint en cet endroit, et l'on raconte que depuis, il n'y a plus qu'un seul arbre, et sinon, ce n'est qu'un désert de sable vitrifié"
+      }
+    }]
+  }]
 }
