@@ -22,15 +22,16 @@ import {ScrollPanelModule} from 'primeng/scrollpanel';
 import { SurnomComponent } from './pages/personnages/pj/global/surnom/surnom.component';
 import { CaracteristiquesComponent } from './pages/personnages/pj/global/caracteristiques/caracteristiques.component';
 import { MapsComponent } from './pages/maps/maps.component';
-import { DescriptionComponent } from './pages/maps/description/description.component';
-import { GeographieComponent } from './pages/maps/geographie/geographie.component';
-import { EconomieComponent } from './pages/maps/economie/economie.component';
-import { PolitiqueComponent } from './pages/maps/politique/politique.component';
-import { CultureComponent } from './pages/maps/culture/culture.component';
-import { PortsComponent } from './pages/maps/ports/ports.component';
-import { ProverbesComponent } from './pages/maps/proverbes/proverbes.component';
-import { ContesComponent } from './pages/maps/contes/contes.component';
-import { EnigmesComponent } from './pages/maps/enigmes/enigmes.component';
+import { DescriptionComponent } from './pages/maps/map/description/description.component';
+import { GeographieComponent } from './pages/maps/map/geographie/geographie.component';
+import { EconomieComponent } from './pages/maps/map/economie/economie.component';
+import { PolitiqueComponent } from './pages/maps/map/politique/politique.component';
+import { CultureComponent } from './pages/maps/map/culture/culture.component';
+import { PortsComponent } from './pages/maps/map/ports/ports.component';
+import { ProverbesComponent } from './pages/maps/map/proverbes/proverbes.component';
+import { ContesComponent } from './pages/maps/map/contes/contes.component';
+import { EnigmesComponent } from './pages/maps/map/enigmes/enigmes.component';
+import { MapComponent } from './pages/maps/map/map.component';
 
 @NgModule({
   declarations: [
@@ -60,6 +61,7 @@ import { EnigmesComponent } from './pages/maps/enigmes/enigmes.component';
     ProverbesComponent,
     ContesComponent,
     EnigmesComponent,
+    MapComponent,
   ],
   imports: [
     BrowserModule,
