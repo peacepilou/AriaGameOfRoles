@@ -75,7 +75,6 @@ export interface Gographies {
   'Imrali Adasi'?: string;
   'Nord de l\'Osmanlie'?: string;
   'Delta du Kuthaya'?: string;
-  'Cité de Varna'?: CitDeVarna;
   'Le port automatique'?: string;
   'Le palais du prince'?: string;
   'Le cristal ardent'?: string;
@@ -87,11 +86,9 @@ export interface Gographies {
   'Île de l\'abandon'?: string;
   'Archipel du couchant'?: string;
   'La griffe'?: string;
-  'Contrées'?: Contre[];
   Ashanul?: string;
   Axum?: string;
   Espeyran?: string;
-  Irem?: Irem;
   Altabianca?: string;
   Altanegra?: string;
   Esperanza?: string;
@@ -99,6 +96,9 @@ export interface Gographies {
   Sungai?: string;
   Irra?: string;
   Ka?: string;
+  Irem?: Irem;
+  'Contrées'?: Contre[];
+  'Cité de Varna'?: CitDeVarna;
 }
 
 

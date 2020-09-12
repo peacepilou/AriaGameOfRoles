@@ -46,7 +46,6 @@ export class MapComponent implements OnChanges {
       this.eco = this.element.Economie;
     }
     if(this.element.Géographies){
-      console.log(this.element.Géographies);
       this.geo = this.element.Géographies;
     }
   }
