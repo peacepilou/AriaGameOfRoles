@@ -7,7 +7,7 @@ import { Component, OnChanges, Input } from '@angular/core';
 })
 export class PortsComponent implements OnChanges {
 
-  @Input() ports;
+  @Input() ports: string;
 
   constructor() { }
 
