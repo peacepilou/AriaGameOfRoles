@@ -29,6 +29,10 @@ import { ProverbesComponent } from './pages/maps/map/proverbes/proverbes.compone
 import { ContesComponent } from './pages/maps/map/contes/contes.component';
 import { EnigmesComponent } from './pages/maps/map/enigmes/enigmes.component';
 import { MapComponent } from './pages/maps/map/map.component';
+import { CulteComponent } from './pages/maps/map/culture/culte/culte.component';
+import { CalendrierComponent } from './pages/maps/map/culture/calendrier/calendrier.component';
+import { JourComponent } from './pages/maps/map/culture/calendrier/jour/jour.component';
+import { MonnaieComponent } from './pages/maps/map/economie/monnaie/monnaie.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +63,10 @@ import { MapComponent } from './pages/maps/map/map.component';
     ContesComponent,
     EnigmesComponent,
     MapComponent,
+    CulteComponent,
+    CalendrierComponent,
+    JourComponent,
+    MonnaieComponent,
   ],
   imports: [
     BrowserModule,
