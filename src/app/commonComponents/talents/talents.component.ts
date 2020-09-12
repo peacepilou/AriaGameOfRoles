@@ -29,7 +29,6 @@ export class TalentsComponent implements OnChanges {
         }
       }
     }
-    console.log(this.m)
   }
 
 }
