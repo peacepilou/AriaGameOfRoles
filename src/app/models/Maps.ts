@@ -29,7 +29,6 @@ export interface lieu {
   Ports?: string;
   citation?: string;
 
-  'Géographie'?: Gographies[];
   'Géographies'?: Gographies[];
   'géographie'?: Gographie;
 
@@ -37,10 +36,8 @@ export interface lieu {
   'énigme2'?: string;
   'énigme3'?: string;
 
-  Politique?: Politique;
   Politiques?: Politique[];
 
-  Culture?: Culture;
   Cultures?: Culture[];
 
   Proverbes?: Proverbes;
@@ -134,7 +131,7 @@ export interface Immigration {
   'règle5': string;
 }
 
-export interface Lore {
+export interface  Lore {
   lore1: string;
 }
 
@@ -157,13 +154,6 @@ export interface Proverbes {
   proverbe12: string;
 }
 
-export interface SystmeMontaire2 {
-  description1: string;
-  'pièce1': string;
-  'pièce2': string;
-  'pièce3': string;
-  description2: string;
-}
 
 export interface Irem {
   description: string;
@@ -297,15 +287,16 @@ export interface Economie {
   Exportations?: string;
   'pièce1'?: string;
   'pièce2'?: string;
-  'Sys monétaire'?: SystmeMontaire2[];
   'Système monétaire'?: SystmeMontaire[];
 }
 
 export interface SystmeMontaire {
-  description: string;
-  'pièce1': string;
-  'pièce2': string;
-  'pièce3': string;
+  description?: string;
+  'pièce1'?: string;
+  'pièce2'?: string;
+  'pièce3'?: string;
+  description1?: string;
+  description2?: string;
 }
 
 export interface Contre {
