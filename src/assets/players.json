@@ -5,24 +5,25 @@
               "global": {
                 "nom": "Atlan Grethen de Quirk",
                 "surnoms": {
-                  "surnom1": "Alfredo de la Puerta",
-                  "surnom2": "Latan Quirken de la Porte"
+                  "surnom1": " Alfredo de la Puerta,",
+                  "surnom2": " Latan Quirken de la Porte"
                 },
-                "joueur": "Deriv",
+                "joueur": "le haut en couleurs Deriv",
                 "classe": "Voleur",
                 "origine": "Aria",
-                "espece": "Humain",
-                "age": 26,
+                "espece": "humaine",
+                "age": "26 ans",
+                "joueurIrl": "https://twitter.com/MrDeriv",
                 "caracteristiques": {
                   "PV": 8,
                   "Force": 12,
                   "Dextérite": 11,
                   "Endurance": 13,
                   "Charisme": 13,
-                  "Combat rapproché": 65,
-                  "Combat à distance": 50,
-                  "Compétence sociale": 75,
-                  "Dommages": "1D6 +2",
+                  "Corps à corps": 65,
+                  "Distance": 50,
+                  "Social": 75,
+                  "Dégâts": "1D6 +2",
                   "Armure": 1
                 }
               }
@@ -156,24 +157,25 @@
               "global": {
                 "nom": "Clodomir de Cuivrechamps",
                 "surnoms": {
-                  "surnom1": "Clodowood",
+                  "surnom1": "Clodowood,",
                   "surnom2": "Clodométal"
                 },
-                "joueur": "Daz",
-                "classe": "Magicien de la nuit 2",
+                "joueur": "l'imprévisible Daz",
+                "classe": "Magicien de la nuit",
                 "origine": "Malbouzon",
-                "espece": "Humain",
-                "age": "inconnu",
+                "espece": "humaine",
+                "age": "? ans",
+                "joueurIrl": "https://twitter.com/dazjdm",
                 "caracteristiques": {
                   "PV": 8,
                   "Force": 8,
                   "Dextérite": 4,
                   "Endurance": 6,
                   "Charisme": 13,
-                  "Combat rapproché": 35,
-                  "Combat à distance": 30,
-                  "Compétence sociale": 60,
-                  "Dommages": "1D2",
+                  "Corps à corps": 35,
+                  "Distance": 30,
+                  "Social": 60,
+                  "Dégâts": "1D2",
                   "Armure": ""
                 }
               }
@@ -385,21 +387,22 @@
                 "surnoms": {
                   "surnom1": "Kaitrax"
                 },
-                "joueur": "Lydia",
+                "joueur": " la douce Lydia",
                 "classe": "Gladiatrice",
                 "origine": "Cité d'Ashanul (sultanat d'Aqabah)",
-                "espece": "Humain",
-                "age": "inconnu",
+                "espece": "humaine",
+                "age": "? ans",
+                "joueurIrl": "https://twitter.com/lydia__am",
                 "caracteristiques": {
                   "PV": 15,
                   "Force": 16,
                   "Dextérite": 15,
                   "Endurance": 13,
                   "Charisme": 7,
-                  "Combat rapproché": 75,
-                  "Combat à distance": 75,
-                  "Compétence sociale": 30,
-                  "Dommages": "2 x 1D8",
+                  "Corps à corps": 75,
+                  "Distance": 75,
+                  "Social": 30,
+                  "Dégâts": "2 x 1D8",
                   "Armure": ""
                 }
               }
@@ -594,21 +597,22 @@
                 "surnoms": {
                   "surnom1": "Nikoletta"
                 },
-                "joueur": "Lam",
+                "joueur": "l'hédoniste Lam",
                 "classe": "Alchimiste",
                 "origine": "Kniga",
-                "espece": "Humain",
-                "age": "inconnu",
+                "espece": "humaine",
+                "age": "? ans",
+                "joueurIrl": "https://twitter.com/LamHua",
                 "caracteristiques": {
                   "PV": 8,
                   "Force": 9,
                   "Dextérite": 15,
                   "Endurance": 8,
                   "Charisme": 11,
-                  "Combat rapproché": 30,
-                  "Combat à distance": 67,
-                  "Compétence sociale": 60,
-                  "Dommages": 1,
+                  "Corps à corps": 30,
+                  "Distance": 67,
+                  "Social": 60,
+                  "Dégâts": 1,
                   "Armure": 2
                 }
               }

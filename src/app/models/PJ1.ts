@@ -144,6 +144,7 @@ export interface Global {
   espece: string;
   age: number;
   caracteristiques: Caracteristiques;
+  joueurIrl: string;
 }
 
 export interface Caracteristiques {

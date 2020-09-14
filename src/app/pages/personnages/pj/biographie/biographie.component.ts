@@ -7,16 +7,20 @@ import { Biographie } from 'src/app/models/PJ1';
   styleUrls: ['./biographie.component.scss']
 })
 export class BiographieComponent implements OnChanges {
-  @Input() biographie: Biographie
+  @Input() biographie: Biographie;
   b: string[] = [];
+  isTextToogle = false;
   constructor() { }
 
   ngOnChanges(changes: SimpleChanges): void {
     for (const key in this.biographie) {
       if (Object.prototype.hasOwnProperty.call(this.biographie, key)) {
         const element = this.biographie[key];
-        this.b.push(element)
+        this.b.push(element);
       }
     }
+  }
+  toogleText() {
+    this.isTextToogle = !this.isTextToogle;
   }
 }

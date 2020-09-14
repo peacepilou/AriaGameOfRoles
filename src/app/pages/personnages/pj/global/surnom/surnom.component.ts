@@ -15,7 +15,7 @@ export class SurnomComponent implements OnChanges {
     for (const key in this.surnoms) {
       if (Object.prototype.hasOwnProperty.call(this.surnoms, key)) {
         const element = this.surnoms[key];
-        this.s.push(element)
+        this.s.push(element);
       }
     }
   }

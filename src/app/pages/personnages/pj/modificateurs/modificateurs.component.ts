@@ -10,6 +10,7 @@ export class ModificateursComponent implements OnChanges {
   @Input() modificateurs: Modificateurs;
   m: string[] = [];
   n: string[] = [];
+  isTextToogle = false;
   constructor() { }
 
   ngOnChanges(changes: SimpleChanges): void {
@@ -29,7 +30,7 @@ export class ModificateursComponent implements OnChanges {
                   const f = e[c];
                   if (typeof f === 'object') {
                     for (const l in f) {
-                      this.m.push(f[l])
+                      this.m.push(f[l]);
                     }
                   }
                 }
@@ -39,5 +40,8 @@ export class ModificateursComponent implements OnChanges {
         }
       }
     }
+  }
+  toogleText() {
+    this.isTextToogle = !this.isTextToogle;
   }
 }

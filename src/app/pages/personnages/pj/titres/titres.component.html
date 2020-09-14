@@ -1,1 +1,8 @@
-<div *ngFor="let item of t">{{item}}</div>
+<div class="arrow-button-container">
+  <img src="/assets/down-right-arrow.png"/>
+  <h2 (click)="toogleText()">Titres</h2>
+</div>
+<div *ngIf="isTextToogle" class="text-container">
+  <p *ngFor="let item of t">{{item}}<br><br></p>
+</div>
+
