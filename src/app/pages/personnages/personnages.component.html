@@ -1,3 +1,34 @@
+<div class="title-container">
+  <div class="title">
+    <h1>La compagnie créance</h1><br>
+    <hr>
+    <p>Ils vous ont fait rêver durant deux ans et vous connaissez leurs punchlines sur le bout des doigts. Il vous arrive de confondre leurs pseudos et leurs noms RP.</p><br>
+    <p>Découvrez ou redécouvrez chacun des quatre pétillants protagonistes de l'aventure : entre caractéristiques, hauts faits et déboires, ils brillent ici par leurs expériences.</p><br>
+    <hr>
+    <p>Si on devait les décrire en 3 mots ?</p>
+    <div class="keys-container">
+      <div>
+        <img src="/assets/icon-twirling.png"/>
+         <p>Virevoltants</p>
+      </div>
+      <div>
+        <img src="/assets/icon-diamond.png"/>
+       <p>Uniques</p>
+      </div>
+      <div>
+        <img src="/assets/icon-money.png"/>
+       <p>Pas chers</p>
+      </div>
+     </div>
+  </div>
+    <img src="/assets/compagnie-creance.png"/>
+</div>
+<div class="cards-pj-container" *ngIf="pjs">
+    <app-card-pj text="Atlan"    position="-20"></app-card-pj>
+    <app-card-pj text="Clodomir" position="0"></app-card-pj>
+    <app-card-pj text="Niklas"   position="-20"></app-card-pj>
+    <app-card-pj text="Keitra"   position="0"></app-card-pj>
+</div>
 <div *ngIf="pjs">
   <div *ngFor="let pj of pjs, index as i">
     <app-pj [pj]= pjs[i]></app-pj>

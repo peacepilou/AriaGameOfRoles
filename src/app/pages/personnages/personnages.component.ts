@@ -23,10 +23,13 @@ export class PersonnagesComponent implements OnInit {
     this.service.getAll().subscribe(data => {
       this.playersJson = data,
       this.personnages = this.playersJson.personnages;
-      this.pjs = this.personnages[0]["personnages joueurs"];
-      this.pj = this.personnages[0]["personnages joueurs"][0]["pj"];
-      this.pnjs = this.personnages[1]["personnages non-joueurs"];
-      this.pnj = this.personnages[1]["personnages non-joueurs"][0]["pnj"];
+      this.pjs = this.personnages[0]['personnages joueurs'];
+
+      this.pj = this.personnages[0]['personnages joueurs'][0].pj;
+      console.log(this.pjs);
+
+      this.pnjs = this.personnages[1]['personnages non-joueurs'];
+      this.pnj = this.personnages[1]['personnages non-joueurs'][0].pnj;
     });
   }
 }

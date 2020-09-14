@@ -17,6 +17,8 @@ import { RencontreComponent } from './pages/personnages/pnj/rencontre/rencontre.
 import { PersonnagesComponent } from './pages/personnages/personnages.component';
 import { SurnomComponent } from './pages/personnages/pj/global/surnom/surnom.component';
 import { CaracteristiquesComponent } from './pages/personnages/pj/global/caracteristiques/caracteristiques.component';
+import { CardPjComponent } from './pages/personnages/pj/card-pj/card-pj.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -35,11 +37,13 @@ import { CaracteristiquesComponent } from './pages/personnages/pj/global/caracte
     PersonnagesComponent,
     SurnomComponent,
     CaracteristiquesComponent,
+    CardPjComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

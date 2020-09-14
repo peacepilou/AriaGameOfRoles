@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  color: white;
+  background-image: url("./assets/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Lato', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Quicksand&family=Raleway:ital@0;1&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --secondary-color: #b554a9;
+}
