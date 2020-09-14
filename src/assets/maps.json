@@ -272,7 +272,8 @@
           "Dieu dragon": "dieu du savoir magique, ses prêtres, des Amasyens, peuvent initier au rite secret du sit-shamsti qui porte chance pour ceux qui parcourent le Sombre Pays"
         }
       }],
-      "lore": "Amasya est une ville et une province de la Turquie"
+      "lore":{
+        "lore1": "Amasya est une ville et une province de la Turquie"}
     }],
     "Kohest": [{
       "description": {
