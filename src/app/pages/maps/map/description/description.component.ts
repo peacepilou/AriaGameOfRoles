@@ -6,7 +6,8 @@ import { Component, OnChanges, Input } from '@angular/core';
   styleUrls: ['./description.component.scss']
 })
 export class DescriptionComponent implements OnChanges {
-  @Input() description;
+  @Input() description: string[] = [];
+
 
   constructor() { }
 

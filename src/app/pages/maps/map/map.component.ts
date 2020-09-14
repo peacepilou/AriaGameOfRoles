@@ -8,7 +8,7 @@ import { lieu, Politique, Culture, Proverbes, ContesEtLgendes, Economie, Gograph
 })
 export class MapComponent implements OnChanges {
   @Input() element: lieu;
-  description: string;
+  description: string[] = [];
   ports: string;
   lore: string;
   politiques: Politique[][] = [];
@@ -21,8 +21,15 @@ export class MapComponent implements OnChanges {
   constructor() { }
 
   ngOnChanges(): void {
-    if(typeof this.element.description === "string"){
-    this.description = this.element.description;
+    if(this.element.description){
+    this.description.push(this.element.description);
+    }
+    if(this.element.descriptn){
+      for (const key in this.element.descriptn) {
+        if (Object.prototype.hasOwnProperty.call(this.element.descriptn, key)) {
+          this.description.push(this.element.descriptn[key]);
+        }
+      }
     }
     if(typeof this.element.Ports === "string"){
       this.ports = this.element.Ports;

@@ -11,7 +11,7 @@ export class LoreComponent implements OnChanges {
 
   ngOnChanges(): void {
     if(this.lore){
-      console.log(this.lore);
+      // console.log(this.lore);
     }
   }
 }
