@@ -1,3 +1,7 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
 body {
   color: white;
   background-image: url("./assets/background.jpg");
@@ -6,7 +10,7 @@ body {
   background-position: center;
   font-family: 'Lato', sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Quicksand&family=Raleway:ital@0;1&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -18,30 +22,45 @@ body {
 .arrow-button-container {
   display: flex;
   align-items: center;
-  width: 50%;
   margin: auto;
   img {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     margin-top: -80px;
     margin-right: 20px;
   }
   h2 {
-    font-size: 2.5rem;
-    letter-spacing: 3px;
-    margin-bottom: 50px;
+    font-size: 1.8rem;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
     &:hover {
       cursor: pointer;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+      margin-bottom: -5px;
+      transition: all 0.2s ease-in-out;
+    }
+    span {
+      font-size: 1rem;
+      font-family: 'Lato', sans-serif;
     }
   }
 }
 .text-container {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
   padding: 30px 30px 0px 30px;
-  width: 45%;
+  margin-bottom: 50px;
+  width: 100%;
   font-size: 1.5rem;
   text-align: justify;
   background-color: #1514142b;
+}
+hr {
+  width: 75px;
+  margin: 30px 0;
+  border: 1px solid var(--secondary-color);
 }

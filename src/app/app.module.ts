@@ -20,6 +20,8 @@ import { CaracteristiquesComponent } from './pages/personnages/pj/global/caracte
 import { CardPjComponent } from './pages/personnages/pj/card-pj/card-pj.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import {ScrollPanelModule} from 'primeng/scrollpanel';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,7 +45,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ScrollPanelModule
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
