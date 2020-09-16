@@ -16,6 +16,7 @@ body {
   padding: 0;
 }
 :root {
+  --primary-color: #1514142B;
   --secondary-color: #b554a9;
 }
 // style common to following components : biographie, titres, modificateurs, compétences, talents, lore.
@@ -57,7 +58,7 @@ body {
   width: 100%;
   font-size: 1.5rem;
   text-align: justify;
-  background-color: #1514142B;;
+  background-color: var(--primary-color);
 }
 hr {
   width: 75px;

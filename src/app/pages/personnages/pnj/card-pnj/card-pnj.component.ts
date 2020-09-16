@@ -1,10 +1,10 @@
-import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
-  selector: 'app-card-pj',
-  templateUrl: './card-pj.component.html',
-  styleUrls: ['./card-pj.component.scss'],
+  selector: 'app-card-pnj',
+  templateUrl: './card-pnj.component.html',
+  styleUrls: ['./card-pnj.component.scss'],
   animations: [
     trigger(
       'inOutAnimation',
@@ -28,21 +28,17 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
       ]
     )
   ]
-
 })
-export class CardPjComponent implements OnChanges {
+export class CardPnjComponent implements OnInit {
 
   @Input() text = '';
   @Input() url = '';
   @Input() position = '';
   isCardHover = false;
 
-  constructor() {
-  }
+  constructor() { }
 
-  ngOnChanges(changes: SimpleChanges): void {
-
-
+  ngOnInit(): void {
   }
 
 }

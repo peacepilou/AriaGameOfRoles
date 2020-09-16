@@ -10,6 +10,7 @@ import { Surnoms } from 'src/app/models/PJ1';
 export class PnjComponent implements OnChanges {
 
   @Input() pnj: PersonnagesNonjoueur[];
+  @Input() url = '';
   nom: string;
   biographie: string;
   surnoms: Surnoms;
@@ -17,13 +18,21 @@ export class PnjComponent implements OnChanges {
   constructor() { }
 
   ngOnChanges(): void {
-    this.nom = this.pnj["pnj"][0]["nom"]
-    this.biographie = this.pnj["pnj"][0]["biographie"]
-    if (this.pnj["pnj"][0]["surnoms"] !== undefined) {
-      this.surnoms = this.pnj["pnj"][0]["surnoms"]
+    console.log(this.url);
+
+    // tslint:disable-next-line: no-string-literal
+    this.nom = this.pnj['pnj'][0]['nom'];
+    // tslint:disable-next-line: no-string-literal
+    this.biographie = this.pnj['pnj'][0]['biographie'];
+    // tslint:disable-next-line: no-string-literal
+    if (this.pnj['pnj'][0]['surnoms'] !== undefined) {
+      // tslint:disable-next-line: no-string-literal
+      this.surnoms = this.pnj['pnj'][0]['surnoms'];
     }
-    if (this.pnj["pnj"][0]["rencontres"] !== undefined) {
-      this.rencontres = this.pnj["pnj"][0]["rencontres"]
+    // tslint:disable-next-line: no-string-literal
+    if (this.pnj['pnj'][0]['rencontres'] !== undefined) {
+      // tslint:disable-next-line: no-string-literal
+      this.rencontres = this.pnj['pnj'][0]['rencontres'];
     }
   }
 

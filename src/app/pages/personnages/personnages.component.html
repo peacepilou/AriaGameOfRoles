@@ -24,15 +24,25 @@
   </div>
     <img src="/assets/compagnie-creance.png"/>
 </div>
-<div class="cards-pj-container" *ngIf="pjs">
-    <app-card-pj text="Atlan"    position="-20"></app-card-pj>
-    <app-card-pj text="Clodomir" position="0"></app-card-pj>
-    <app-card-pj text="Niklas"   position="-20"></app-card-pj>
-    <app-card-pj text="Keitra"   position="0"></app-card-pj>
+<!-- <div class="cards-pj-container" *ngIf="pjs">
+    <app-card-pj text="Atlan" url="/assets/compagnie-creance.png" position="-20"></app-card-pj>
+    <app-card-pj text="Clodomir" url="/assets/compagnie-creance.png" position="0"></app-card-pj>
+    <app-card-pj text="Niklas" url="/assets/compagnie-creance.png" position="-20"></app-card-pj>
+    <app-card-pj text="Keitra" url="/assets/compagnie-creance.png"   position="0"></app-card-pj>
+</div> -->
+<div class="cards-pj-container">
+  <div *ngFor="let text of pjNameList, index as i">
+    <app-card-pj [text]=text [url]=pjImageList[i] [position]=pjPositionList[i]></app-card-pj>
+  </div>
 </div>
 <div *ngIf="pjs">
   <div *ngFor="let pj of pjs, index as i">
     <app-pj [pj] = pjs[i]></app-pj>
+  </div>
+</div>
+<div class="cards-pnj-container">
+  <div *ngFor="let text of pnjNameList, index as i">
+    <app-card-pnj [text]=text [url]=pnjImageList[i] [position]=pnjPositionList[i] ></app-card-pnj>
   </div>
 </div>
 <div *ngIf="pnjs">

@@ -36,7 +36,7 @@ import { CulteComponent } from './pages/maps/map/culture/culte/culte.component';
 import { CalendrierComponent } from './pages/maps/map/culture/calendrier/calendrier.component';
 import { JourComponent } from './pages/maps/map/culture/calendrier/jour/jour.component';
 import { MonnaieComponent } from './pages/maps/map/economie/monnaie/monnaie.component';
-
+import { CardPnjComponent } from './pages/personnages/pnj/card-pnj/card-pnj.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -70,6 +70,7 @@ import { MonnaieComponent } from './pages/maps/map/economie/monnaie/monnaie.comp
     CalendrierComponent,
     JourComponent,
     MonnaieComponent,
+    CardPnjComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,15 +1,41 @@
 import { Component, SimpleChanges, OnChanges, Input } from '@angular/core';
 import { RepertoireDePotion } from 'src/app/models/PJ4';
+import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
   selector: 'app-repertoire-potion',
   templateUrl: './repertoire-potion.component.html',
-  styleUrls: ['./repertoire-potion.component.scss']
+  styleUrls: ['./repertoire-potion.component.scss'],
+  animations: [
+    trigger(
+      'inOutAnimation',
+      [
+        transition(
+          ':enter',
+          [
+            style({opacity: 0}),
+            animate('0.2s ease-out',
+                    style({opacity: 1}))
+          ]
+        ),
+        transition(
+          ':leave',
+          [
+            style({opacity: 1}),
+            animate('0.2s ease-in',
+                    style({opacity: 0}))
+          ]
+        )
+      ]
+    )
+  ]
 })
 export class RepertoirePotionComponent implements OnChanges {
 
   @Input() repertoire: RepertoireDePotion;
   p = [];
+  isTextToogle = false;
+  isTitleHover = false;
   constructor() { }
   ngOnChanges(changes: SimpleChanges): void {
     if (this.repertoire != undefined) {
@@ -34,5 +60,8 @@ export class RepertoirePotionComponent implements OnChanges {
         }
       }
     }
+  }
+  toogleText() {
+    this.isTextToogle = !this.isTextToogle;
   }
 }

@@ -16,8 +16,68 @@ export class PersonnagesComponent implements OnInit {
   pnjs: PersonnagesNonjoueur[];
   pj: PJ[];
   pnj: Pnj[];
-
-  constructor(private service: PlayerService) { }
+  // arrays for pj
+  pjNameList: string[];
+  pjPositionList: string[];
+  pjImageList: string[];
+  // arrays for pnj
+  pnjNameList: string[];
+  pnjPositionList: string[];
+  pnjImageList: string[];
+  constructor(private service: PlayerService)
+   {
+     this.pjImageList = [
+      'assets/compagnie-creance.png',
+      'assets/compagnie-creance.png',
+      'assets/compagnie-creance.png',
+      'assets/compagnie-creance.png'
+      ],
+    this.pjNameList = [
+      'Atlan',
+      'Clodomir',
+      'Niklas',
+      'Keitra'
+      ],
+    this.pjPositionList = [
+      '-20',
+      '0',
+      '-20',
+      '0'
+      ],
+      this.pnjImageList = [
+        'assets/compagnie-creance.png',
+        'assets/compagnie-creance.png',
+        'assets/compagnie-creance.png',
+        'assets/compagnie-creance.png',
+        'assets/compagnie-creance.png',
+        'assets/compagnie-creance.png',
+        'assets/compagnie-creance.png',
+        'assets/compagnie-creance.png',
+        'assets/compagnie-creance.png'
+        ],
+      this.pnjNameList = [
+        'Jotun',
+        'Julia',
+        'Musa Al Hadi',
+        'Kaheena d\'Ashanul',
+        'Amory Tréherne',
+        'Melanda',
+        'Olympia',
+        'Shazam',
+        'Vlamidir'
+        ],
+      this.pnjPositionList = [
+        '0',
+        '10',
+        '0',
+        '10',
+        '0',
+        '10',
+        '0',
+        '10',
+        '0'
+        ];
+    }
 
   ngOnInit(): void {
     this.service.getAll().subscribe(data => {
