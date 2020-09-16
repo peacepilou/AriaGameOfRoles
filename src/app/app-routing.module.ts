@@ -5,8 +5,8 @@ import { MapsComponent } from './pages/maps/maps.component';
 
 
 const routes: Routes = [
-  // {path: '', component: PersonnagesComponent}
-  {path: '', component: MapsComponent}
+  {path: '', component: PersonnagesComponent}
+  // {path: '', component: MapsComponent}
 ];
 
 @NgModule({
