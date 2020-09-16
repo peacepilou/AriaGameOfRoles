@@ -1,6 +1,10 @@
+.background-container {
+  background-color: #00000045;
+  padding: 20px 0 15px 0;
+}
 .global-container {
   display: flex;
-  margin: 100px 10% 50px;
+  margin: 50px 10% 50px;
   justify-content: center;
   display: flex;
   .presentation {
@@ -10,7 +14,7 @@
     margin: 0px 50px 0 0;
   }
   h2 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
   p {
     text-align: justify;

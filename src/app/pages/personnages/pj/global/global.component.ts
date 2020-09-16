@@ -13,7 +13,7 @@ export class GlobalComponent implements OnChanges {
   caracteristiques: Caracteristiques;
   surnoms: Surnoms;
 
-  constructor() { }
+  constructor() {  }
 
   ngOnChanges(changes: SimpleChanges): void {
     this.caracteristiques = this.global.caracteristiques;
