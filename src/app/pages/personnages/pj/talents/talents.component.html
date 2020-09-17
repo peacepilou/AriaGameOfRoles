@@ -1,7 +1,14 @@
-<div *ngFor="let item of m, index as i">
-  <div>
-    <img src="">
-    <p *ngIf="!(i % 2)">{{item}}</p>
+<div class="container">
+
+  <div *ngFor="let item of m, index as i">
+    <div class="focus" (mouseover)='mouseOver = true'>
+      <p>{{item}}</p>
+    </div>
+
+    <div *ngIf="mouseOver" class="hide">
+      <p>{{n[i]}}</p>
+    </div>
+
   </div>
-  <p *ngIf="i % 2">{{item}}</p>
+
 </div>

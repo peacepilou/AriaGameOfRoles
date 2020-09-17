@@ -8,7 +8,12 @@ import { Talents } from 'src/app/models/PJ1';
 })
 export class TalentsComponent implements OnChanges {
   @Input() talents: Talents;
+
   m: string[] = [];
+  n: string[] = [];
+
+  mouseOver = false;
+
   constructor() { }
 
   ngOnChanges(): void {
@@ -26,7 +31,7 @@ export class TalentsComponent implements OnChanges {
         }
       }
     }
-    console.log(this.m);
+    console.log(this.n);
   }
 
   effects(element) {
@@ -38,15 +43,20 @@ export class TalentsComponent implements OnChanges {
           for (const i in e) {
             if (Object.prototype.hasOwnProperty.call(e, i)) {
               const lmt = e[i];
-              s += lmt + '. ';
+              if (lmt !== "") {
+                s += lmt + '. ';
+              }
             }
           }
         }
         else {
-          this.m.push(e)
+          this.n.push(e)
         }
       }
     }
-    this.m.push(s)
+    this.n.push(s)
   }
+
+
+
 }
