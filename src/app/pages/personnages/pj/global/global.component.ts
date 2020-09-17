@@ -8,8 +8,8 @@ import { Global, Caracteristiques, Surnoms, Comptences, Talents } from 'src/app/
 })
 export class GlobalComponent implements OnChanges {
   @Input() global: Global;
-  @Input() competences;
-  @Input() talents;
+  competences;
+  talents;
   caracteristiques: Caracteristiques;
   surnoms: Surnoms;
 
@@ -18,6 +18,7 @@ export class GlobalComponent implements OnChanges {
   ngOnChanges(changes: SimpleChanges): void {
     this.caracteristiques = this.global.caracteristiques;
     this.surnoms = this.global.surnoms;
-
+    this.competences = this.global.compétences;
+    this.talents = this.global.talents;
   }
 }
