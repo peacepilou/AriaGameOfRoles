@@ -25,6 +25,57 @@
                   "Social": 75,
                   "Dégâts": "1D6 +2",
                   "Armure": 1
+                },
+                "compétences": {
+                  "Perception": 35,
+                  "Discrétion": 40,
+                  "Mentir, convaincre": 80,
+                  "Lire et écrire": 8,
+                  "Voler": 60
+                },
+                "talents": {
+                  "Déguisement": {
+                    "points": 50,
+                    "effets": [{
+                      "effet1": "Atlan peut se faire passer pour quelqu'un d'autre"
+                    }]
+                  },
+                  "Usages de la cour": {
+                    "points": 60,
+                    "effets": [{
+                      "effet1": "Aussi bien noble que mystérieux, Atlan connaît les tenants et aboutissants de la cour"
+                    }]
+                  },
+                  "Psychologie": {
+                    "points": 60,
+                    "effets": [{
+                      "effet1": "Atlan est un fin psychologue et comprend la nature humaine. Ce talent lui permet de déceler les points faibles dans l'esprit des gens afin de tourner les discussions à son avantage"
+                    }]
+                  },
+                  "Apaiser ou enflammer les cœurs": {
+                    "points": 80,
+                    "effets": [{
+                      "effet1": "Grâce à sa maîtrise de la prose, Atlan peut apaiser les cœurs, même dans une situation extrêmement agitée (ex: un bateau rempli d'esclaves qui brûle). Il peut aussi agiter les foules pour provoquer des émeutes"
+                    }]
+                  },
+                  "Prêtre du pain": {
+                    "effets": [{
+                      "effet1": "Suite à sa rencontre avec une prêtresse de la déesse Joyper, divinité du pain, Atlan a accepté de devenir un prêtre du pain et peut donc bénir le pain. Bien que l'effet réel de ce talent ne soit pas clair, il a permis à Atlan de s'introduire dans les cuisines de plusieurs établissements"
+                    }]
+                  },
+                  "Vengeance": {
+                    "points1": 75,
+                    "effets": [{
+                      "effet1": "Atlan gagne ce talent à Altabianca après avoir avancé dans sa quête personnelle. Il lui permet de relancer un jet de dés raté. Si la relance est réussie, il lance ensuite un D10 et ses points de compétence pour la compétence 'Vengeance' baissent de la valeur obtenue"
+                    }],
+                    "Modification des chances de réussite": "Episode 20 et 26 : Perte de 1%",
+                    "points2": 73
+                  },
+                  "Pouvoir de résurrection": {
+                    "effets": [{
+                      "effet1": "Pour avoir vu le rituel de l'Arbre-cœur aller jusqu'à son terme, Atlan a obtenu le pouvoir de résurrection. Il peut placer une marque sur une personne de son choix et s'il meurt, il reviendra à la vie dans le corps de la personne marquée"
+                    }]
+                  }
                 }
               }
             },
@@ -105,47 +156,6 @@
               }
             },
             {
-              "compétences": {
-                "Perception": 35,
-                "Discrétion": 40,
-                "Mentir, convaincre": 80,
-                "Lire et écrire": 8,
-                "Voler": 60
-              }
-            },
-            {
-              "talents": {
-                "Déguisement": {
-                  "points": "Points de compétences : 50",
-                  "effet": "Atlan peut se faire passer pour quelqu'un d'autre"
-                },
-                "Usages de la cour": {
-                  "points": "Points de compétences : 60",
-                  "effet": "aussi bien noble que mystérieux, Atlan connaît les tenants et aboutissants de la cour"
-                },
-                "Psychologie": {
-                  "points": "Points de compétences : 60",
-                  "effet": "Atlan est un fin psychologue et comprend la nature humaine. Ce talent lui permet de déceler les points faibles dans l'esprit des gens afin de tourner les discussions à son avantage"
-                },
-                "Apaiser ou enflammer les cœurs": {
-                  "points": "Points de compétences : 80",
-                  "effet": "Grâce à sa maîtrise de la prose, Atlan peut apaiser les cœurs, même dans une situation extrêmement agitée (ex: un bateau rempli d'esclaves qui brûle). Il peut aussi agiter les foules pour provoquer des émeutes"
-                },
-                "Prêtre du pain": {
-                  "effet": "Suite à sa rencontre avec une prêtresse de la déesse Joyper, divinité du pain, Atlan a accepté de devenir un prêtre du pain et peut donc bénir le pain. Bien que l'effet réel de ce talent ne soit pas clair, il a permis à Atlan de s'introduire dans les cuisines de plusieurs établissements"
-                },
-                "Vengeance": {
-                  "points1": "Points de compétence initiaux: 75",
-                  "effet": "Atlan gagne ce talent à Altabianca après avoir avancé dans sa quête personnelle. Il lui permet de relancer un jet de dés raté. Si la relance est réussie, il lance ensuite un D10 et ses points de compétence pour la compétence 'Vengeance' baissent de la valeur obtenue",
-                  "Modification des chances de réussite": "Episode 20 et 26 : Perte de 1%",
-                  "points2": "Points de compétence modifiés: 73"
-                },
-                "Pouvoir de résurrection": {
-                  "effet": "Pour avoir vu le rituel de l'Arbre-cœur aller jusqu'à son terme, Atlan a obtenu le pouvoir de résurrection. Il peut placer une marque sur une personne de son choix et s'il meurt, il reviendra à la vie dans le corps de la personne marquée"
-                }
-              }
-            },
-            {
               "lore": {
                 "lore1": "Atlan Grethen de Quirk est une référence au marathon de speedrun caritatif Awesome Games Done Quick"
               }
@@ -177,6 +187,95 @@
                   "Social": 60,
                   "Dégâts": "1D2",
                   "Armure": ""
+                },
+                "compétences": {
+                  "Perception": 75,
+                  "Discrétion": 60,
+                  "Mentir, convaincre": 60,
+                  "Lire et écrire": 70,
+                  "Artisanat": 50,
+                  "Intimider": 75
+                },
+                "talents": {
+                  "Apprentissage de la magie": {
+                    "points": 40
+                  },
+                  "Utilisation de la magie": {
+                    "points": 100,
+                    "cartes": {
+                      "effets": [{
+                          "effet1": "Clodomir possède un deck classique de 52 cartes (+joker). Pour utiliser un sort, il doit tirer une carte aléatoire de son deck. La nature de la magie qu'il peut alors utiliser dépend de la couleur (Cœurs, Carreaux, Piques, Trèfles) de la carte tirée et la puissance dépend de la valeur de la carte"
+                        },
+                        {
+                          "effet2": "Carreaux : Manipulation de la matière"
+                        },
+                        {
+                          "effet3": "Cœurs : Manipulation des cœurs"
+                        },
+                        {
+                          "effet4": "Piques : Invocation des esprits et des morts"
+                        },
+                        {
+                          "effet5": "Trèfles : Invocation des éléments"
+                        },
+                        {
+                          "effet6": "Lorsqu'une carte a été utilisée, elle est retirée du deck. Ainsi, Clodomir ne peut, dans son état actuel, lancer que 52 sorts (+joker) au total durant l'intégralité de l'aventure. Il est à noter cependant que Clodomir est un Apprenti sorcier au début de l'aventure, il est possible qu'il puisse gagner de nouvelles compétences au fil de l'aventure"
+                        },
+                        {
+                          "effet7": "Les valeurs de cartes peuvent être : 2 à 10, valet, dame, roi et as. L'as est la carte la plus haute. Le joker est également une carte possible et qui permet de lancer n'importe quel type de sort"
+                        }
+                      ]
+                    },
+                    "Magicien de la nuit": "Après avoir été promu au rang de Magicien de la nuit, Clodomir peut maintenant tirer deux cartes en début de session et les mettre de côté pendant la partie. S'il souhaite utiliser sa magie, il peut choisir une des cartes qu'il a tirées ou décider d'en tirer une nouvelle (qui devra être utilisée directement). S'il utilise une des cartes découvertes en avance, il tire une nouvelle carte pour remplacer dans sa main celle qui a été utilisée. À la fin de la session, les cartes non utilisées de sa main sont remises dans le paquet"
+                  },
+                  "Connaissances des secrets": {
+                    "points": 70
+                  },
+                  "Parler aux animaux": {
+                    "points": 20,
+                    "effets": [{
+                        "effet1": "Clodomir peut communiquer avec les animaux. Les communications sont limitées à de simples instructions"
+                      },
+                      {
+                        "effet2": "Clodomir apprend ce talent en lisant le Codex Animalis Intelligentia"
+                      }
+                    ]
+                  },
+                  "Maître des échecs": {
+                    "points": 99,
+                    "effets": [{
+                      "effets1": "Clodomir est un maître du jeu d'échec. Il découvre son talent à Aqabah, en jouant contre Marie Akumakur, joueuse d'échec rencontrée dans le palais du sultan d'Aqabah"
+                    }]
+                  },
+                  "Clodowood": {
+                    "effets": [{
+                        "effet1": "Après avoir transféré son âme dans un nouveau corps de bois, Niklas a équipé le corps de Clodowood de 3 fonctionnalités particulières"
+                      },
+                      {
+                        "effet2": "Un coffre de rangement dans le dos"
+                      },
+                      {
+                        "effet3": "Un « bilboquet du destin » pour questionner le destin (ou juste amuser les foules)"
+                      },
+                      {
+                        "effet4": "Une partie sur la cuisse permettant de faire du feu en la frottant"
+                      }
+                    ]
+                  },
+                  "Clodométal": {
+                    "effets": [{
+                        "effet1": "À Kniga, Clodowood se fait construire un corps en Rhodium. Il devient invulnérable, gagne en endurance et en force et devient plus intimidant, mais ne peut plus utiliser la magie à cause du Cristal de Kniga qui se trouve dans son corps et lui permet de se mouvoir. Il peut cependant désactiver ce cristal pour lancer des sorts, mais il ne pourra pas bouger tant que le cristal ne sera pas réactivé"
+                      },
+                      {
+                        "effet2": "De plus, aucune magie d'Aria ne peut être utilisée dans un rayon de 15m autour de lui"
+                      }
+                    ]
+                  },
+                  "Pouvoir de résurrection": {
+                    "effets": [{
+                      "effet1": "Pour avoir vu le rituel de l'Arbre-cœur aller jusqu'à son terme, Atlan a obtenu le pouvoir de résurrection. Il peut placer une marque sur une personne de son choix et s'il meurt, il reviendra à la vie dans le corps de la personne marquée"
+                    }]
+                  }
                 }
               }
             },
@@ -284,96 +383,6 @@
               }
             },
             {
-              "compétences": {
-                "Perception": 75,
-                "Discrétion": 60,
-                "Mentir, convaincre": 60,
-                "Lire et écrire": 70,
-                "Artisanat": 50,
-                "Intimider": 75
-              }
-            },
-            {
-              "talents": {
-                "Apprentissage de la magie": {
-                  "points": "Points de compétences : 40"
-                },
-                "Utilisation de la magie": {
-                  "points": "Points de compétences : 100",
-                  "cartes": {
-                    "effets": [{
-                        "effet1": "Clodomir possède un deck classique de 52 cartes (+joker). Pour utiliser un sort, il doit tirer une carte aléatoire de son deck. La nature de la magie qu'il peut alors utiliser dépend de la couleur (Cœurs, Carreaux, Piques, Trèfles) de la carte tirée et la puissance dépend de la valeur de la carte"
-                      },
-                      {
-                        "effet2": "Carreaux : Manipulation de la matière"
-                      },
-                      {
-                        "effet3": "Cœurs : Manipulation des cœurs"
-                      },
-                      {
-                        "effet4": "Piques : Invocation des esprits et des morts"
-                      },
-                      {
-                        "effet5": "Trèfles : Invocation des éléments"
-                      },
-                      {
-                        "effet6": "Lorsqu'une carte a été utilisée, elle est retirée du deck. Ainsi, Clodomir ne peut, dans son état actuel, lancer que 52 sorts (+joker) au total durant l'intégralité de l'aventure. Il est à noter cependant que Clodomir est un Apprenti sorcier au début de l'aventure, il est possible qu'il puisse gagner de nouvelles compétences au fil de l'aventure"
-                      },
-                      {
-                        "effet7": "Les valeurs de cartes peuvent être : 2 à 10, valet, dame, roi et as. L'as est la carte la plus haute. Le joker est également une carte possible et qui permet de lancer n'importe quel type de sort"
-                      }
-                    ]
-                  },
-                  "Magicien de la nuit": "Après avoir été promu au rang de Magicien de la nuit, Clodomir peut maintenant tirer deux cartes en début de session et les mettre de côté pendant la partie. S'il souhaite utiliser sa magie, il peut choisir une des cartes qu'il a tirées ou décider d'en tirer une nouvelle (qui devra être utilisée directement). S'il utilise une des cartes découvertes en avance, il tire une nouvelle carte pour remplacer dans sa main celle qui a été utilisée. À la fin de la session, les cartes non utilisées de sa main sont remises dans le paquet"
-
-                },
-                "Connaissances des secrets": {
-                  "points": "Points de compétences : 70"
-                },
-                "Parler aux animaux": {
-                  "points": "Points de compétences : 20",
-                  "effets": [{
-                      "effet1": "Clodomir peut communiquer avec les animaux. Les communications sont limitées à de simples instructions"
-                    },
-                    {
-                      "effet2": "Clodomir apprend ce talent en lisant le Codex Animalis Intelligentia"
-                    }
-                  ]
-                },
-                "Maître des échecs": {
-                  "points": "Points de compétences : 99",
-                  "effet": "Clodomir est un maître du jeu d'échec. Il découvre son talent à Aqabah, en jouant contre Marie Akumakur, joueuse d'échec rencontrée dans le palais du sultan d'Aqabah"
-                },
-                "Clodowood": {
-                  "effets": [{
-                      "effet1": "Après avoir transféré son âme dans un nouveau corps de bois, Niklas a équipé le corps de Clodowood de 3 fonctionnalités particulières"
-                    },
-                    {
-                      "effet2": "Un coffre de rangement dans le dos"
-                    },
-                    {
-                      "effet3": "Un « bilboquet du destin » pour questionner le destin (ou juste amuser les foules)"
-                    },
-                    {
-                      "effet4": "Une partie sur la cuisse permettant de faire du feu en la frottant"
-                    }
-                  ]
-                },
-                "Clodométal": {
-                  "effets": [{
-                      "effet1": "À Kniga, Clodowood se fait construire un corps en Rhodium. Il devient invulnérable, gagne en endurance et en force et devient plus intimidant, mais ne peut plus utiliser la magie à cause du Cristal de Kniga qui se trouve dans son corps et lui permet de se mouvoir. Il peut cependant désactiver ce cristal pour lancer des sorts, mais il ne pourra pas bouger tant que le cristal ne sera pas réactivé"
-                    },
-                    {
-                      "effet2": "De plus, aucune magie d'Aria ne peut être utilisée dans un rayon de 15m autour de lui"
-                    }
-                  ]
-                },
-                "Pouvoir de résurrection": {
-                  "effet": "Pour avoir vu le rituel de l'Arbre-cœur aller jusqu'à son terme, Atlan a obtenu le pouvoir de résurrection. Il peut placer une marque sur une personne de son choix et s'il meurt, il reviendra à la vie dans le corps de la personne marquée"
-                }
-              }
-            },
-            {
               "lore": {
                 "lore1": "Le nom du personnage est une référence au prestidigitateur américain David Copperfield (Cuivrechamps = Copperfield)"
               }
@@ -404,6 +413,51 @@
                   "Social": 30,
                   "Dégâts": "2 x 1D8",
                   "Armure": ""
+                },
+                "compétences": {
+                  "Perception": 40,
+                  "Discrétion": 20,
+                  "Mentir, convaincre": 80,
+                  "Lire et écrire": 60,
+                  "Réflexes": 70
+                },
+                "talents": {
+                  "Vengeance": {
+                    "points": 60
+                  },
+                  "Fatalité": {
+                    "points": 60,
+                    "effets": [{
+                      "effet1": "Une compétence de combat apprise pendant ses combats dans l'arène. Kaitra assène 2 coups de hache sur son ennemi et donne un coup final en lançant sa hache"
+                    }]
+                  },
+                  "Parler aux animaux": {
+                    "points": 55,
+                    "effets": [{
+                      "effet1": "Kaitra peut communiquer avec les animaux. Les communications sont limitées à de simples instructions"
+                    }]
+                  },
+                  "Apprentissage de la magie": {
+                    "points": 32,
+                    "effets": [{
+                      "effet1": "Une compétence gagnée lorsque Kaitra retrouve Kaheena D'Ashanul, son ancienne partenaire, sur l'île d'Esperanza. Elle permet d'encourager ses alliés et de leur donner un 2e tour gratuit avant l'action des adversaires. Kaitra ne peut pas utiliser cette compétence sur elle-même. Chaque utilisation de cette compétence réduit les chances de réussites suivantes de la compétence"
+                    }]
+                  },
+                  "Souffle du dragon": {
+                    "points": 68,
+                    "effets": [{
+                      "effet1": "Une compétence apprise de Batuo LePirf dans le ghetto d'Aqabah à Aria, l'héritière de l'art ancien d'Amasya. Kaitra peut mettre à terre une personne qui l'attaque"
+                    }]
+                  },
+                  "Pouvoir de résurrection": {
+                    "effets": [{
+                        "effet1": "Pour avoir vu le rituel de l'Arbre-cœur aller jusqu'à son terme, Kaitra a obtenu le pouvoir de résurrection. Elle peut placer une marque sur une personne de son choix et si elle meurt, elle reviendra à la vie dans le corps de la personne marquée"
+                      },
+                      {
+                        "effet2": "Dans l'épisode 32, elle pose la marque sur Morgueanne, une mage de l'Académie de magie"
+                      }
+                    ]
+                  }
                 }
               }
             },
@@ -534,55 +588,6 @@
               }
             },
             {
-              "compétences": {
-                "Perception": 40,
-                "Discrétion": 20,
-                "Mentir, convaincre": 80,
-                "Lire et écrire": 60,
-                "Réflexe": 70
-              }
-            },
-            {
-              "talents": {
-                "Vengeance": {
-                  "points": "Points de compétences : 60"
-                },
-                "Fatalité": {
-                  "points": "Points de compétences : 60",
-                  "effets": [{
-                    "effet1": "Une compétence de combat apprise pendant ses combats dans l'arène. Kaitra assène 2 coups de hache sur son ennemi et donne un coup final en lançant sa hache"
-                  }]
-                },
-                "Parler aux animaux": {
-                  "points": "Points de compétences : 55",
-                  "effets": [{
-                    "effet1": "Kaitra peut communiquer avec les animaux. Les communications sont limitées à de simples instructions"
-                  }]
-                },
-                "Apprentissage de la magie": {
-                  "points": "Points de compétences : 32",
-                  "effets": [{
-                    "effet1": "Une compétence gagnée lorsque Kaitra retrouve Kaheena D'Ashanul, son ancienne partenaire, sur l'île d'Esperanza. Elle permet d'encourager ses alliés et de leur donner un 2e tour gratuit avant l'action des adversaires. Kaitra ne peut pas utiliser cette compétence sur elle-même. Chaque utilisation de cette compétence réduit les chances de réussites suivantes de la compétence"
-                  }]
-                },
-                "Souffle du dragon": {
-                  "points": "Points de compétences : 68",
-                  "effets": [{
-                    "effet1": "Une compétence apprise de Batuo LePirf dans le ghetto d'Aqabah à Aria, l'héritière de l'art ancien d'Amasya. Kaitra peut mettre à terre une personne qui l'attaque"
-                  }]
-                },
-                "Pouvoir de résurrection": {
-                  "effets": [{
-                      "effet1": "Pour avoir vu le rituel de l'Arbre-cœur aller jusqu'à son terme, Kaitra a obtenu le pouvoir de résurrection. Elle peut placer une marque sur une personne de son choix et si elle meurt, elle reviendra à la vie dans le corps de la personne marquée"
-                    },
-                    {
-                      "effet2": "Dans l'épisode 32, elle pose la marque sur Morgueanne, une mage de l'Académie de magie"
-                    }
-                  ]
-                }
-              }
-            },
-            {
               "lore": {
                 "lore1": "Le nom du personnage est une référence à un terme utilisé dans la communauté de jeux de baston : le « dash-cancel » (D'Ashanul > dash annule)",
                 "lore2": "D'après FibreTigre, « Kaitra » est une référence à un bouclier"
@@ -614,6 +619,77 @@
                   "Social": 60,
                   "Dégâts": 1,
                   "Armure": 2
+                },
+                "compétences": {
+                  "Perception": 65,
+                  "Discrétion": 20,
+                  "Mentir, convaincre": 62,
+                  "Lire et écrire": 50,
+                  "Courir, sauter": 40,
+                  "Intimider": 50,
+                  "Voler": 40,
+                  "Soigner": 60,
+                  "Serrures et pièges": 65,
+                  "Réflexes": 50,
+                  "Artisanat": 70
+                },
+                "talents": {
+                  "Fabriquer une potion connue": {
+                    "points": 100,
+                    "effets": [{
+                      "effet1": "Niklas peut (re)fabriquer des potions qu'il a déjà concocté auparavant. Lorsqu'il prépare un type de potion pour la première fois, il a besoin des ingrédients nécessaires et les consomme. Cependant, par la suite, il n'a plus besoin des ingrédients et peut recréer une potion qu'il a déjà créée, il a simplement besoin d'une fiole vide"
+                    }]
+                  },
+                  "Déterminer une substance": {
+                    "points": 60,
+                    "effets": [{
+                      "effet1": "Niklas peut déterminer la nature d'une substance qu'il trouve. Il l'utilise la première fois pour identifier une herbe qui été utilisée par Baudouin dans le village d'Arance pour cuisiner un poulet. Il se trouve qu'il s'agissait d'un poison"
+                    }]
+                  },
+                  "Mélanger des trucs au hasard": {
+                    "points": 60
+                  },
+                  "Artisanat": {
+                    "points": 100,
+                    "effets": [{
+                      "effet1": "Niklas possède des talents en artisanat lui permettant de construire ou réparer des objets ou travaux de petite à moyenne envergure. Il utilisera notamment ce talent pour reconstruire le pont de Claveau et réparer la statue de la déesse Ina dans ce même village. Il l'utilise également pour créer un radeau de fortune, qu'il nomme Junior, lorsque le Malawi Ardent coule alors que les aventuriers se dirigeaient vers Esperanza"
+                    }]
+                  },
+                  "Magie de la mort": {
+                    "effets": [{
+                        "effet1": "Niklas apprend de la sorcière Ska le rituel de la magie de la mort. Le rituel consiste à prononcer une prière au dieu de la mort (l'araignée) et d'offrir un sacrifice humain ou animal dans la minute qui suit. Plus cette magie est utilisée, plus son utilisateur sera entouré d'une aura de la mort"
+                      },
+                      {
+                        "effet2": "Convoquer un fantôme"
+                      },
+                      {
+                        "effet3": "Demander un conseil aux esprits"
+                      },
+                      {
+                        "effet4": "Réveiller un cadavre pendant une nuit entière (en tant que zombie)"
+                      },
+                      {
+                        "effet5": "Envoyer des cauchemars"
+                      },
+                      {
+                        "effet6": "Maudire une personne"
+                      }
+                    ]
+                  },
+                  "Utilisation de la magie": {
+                    "effets": [{
+                      "effet1": "Niklas peut utiliser de la magie qu'il a récupéré de Kaitra dans le temple des magiciens de la nuit"
+                    }]
+                  },
+                  "Pouvoir de résurrection": {
+                    "effets": [{
+                        "effet1": "Pour avoir vu le rituel de l'Arbre-cœur aller jusqu'à son terme, Niklas a obtenu le pouvoir de résurrection. Il peut placer une marque sur une personne de son choix et s'il meurt, il reviendra à la vie dans le corps de la personne marquée"
+                      },
+                      {
+                        "effet2": "Dans l'épisode 32, elle pose la marque sur Jotun"
+                      }
+                    ]
+                  }
                 }
               }
             },
@@ -746,81 +822,6 @@
                   "effets": [{
                     "effet1": "+1 PV MAX"
                   }]
-                }
-              }
-            },
-            {
-              "compétences": {
-                "Perception": 65,
-                "Discrétion": 20,
-                "Mentir, convaincre": 62,
-                "Lire et écrire": 50,
-                "Courir, sauter": 40,
-                "Intimidation": 50,
-                "Voler": 40,
-                "Soigner": 60,
-                "Serrures et pièges": 65,
-                "Reflexes": 50,
-                "Artisanat": 70
-              }
-            },
-            {
-              "talents": {
-                "Fabriquer une potion connue": {
-                  "points": "Points de compétences : 100",
-                  "effets": [{
-                    "effet1": "Niklas peut (re)fabriquer des potions qu'il a déjà concocté auparavant. Lorsqu'il prépare un type de potion pour la première fois, il a besoin des ingrédients nécessaires et les consomme. Cependant, par la suite, il n'a plus besoin des ingrédients et peut recréer une potion qu'il a déjà créée, il a simplement besoin d'une fiole vide"
-                  }]
-                },
-                "Déterminer une substance": {
-                  "points": "Points de compétences : 60",
-                  "effets": [{
-                    "effet1": "Niklas peut déterminer la nature d'une substance qu'il trouve. Il l'utilise la première fois pour identifier une herbe qui été utilisée par Baudouin dans le village d'Arance pour cuisiner un poulet. Il se trouve qu'il s'agissait d'un poison"
-                  }]
-                },
-                "Mélanger des trucs au hasard": {
-                  "points": "Points de compétences : 60"
-                },
-                "Artisanat": {
-                  "points": "Points de compétences : 100",
-                  "effets": [{
-                    "effet1": "Niklas possède des talents en artisanat lui permettant de construire ou réparer des objets ou travaux de petite à moyenne envergure. Il utilisera notamment ce talent pour reconstruire le pont de Claveau et réparer la statue de la déesse Ina dans ce même village. Il l'utilise également pour créer un radeau de fortune, qu'il nomme Junior, lorsque le Malawi Ardent coule alors que les aventuriers se dirigeaient vers Esperanza"
-                  }]
-                },
-                "Magie de la mort": {
-                  "effets": [{
-                      "effet1": "Niklas apprend de la sorcière Ska le rituel de la magie de la mort. Le rituel consiste à prononcer une prière au dieu de la mort (l'araignée) et d'offrir un sacrifice humain ou animal dans la minute qui suit. Plus cette magie est utilisée, plus son utilisateur sera entouré d'une aura de la mort"
-                    },
-                    {
-                      "effet2": "Convoquer un fantôme"
-                    },
-                    {
-                      "effet3": "Demander un conseil aux esprits"
-                    },
-                    {
-                      "effet2": "Réveiller un cadavre pendant une nuit entière (en tant que zombie)"
-                    },
-                    {
-                      "effet2": "Envoyer des cauchemars"
-                    },
-                    {
-                      "effet2": "Maudire une personne"
-                    }
-                  ]
-                },
-                "Utilisation de la magie": {
-                  "effets": [{
-                    "effet1": "Niklas peut utiliser de la magie qu'il a récupéré de Kaitra dans le temple des magiciens de la nuit"
-                  }]
-                },
-                "Pouvoir de résurrection": {
-                  "effets": [{
-                      "effet1": "Pour avoir vu le rituel de l'Arbre-cœur aller jusqu'à son terme, Niklas a obtenu le pouvoir de résurrection. Il peut placer une marque sur une personne de son choix et s'il meurt, il reviendra à la vie dans le corps de la personne marquée"
-                    },
-                    {
-                      "effet2": "Dans l'épisode 32, elle pose la marque sur Jotun"
-                    }
-                  ]
                 }
               }
             },

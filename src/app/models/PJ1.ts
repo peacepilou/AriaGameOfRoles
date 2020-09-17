@@ -52,11 +52,20 @@ export interface Dguisement {
 }
 
 export interface Comptences {
-  Perception: number;
-  'Discrétion': number;
-  'Mentir, convaincre': number;
-  'Lire et écrire': number;
-  Voler: number;
+  Perception?: number;
+  'Discrétion'?: number;
+  'Mentir, convaincre'?: number;
+  'Lire et écrire'?: number;
+  Voler?: number;
+  Artisanat?: number;
+  Intimider?: number;
+  'Réflexe'?: number;
+  'Courir, sauter'?: number;
+  Intimidation?: number;
+  Soigner?: number;
+  'Serrures et pièges'?: number;
+  Reflexes?: number;
+  Réflexes?: number;
 }
 
 export interface Modificateurs {
@@ -144,6 +153,8 @@ export interface Global {
   espece: string;
   age: number;
   caracteristiques: Caracteristiques;
+  'compétences'?: Comptences;
+  talents?: Talents;
   joueurIrl: string;
 }
 

@@ -1,1 +1,6 @@
-<div *ngFor="let item of c">{{item}}</div>
+<div *ngFor="let item of c, index as i">
+  <div>
+    <img src="{{imageList[i]}}">
+    <p>{{item}}</p>
+  </div>
+</div>

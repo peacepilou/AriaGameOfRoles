@@ -19,8 +19,6 @@ export class PjComponent implements OnChanges {
   biographie: Biographie;
   titres: Titres;
   modificateurs: Modificateurs;
-  competences: Comptences;
-  talents: Talents;
   lore: Lore;
   repertoire: RepertoireDePotion;
 
@@ -38,11 +36,7 @@ export class PjComponent implements OnChanges {
     // tslint:disable-next-line: no-string-literal
     this.modificateurs = this.pj['pj'][3]['modificateurs'];
     // tslint:disable-next-line: no-string-literal
-    this.competences = this.pj['pj'][4]['compétences'];
-    // tslint:disable-next-line: no-string-literal
-    this.talents = this.pj['pj'][5]['talents'];
-    // tslint:disable-next-line: no-string-literal
-    this.lore = this.pj['pj'][6]['lore'];
+    this.lore = this.pj['pj'][4]['lore'];
     // tslint:disable-next-line: no-string-literal
     if (this.pj['pj'][7] != undefined) {
       // tslint:disable-next-line: no-string-literal

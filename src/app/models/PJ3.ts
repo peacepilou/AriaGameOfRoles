@@ -107,6 +107,8 @@ export interface Global {
   espece: string;
   age: string;
   caracteristiques: Caracteristiques;
+  'compétences'?: Comptences;
+  talents?: Talents;
 }
 
 export interface Caracteristiques {

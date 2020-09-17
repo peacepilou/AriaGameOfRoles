@@ -1,1 +1,7 @@
-<div *ngFor="let item of m">{{item}}</div>
+<div *ngFor="let item of m, index as i">
+  <div>
+    <img src="">
+    <p *ngIf="!(i % 2)">{{item}}</p>
+  </div>
+  <p *ngIf="i % 2">{{item}}</p>
+</div>
