@@ -66,9 +66,12 @@
                   "Vengeance": {
                     "points1": 75,
                     "effets": [{
-                      "effet1": "Atlan gagne ce talent à Altabianca après avoir avancé dans sa quête personnelle. Il lui permet de relancer un jet de dés raté. Si la relance est réussie, il lance ensuite un D10 et ses points de compétence pour la compétence 'Vengeance' baissent de la valeur obtenue"
-                    }],
-                    "Modification des chances de réussite": "Episode 20 et 26 : Perte de 1%",
+                        "effet1": "Atlan gagne ce talent à Altabianca après avoir avancé dans sa quête personnelle. Il lui permet de relancer un jet de dés raté. Si la relance est réussie, il lance ensuite un D10 et ses points de compétence pour la compétence 'Vengeance' baissent de la valeur obtenue"
+                      },
+                      {
+                        "Modification des chances de réussite": "Episode 20 et 26 : Perte de 1%"
+                      }
+                    ],
                     "points2": 73
                   },
                   "Pouvoir de résurrection": {
@@ -198,7 +201,10 @@
                 },
                 "talents": {
                   "Apprentissage de la magie": {
-                    "points": 40
+                    "points": 40,
+                    "effets": [{
+                      "effet1": ""
+                    }]
                   },
                   "Utilisation de la magie": {
                     "points": 100,
@@ -229,7 +235,10 @@
                     "Magicien de la nuit": "Après avoir été promu au rang de Magicien de la nuit, Clodomir peut maintenant tirer deux cartes en début de session et les mettre de côté pendant la partie. S'il souhaite utiliser sa magie, il peut choisir une des cartes qu'il a tirées ou décider d'en tirer une nouvelle (qui devra être utilisée directement). S'il utilise une des cartes découvertes en avance, il tire une nouvelle carte pour remplacer dans sa main celle qui a été utilisée. À la fin de la session, les cartes non utilisées de sa main sont remises dans le paquet"
                   },
                   "Connaissances des secrets": {
-                    "points": 70
+                    "points": 70,
+                    "effets": [{
+                      "effet1": ""
+                    }]
                   },
                   "Parler aux animaux": {
                     "points": 20,
@@ -423,7 +432,10 @@
                 },
                 "talents": {
                   "Vengeance": {
-                    "points": 60
+                    "points": 60,
+                    "effets": [{
+                      "effet1": ""
+                    }]
                   },
                   "Fatalité": {
                     "points": 60,
@@ -647,7 +659,10 @@
                     }]
                   },
                   "Mélanger des trucs au hasard": {
-                    "points": 60
+                    "points": 60,
+                    "effets": [{
+                      "effet1": ""
+                    }]
                   },
                   "Artisanat": {
                     "points": 100,
