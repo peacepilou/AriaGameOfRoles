@@ -37,7 +37,7 @@
 </div>
 <div *ngIf="pjs">
   <div *ngFor="let pj of pjs, index as i">
-    <app-pj [pj] = pjs[i]></app-pj>
+    <app-pj [pj]=pjs[i] [proverbs]=pjProverbList[i]></app-pj>
   </div>
 </div>
 <div class="cards-pnj-container">
@@ -47,6 +47,6 @@
 </div>
 <div *ngIf="pnjs">
   <div *ngFor="let pnj of pnjs, index as i">
-    <app-pnj [pnj]= pnjs[i]></app-pnj>
+    <app-pnj [pnj]=pnjs[i] [url]=pnjImageList[i]></app-pnj>
   </div>
 </div>

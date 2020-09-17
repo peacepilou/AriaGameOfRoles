@@ -13,6 +13,7 @@ import { RepertoireDePotion } from 'src/app/models/PJ4';
 export class PjComponent implements OnChanges {
 
   @Input() pj: PersonnagesJoueur[];
+  @Input() proverbs = '';
   global: Global;
   caracteristiques: Caracteristiques;
   surnoms: Surnoms;
@@ -23,6 +24,7 @@ export class PjComponent implements OnChanges {
   talents: Talents;
   lore: Lore;
   repertoire: RepertoireDePotion;
+
 
   constructor(private service: PlayerService) { }
 

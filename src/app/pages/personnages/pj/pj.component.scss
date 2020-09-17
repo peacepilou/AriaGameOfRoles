@@ -1,10 +1,24 @@
-div {
+.details-quote-container {
+  margin: 50px 15% 50px;
+  justify-content: center;
+  display: flex;
+}
+.details-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 50%;
-  margin: 0 auto;
+  width: 45%;
+}
+.quote-container  {
+  div {
+    width: 500px;
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: green;
+    transform: translateX(10%);
+  }
+
 }
 h2, p {
   margin: 0 0 0 -30px;

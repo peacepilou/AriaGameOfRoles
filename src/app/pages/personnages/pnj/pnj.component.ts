@@ -18,7 +18,6 @@ export class PnjComponent implements OnChanges {
   constructor() { }
 
   ngOnChanges(): void {
-    console.log(this.url);
 
     // tslint:disable-next-line: no-string-literal
     this.nom = this.pnj['pnj'][0]['nom'];

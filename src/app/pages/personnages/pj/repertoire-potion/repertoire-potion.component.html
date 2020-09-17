@@ -6,7 +6,7 @@
       (mouseleave)="isTitleHover=false">
       Potions
       <img [ngStyle]="{'transform': isTitleHover ? 'translateY(' + 5 + 'px)' : ''}" src="/assets/down-arrow.png"/>
-      <span [@inOutAnimation] *ngIf="isTitleHover"> (entre 10 doigts on peut mettre 9 potions)</span>
+      <span [@inOutAnimation] *ngIf="isTitleHover"> (pour les hommes de substances)</span>
     </h2>
   </div>
   <div [@inOutAnimation] *ngIf="isTextToogle" class="text-container">

@@ -17,6 +17,7 @@ export class PersonnagesComponent implements OnInit {
   pj: PJ[];
   pnj: Pnj[];
   // arrays for pj
+  pjProverbList: any[];
   pjNameList: string[];
   pjPositionList: string[];
   pjImageList: string[];
@@ -26,6 +27,12 @@ export class PersonnagesComponent implements OnInit {
   pnjImageList: string[];
   constructor(private service: PlayerService)
    {
+     this.pjProverbList = [
+      ['Hola mon brave !', 'J\'aimerais bénir vos miches', 'A partir de maintenant, c\'est pain pour tous, chaque jour. Et le Lundi, c\'est supplément confiture', 'Oh vous savez avocat... avant d\'être une profession c\'est une vocation !', ],
+      ['Jetez-le dans la rivière. Je répète, jetez-le dans la rivière...', 'Sinon une potion d\'Ingramus et c\'est réglé...', 'Vous n\'avez jamais connu telle substance. On appelle ça "le doigt"', 'J\'ai 99 à ma compétence, c\'est impossible que je rate'],
+      ['Oh génial, encore un concours ! Bon bah je m\'inscris hein...', 'Encore du loot ? Ca ne dérange personne que je le prenne j\'imagine ?', 'proverbe Keitra', 'proverbe Keitra'],
+      ['On aura peu joui, mais on aura bien ri', 'Je suis un homme de... susbtances', 'Y\'a pas moyen que cette fois-ci je ne loot rien. Ca fait 2 ans que je me trimballe en boubou-fraise', 'Pour sceller mon amitié avec ce chameau, j\'échange mon pierçing au téton avec le sien']
+     ],
      this.pjImageList = [
       'assets/compagnie-creance.png',
       'assets/compagnie-creance.png',

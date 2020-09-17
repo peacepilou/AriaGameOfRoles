@@ -1,12 +1,18 @@
 <app-global [global]="global"></app-global>
-<div>
-  <h2>Et sinon, en détail ?</h2>
-  <p>Un BigUp aux petites mains qui ont écrit le Wiki... </p>
-  <hr>
-  <app-biographie [biographie]="biographie"></app-biographie>
-  <app-titres [titres]="titres"></app-titres>
-  <app-modificateurs [modificateurs]="modificateurs"></app-modificateurs>
-  <app-lore [lore]="lore"></app-lore>
-  <app-repertoire-potion [repertoire]="repertoire"></app-repertoire-potion>
+<div class="details-quote-container">
+  <div class="details-container">
+    <h2>Et sinon, en détail ?</h2>
+    <p>Un BigUp aux petites mains qui ont écrit le Wiki... </p>
+    <hr>
+    <app-biographie [biographie]="biographie"></app-biographie>
+    <app-titres [titres]="titres"></app-titres>
+    <app-modificateurs [modificateurs]="modificateurs"></app-modificateurs>
+    <app-repertoire-potion [repertoire]="repertoire"></app-repertoire-potion>
+    <app-lore [lore]="lore"></app-lore>
+  </div>
+  <div class="quote-container">
+  <div *ngFor="let proverb of proverbs">
+    {{proverb}}
+  </div>
 </div>
 

@@ -3,9 +3,9 @@
   <h2 (click)="toogleText()"
     (mouseover)="isTitleHover=true"
     (mouseleave)="isTitleHover=false">
-    Modificateurs
+    Modifs'
     <img [ngStyle]="{'transform': isTitleHover ? 'translateY(' + 5 + 'px)' : ''}" src="/assets/down-arrow.png"/>
-    <span [@inOutAnimation] *ngIf="isTitleHover"> (car tout voyage est propice aux changements)</span>
+    <span [@inOutAnimation] *ngIf="isTitleHover"> (car s'accepter, c'est devenir)</span>
   </h2>
 </div>
 <div [@inOutAnimation] *ngIf="isTextToogle" class="text-container">
