@@ -24,7 +24,11 @@ export class PjComponent implements OnChanges {
   talents: Talents;
   lore: Lore;
   repertoire: RepertoireDePotion;
-
+  isBiographieToogle: boolean;
+  isTitleToogle: boolean;
+  isModifersToogle: boolean;
+  isRepositoryToogle: boolean;
+  isLoreToogle: boolean;
 
   constructor(private service: PlayerService) { }
 
@@ -50,5 +54,20 @@ export class PjComponent implements OnChanges {
       // tslint:disable-next-line: no-string-literal
       this.repertoire = this.pj['pj'][7]['Repertoire de potions'];
     }
+  }
+  receiveIsBiographieToogleFromChild(bolean) {
+    this.isBiographieToogle = bolean;
+  }
+  receiveIsTitleToogleFromChild(bolean) {
+    this.isTitleToogle = bolean;
+  }
+  receiveIsModifersToogleFromChild(bolean) {
+    this.isModifersToogle = bolean;
+  }
+  receiveIsRepositoryToogleFromChild(bolean) {
+    this.isRepositoryToogle = bolean;
+  }
+  receiveIsLoreToogleFromChild(bolean) {
+    this.isLoreToogle = bolean;
   }
 }

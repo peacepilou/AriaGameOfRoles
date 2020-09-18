@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, EventEmitter, Output } from '@angular/core';
 import { Lore } from 'src/app/models/PJ1';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
@@ -33,6 +33,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 export class LoreComponent implements OnChanges {
 
   @Input() lore: Lore;
+  @Output() isLoreToogleToParent: EventEmitter<boolean> = new EventEmitter();
   isTextToogle = false;
   isTitleHover =  false;
   l: string[] = [];
@@ -47,5 +48,8 @@ export class LoreComponent implements OnChanges {
   }
   toogleText() {
     this.isTextToogle = !this.isTextToogle;
+  }
+  sendLoreToogleToParent() {
+    this.isLoreToogleToParent.emit(this.isTextToogle);
   }
 }

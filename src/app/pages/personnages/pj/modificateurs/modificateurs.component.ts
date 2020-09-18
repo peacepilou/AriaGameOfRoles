@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, EventEmitter, Output } from '@angular/core';
 import { Modificateurs } from 'src/app/models/PJ1';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
@@ -32,6 +32,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 })
 export class ModificateursComponent implements OnChanges {
   @Input() modificateurs: Modificateurs;
+  @Output() isModifiersToogleToParent: EventEmitter<boolean> = new EventEmitter();
   m: string[] = [];
   n: string[] = [];
   isTextToogle = false;
@@ -68,5 +69,8 @@ export class ModificateursComponent implements OnChanges {
   }
   toogleText() {
     this.isTextToogle = !this.isTextToogle;
+  }
+  sendModifiersToogleToParent() {
+    this.isModifiersToogleToParent.emit(this.isTextToogle);
   }
 }

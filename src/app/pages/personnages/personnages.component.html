@@ -24,12 +24,6 @@
   </div>
     <img src="/assets/compagnie-creance.png"/>
 </div>
-<!-- <div class="cards-pj-container" *ngIf="pjs">
-    <app-card-pj text="Atlan" url="/assets/compagnie-creance.png" position="-20"></app-card-pj>
-    <app-card-pj text="Clodomir" url="/assets/compagnie-creance.png" position="0"></app-card-pj>
-    <app-card-pj text="Niklas" url="/assets/compagnie-creance.png" position="-20"></app-card-pj>
-    <app-card-pj text="Keitra" url="/assets/compagnie-creance.png"   position="0"></app-card-pj>
-</div> -->
 <div class="cards-pj-container">
   <div *ngFor="let text of pjNameList, index as i">
     <app-card-pj [text]=text [url]=pjImageList[i] [position]=pjPositionList[i]></app-card-pj>

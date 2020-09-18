@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, Output, EventEmitter } from '@angular/core';
 import { Titres } from 'src/app/models/PJ1';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
@@ -32,6 +32,8 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 })
 export class TitresComponent implements OnChanges {
   @Input() titres: Titres;
+  @Output() isTitleToogleToParent: EventEmitter<boolean> = new EventEmitter();
+  b: string[] = [];
   t: string[] = [];
   isTextToogle = false;
   isTitleHover = false;
@@ -46,5 +48,8 @@ export class TitresComponent implements OnChanges {
   }
   toogleText() {
     this.isTextToogle = !this.isTextToogle;
+  }
+  sendTitleToogleToParent() {
+    this.isTitleToogleToParent.emit(this.isTextToogle);
   }
 }

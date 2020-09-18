@@ -1,4 +1,4 @@
-import { Component, SimpleChanges, OnChanges, Input } from '@angular/core';
+import { Component, SimpleChanges, OnChanges, Input, EventEmitter, Output } from '@angular/core';
 import { RepertoireDePotion } from 'src/app/models/PJ4';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
@@ -33,6 +33,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 export class RepertoirePotionComponent implements OnChanges {
 
   @Input() repertoire: RepertoireDePotion;
+  @Output() isRepositoryToogleToParent: EventEmitter<boolean> = new EventEmitter();
   p = [];
   isTextToogle = false;
   isTitleHover = false;
@@ -63,5 +64,8 @@ export class RepertoirePotionComponent implements OnChanges {
   }
   toogleText() {
     this.isTextToogle = !this.isTextToogle;
+  }
+  sendRepositoryToogleToParent() {
+    this.isRepositoryToogleToParent.emit(this.isTextToogle);
   }
 }

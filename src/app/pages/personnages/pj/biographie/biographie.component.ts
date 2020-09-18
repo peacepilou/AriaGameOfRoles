@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, Output, EventEmitter } from '@angular/core';
 import { Biographie } from 'src/app/models/PJ1';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
@@ -14,7 +14,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
           ':enter',
           [
             style({opacity: 0}),
-            animate('0.1s ease-out',
+            animate('0.3s ease-out',
                     style({opacity: 1}))
           ]
         ),
@@ -32,6 +32,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 })
 export class BiographieComponent implements OnChanges {
   @Input() biographie: Biographie;
+  @Output() isBiographieToogleToParent: EventEmitter<boolean> = new EventEmitter();
   b: string[] = [];
   isTextToogle = false;
   isTitleHover = false;
@@ -47,5 +48,8 @@ export class BiographieComponent implements OnChanges {
   }
   toogleText() {
     this.isTextToogle = !this.isTextToogle;
+  }
+  sendBiographieToogleToParent() {
+    this.isBiographieToogleToParent.emit(this.isTextToogle);
   }
 }
