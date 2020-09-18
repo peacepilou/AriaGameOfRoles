@@ -8,9 +8,34 @@
         ce personnage provient d'une contrée susnommée {{global.origine}} et occupe une fonction de {{global.classe}} au sein de la compagnie créance.
         Il est interprété brillamment par <a href="{{global.joueurIrl}}">{{global.joueur}}.</a>
       </p>
-      <!-- <app-caracteristiques class="caracteristics" [caracteristiques]="caracteristiques"></app-caracteristiques> -->
-      <!-- <app-competences class="competences" [competences]="competences"></app-competences> -->
-      <app-talents class="talents"[talents]="talents"></app-talents>
+
+      <div class="buttons">
+        <div class="toggleelement">
+          <img class="toggleimg" src="/assets/globalButton/skills.svg" (click)="togglecaracteristics()">
+          <p>Caracteristiques</p>
+        </div>
+        <div class="toggleelement">
+          <img class="toggleimg" src="/assets/globalButton/master-of-arms.svg" (click)="togglecompetences()">
+          <p>Compétences</p>
+        </div>
+        <div class="toggleelement">
+          <img class="toggleimg" src="/assets/globalButton/juggler.svg" (click)="toggletalents()">
+          <p>Talents</p>
+        </div>
+      </div>
+
+
+      <div *ngIf="hidecaracteristics">
+        <app-caracteristiques class="caracteristics" [caracteristiques]="caracteristiques"></app-caracteristiques>
+      </div>
+
+      <div *ngIf="hidecompetences">
+        <app-competences class="competences" [competences]="competences"></app-competences>
+      </div>
+
+      <div *ngIf="hidetalents">
+        <app-talents class="talents"[talents]="talents"></app-talents>
+      </div>
     </div>
     <img src="/assets/compagnie-creance.png"/>
   </div>
