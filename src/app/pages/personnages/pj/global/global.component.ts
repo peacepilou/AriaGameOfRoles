@@ -13,6 +13,10 @@ export class GlobalComponent implements OnChanges {
   caracteristiques: Caracteristiques;
   surnoms: Surnoms;
 
+  hidecaracteristics = false;
+  hidecompetences = false;
+  hidetalents = false;
+
   constructor() {  }
 
   ngOnChanges(changes: SimpleChanges): void {
@@ -21,4 +25,24 @@ export class GlobalComponent implements OnChanges {
     this.competences = this.global.compétences;
     this.talents = this.global.talents;
   }
+
+
+  togglecaracteristics(){
+    this.hidecaracteristics = !this.hidecaracteristics
+    this.hidecompetences = false;
+    this.hidetalents = false;
+  }
+
+    togglecompetences(){
+    this.hidecompetences = !this.hidecompetences
+    this.hidecaracteristics = false;
+    this.hidetalents = false;
+  }
+
+    toggletalents(){
+    this.hidetalents = !this.hidetalents
+    this.hidecaracteristics = false;
+    this.hidecompetences = false;
+  }
+
 }

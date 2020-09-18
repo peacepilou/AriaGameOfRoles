@@ -1,14 +1,11 @@
-<div class="container">
+<div *ngFor="let item of m, index as i">
 
-  <div *ngFor="let item of m, index as i">
-    <div class="focus" (mouseover)='mouseOver = true'>
+  <div class="focus" (mouseover)='mouseOver = true'>
       <p>{{item}}</p>
-    </div>
-
-    <div *ngIf="mouseOver" class="hide">
-      <p>{{n[i]}}</p>
-    </div>
-
+  </div>
+  <div *ngIf="mouseOver" class="hide">
+    <p>{{n[i]}}</p>
   </div>
 
 </div>
+
