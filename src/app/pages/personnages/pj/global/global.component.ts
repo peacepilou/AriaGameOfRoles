@@ -1,10 +1,35 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
-import { Global, Caracteristiques, Surnoms, Comptences, Talents } from 'src/app/models/PJ1';
+import { Global, Caracteristiques, Surnoms } from 'src/app/models/PJ1';
+import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
   selector: 'app-global',
   templateUrl: './global.component.html',
-  styleUrls: ['./global.component.scss']
+  styleUrls: ['./global.component.scss'],
+  animations: [
+    trigger(
+      'inOutAnimation',
+      [
+        transition(
+          ':enter',
+          [
+            style({opacity: 0}),
+            animate('0.6s ease-out',
+                    style({opacity: 1}))
+          ]
+        ),
+        transition(
+          ':leave',
+          [
+            style({opacity: 1}),
+            animate('0.6s ease-in',
+                    style({opacity: 0}))
+          ]
+        )
+      ]
+    )
+  ]
+
 })
 export class GlobalComponent implements OnChanges {
   @Input() global: Global;

@@ -26,15 +26,15 @@
 
 
       <div *ngIf="hidecaracteristics">
-        <app-caracteristiques class="caracteristics" [caracteristiques]="caracteristiques"></app-caracteristiques>
+        <app-caracteristiques [@inOutAnimation] class="caracteristics" [caracteristiques]="caracteristiques"></app-caracteristiques>
       </div>
 
       <div *ngIf="hidecompetences">
-        <app-competences class="competences" [competences]="competences"></app-competences>
+        <app-competences [@inOutAnimation] class="competences" [competences]="competences"></app-competences>
       </div>
 
       <div *ngIf="hidetalents">
-        <app-talents class="talents"[talents]="talents"></app-talents>
+        <app-talents [@inOutAnimation] class="talents"[talents]="talents"></app-talents>
       </div>
     </div>
     <img src="/assets/compagnie-creance.png"/>

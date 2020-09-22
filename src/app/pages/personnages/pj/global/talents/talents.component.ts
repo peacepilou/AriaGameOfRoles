@@ -26,9 +26,6 @@ export class TalentsComponent implements OnChanges {
         if (element.effets) {
           this.effects(element)
         }
-        if (element.cartes) {
-          this.effects(element.cartes)
-        }
       }
     }
     console.log(this.n);

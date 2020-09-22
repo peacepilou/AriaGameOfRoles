@@ -57,11 +57,15 @@
 }
 
 .buttons{
+  transform: translateX(-20px);
   display: flex;
+  width: 100%;
   justify-content: space-around;
-  padding-right: 10%;
   margin: 50px 0 0px 0;
   text-align: center;
+  div:nth-of-type(3){
+    margin-left: 20px;
+  }
 }
 
 .toggleelement{
