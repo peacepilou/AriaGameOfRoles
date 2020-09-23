@@ -9,6 +9,7 @@
     <app-modificateurs [modificateurs]="modificateurs" (isModifiersToogleToParent)="receiveIsModifersToogleFromChild($event)"></app-modificateurs>
     <app-repertoire-potion [repertoire]="repertoire" (isRepositoryToogleToParent)="receiveIsRepositoryToogleFromChild($event)"></app-repertoire-potion>
     <app-lore [lore]="lore" (isLoreToogleToParent)="receiveIsLoreToogleFromChild($event)"></app-lore>
+    <app-magie *ngIf="isMagician()" [magie]="magie"></app-magie>
   </div>
     <div [ngStyle]="{'transform': isBiographieToogle || isTitleToogle  || isModifersToogle || isRepositoryToogle || isLoreToogle? 'translateX(' + 75 + '%)' : ''}"
         class="quote-container">
@@ -16,5 +17,15 @@
          <p>{{proverb}}</p>
       </blockquote>
     </div>
+<!-- =======
+<div>
+  <h2>Et sinon, en détail ?</h2>
+  <p>Un BigUp aux petites mains qui ont écrit le Wiki... </p>
+  <hr>
+  <app-biographie [biographie]="biographie"></app-biographie>
+  <app-titres [titres]="titres"></app-titres>
+  <app-modificateurs [modificateurs]="modificateurs"></app-modificateurs>
+  <app-lore [lore]="lore"></app-lore>
+  <app-repertoire-potion [repertoire]="repertoire"></app-repertoire-potion> -->
 </div>
 

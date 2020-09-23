@@ -10,6 +10,7 @@ import { TitresComponent } from './pages/personnages/pj/titres/titres.component'
 import { ModificateursComponent } from './pages/personnages/pj/modificateurs/modificateurs.component';
 import { CompetencesComponent } from './pages/personnages/pj/competences/competences.component';
 import { TalentsComponent } from './pages/personnages/pj/talents/talents.component';
+import { MagieComponent } from './pages/personnages/pj/magie/magie.component';
 import { LoreComponent } from './pages/personnages/pj/lore/lore.component';
 import { RepertoirePotionComponent } from './pages/personnages/pj/repertoire-potion/repertoire-potion.component';
 import { PnjComponent } from './pages/personnages/pnj/pnj.component';
@@ -47,6 +48,7 @@ import { CardPnjComponent } from './pages/personnages/pnj/card-pnj/card-pnj.comp
     ModificateursComponent,
     CompetencesComponent,
     TalentsComponent,
+    MagieComponent,
     LoreComponent,
     RepertoirePotionComponent,
     PnjComponent,

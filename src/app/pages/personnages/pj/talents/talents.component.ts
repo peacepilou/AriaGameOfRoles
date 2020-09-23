@@ -20,18 +20,14 @@ export class TalentsComponent implements OnChanges {
     for (const key in this.talents) {
       if (Object.prototype.hasOwnProperty.call(this.talents, key)) {
         const element = this.talents[key];
-        if (element.points !== undefined) {
+        if (element.points !== undefined && element != this.talents["Utilisation de la magie"]) {
           this.m.push(key + ": " + element.points)
-        } else { this.m.push(key) }
+        } else if(element != this.talents["Utilisation de la magie"]) { this.m.push(key) }
         if (element.effets) {
           this.effects(element)
         }
-        if (element.cartes) {
-          this.effects(element.cartes)
-        }
       }
     }
-    console.log(this.n);
   }
 
   effects(element) {
