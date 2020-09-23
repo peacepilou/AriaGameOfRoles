@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges, SimpleChanges, EventEmitter, Output } from '@angular/core';
-import { Modificateurs } from 'src/app/models/PJ1';
+import { Modificateurs, descriptionEffets } from 'src/app/models/PJ1';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
@@ -31,42 +31,48 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
   ]
 })
 export class ModificateursComponent implements OnChanges {
-  @Input() modificateurs: Modificateurs;
+
   @Output() isModifiersToogleToParent: EventEmitter<boolean> = new EventEmitter();
-  m: string[] = [];
+
+  @Input() modificateurs: Modificateurs;
+
+  m: any[] = [];
   n: string[] = [];
+
   isTextToogle = false;
   isTitleHover = false;
+
   constructor() { }
 
   ngOnChanges(changes: SimpleChanges): void {
+
     for (const key in this.modificateurs) {
+      let t: string = '';
+
       if (Object.prototype.hasOwnProperty.call(this.modificateurs, key)) {
-        const element = this.modificateurs[key];
-        this.m.push(key);
-        if (typeof element === 'object') {
+        let descriptionEffets: descriptionEffets = this.modificateurs[key];
+
+        if(descriptionEffets.description != undefined) {t += descriptionEffets.description + '. '  };
+        if(descriptionEffets.description1 != undefined) {t  +=  descriptionEffets.description1 + '. '};
+        if(descriptionEffets.description2 != undefined) {t  += descriptionEffets.description2 + '. '};
+        this.m.push(key + ' : ' + t);
+
+        for (let i = 0; i < descriptionEffets.effets.length; i++) {
+          const element = descriptionEffets.effets[i];
+
+          let s: string = '';
           for (const k in element) {
-            if (Object.prototype.hasOwnProperty.call(this.modificateurs, key)) {
+            if (Object.prototype.hasOwnProperty.call(element, k)) {
               const e = element[k];
-              if (typeof e !== 'object') {
-                this.m.push(e);
-              }
-              else if (typeof e === 'object') {
-                for (const c in e) {
-                  const f = e[c];
-                  if (typeof f === 'object') {
-                    for (const l in f) {
-                      this.m.push(f[l]);
-                    }
-                  }
-                }
-              }
+              s += e + '. '
             }
           }
+          this.n.push(s)
         }
       }
     }
   }
+
   toogleText() {
     this.isTextToogle = !this.isTextToogle;
   }

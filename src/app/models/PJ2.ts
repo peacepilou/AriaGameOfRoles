@@ -32,11 +32,11 @@ export interface PouvoirDeRsurrection {
 }
 
 export interface Clodomtal {
-  effets: Effet3[];
+  effets: Effet[];
 }
 
 export interface Clodowood {
-  effets: Effet5[];
+  effets: Effet[];
 }
 
 export interface Effet5 {
@@ -53,7 +53,7 @@ export interface MatreDeschecs {
 
 export interface ParlerAuxAnimaux {
   points: string;
-  effets: Effet3[];
+  effets: Effet[];
 }
 
 export interface UtilisationDeLaMagie {
@@ -104,7 +104,7 @@ export interface Modificateurs {
 
 export interface VisionDuRituelDeLArbrecur {
   'description': string;
-  effets: Effet3[];
+  effets: Effet[];
 }
 
 export interface Effet3 {
@@ -114,7 +114,7 @@ export interface Effet3 {
 
 export interface TransferDeLmeDansUnCorpsDeRhodium {
   description: string;
-  effets: Effet2[];
+  effets: Effet[];
 }
 
 export interface Effet2 {
@@ -137,7 +137,13 @@ export interface MaldictionDUrshanabi {
 }
 
 export interface Effet {
-  effet1: string;
+  effet?: string;
+  effet1?: string;
+  effet2?: string;
+  effet6?: string;
+  effet3?: string;
+  effet4?: string;
+  effet5?: string;
 }
 
 export interface Titres {
