@@ -210,25 +210,25 @@
                     "points": 100,
                     "cartes": {
                       "effets": [{
-                          "effet1": "Clodomir possède un deck classique de 52 cartes (+joker). Pour utiliser un sort, il doit tirer une carte aléatoire de son deck. La nature de la magie qu'il peut alors utiliser dépend de la couleur (Cœurs, Carreaux, Piques, Trèfles) de la carte tirée et la puissance dépend de la valeur de la carte"
+                          "description1": "Clodomir possède un deck classique de 52 cartes (+joker). Pour utiliser un sort, il doit tirer une carte aléatoire de son deck. La nature de la magie qu'il peut alors utiliser dépend de la couleur (Cœurs, Carreaux, Piques, Trèfles) de la carte tirée et la puissance dépend de la valeur de la carte"
                         },
                         {
-                          "effet2": "Carreaux : Manipulation de la matière"
+                          "Carreaux": "Manipulation de la matière"
                         },
                         {
-                          "effet3": "Cœurs : Manipulation des cœurs"
+                          "Cœurs": "Manipulation des cœurs"
                         },
                         {
-                          "effet4": "Piques : Invocation des esprits et des morts"
+                          "Piques": "Invocation des esprits et des morts"
                         },
                         {
-                          "effet5": "Trèfles : Invocation des éléments"
+                          "Trèfles": "Invocation des éléments"
                         },
                         {
-                          "effet6": "Lorsqu'une carte a été utilisée, elle est retirée du deck. Ainsi, Clodomir ne peut, dans son état actuel, lancer que 52 sorts (+joker) au total durant l'intégralité de l'aventure. Il est à noter cependant que Clodomir est un Apprenti sorcier au début de l'aventure, il est possible qu'il puisse gagner de nouvelles compétences au fil de l'aventure"
+                          "description2": "Lorsqu'une carte a été utilisée, elle est retirée du deck. Ainsi, Clodomir ne peut, dans son état actuel, lancer que 52 sorts (+joker) au total durant l'intégralité de l'aventure. Il est à noter cependant que Clodomir est un Apprenti sorcier au début de l'aventure, il est possible qu'il puisse gagner de nouvelles compétences au fil de l'aventure"
                         },
                         {
-                          "effet7": "Les valeurs de cartes peuvent être : 2 à 10, valet, dame, roi et as. L'as est la carte la plus haute. Le joker est également une carte possible et qui permet de lancer n'importe quel type de sort"
+                          "description3": "Les valeurs de cartes peuvent être : 2 à 10, valet, dame, roi et as. L'as est la carte la plus haute. Le joker est également une carte possible et qui permet de lancer n'importe quel type de sort"
                         }
                       ]
                     },

@@ -37,6 +37,17 @@ export interface Talents {
   'Prêtre du pain': Effet4;
   Vengeance: Vengeance;
   'Pouvoir de résurrection': Effet4;
+  'Utilisation de la magie'?: UtilisationDeLaMagie;
+}
+
+export interface UtilisationDeLaMagie {
+  points: string;
+  cartes: Cartes;
+  'Magicien de la nuit': string;
+}
+
+export interface Cartes {
+  effets: Effet4[];
 }
 
 export interface Vengeance {
@@ -84,6 +95,20 @@ export interface DcouverteDeLorbeDuRoiDesRois {
 
 export interface Effet4 {
   effet: string;
+  effet1?: string;
+  effet2?: string;
+  effet3?: string;
+  effet4?: string;
+  effet5?: string;
+  effet6?: string;
+  effet7?: string;
+  Carreaux?: string;
+  Cœurs?: string;
+  Piques?: string;
+  Trèfles?: string;
+  description1?: string;
+  description2?: string;
+  description3?: string;
 }
 
 export interface VisionDuRituelDeLArbrecur {
