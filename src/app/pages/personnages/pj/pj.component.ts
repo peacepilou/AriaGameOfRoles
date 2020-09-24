@@ -37,6 +37,7 @@ export class PjComponent implements OnChanges {
   ngOnChanges(changes: SimpleChanges): void {
     // tslint:disable-next-line: no-string-literal
     this.global = this.pj['pj'][0]['global'];
+    if(this.global.nom === "Clodomir de Cuivrechamps"){ this.toggleMagie = true; }
     if (this.global.talents["Utilisation de la magie"] != undefined ) {
       this.magie = this.global.talents["Utilisation de la magie"];
     }
@@ -51,9 +52,10 @@ export class PjComponent implements OnChanges {
     // tslint:disable-next-line: no-string-literal
     this.lore = this.pj['pj'][4]['lore'];
     // tslint:disable-next-line: no-string-literal
-    if (this.pj['pj'][7] != undefined) {
+    if (this.pj['pj'][5] != undefined) {
+
       // tslint:disable-next-line: no-string-literal
-      this.repertoire = this.pj['pj'][7]['Repertoire de potions'];
+      this.repertoire = this.pj['pj'][5]['Repertoire de potions'];
     }
   }
   receiveIsBiographieToogleFromChild(bolean) {

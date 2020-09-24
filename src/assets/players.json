@@ -648,6 +648,7 @@
                     ]
                   },
                   "Utilisation de la magie": {
+                    "description" : "",
                     "effets": [{
                       "effet1": "Niklas peut utiliser de la magie qu'il a récupéré de Kaitra dans le temple des magiciens de la nuit"
                     }]

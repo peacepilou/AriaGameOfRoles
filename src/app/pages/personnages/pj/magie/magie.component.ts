@@ -1,4 +1,4 @@
-import { Component, OnChanges, Input } from '@angular/core';
+import { Component, OnChanges, Input, EventEmitter, Output } from '@angular/core';
 import { UtilisationDeLaMagie } from 'src/app/models/PJ1';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
@@ -32,6 +32,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 })
 export class MagieComponent implements OnChanges {
 
+  @Output() isModifiersToogleToParent: EventEmitter<boolean> = new EventEmitter();
   @Input() magie: UtilisationDeLaMagie;
 
   magicien: string;
@@ -46,6 +47,7 @@ export class MagieComponent implements OnChanges {
   constructor() { }
 
   ngOnChanges(): void {
+
     if (this.magie && this.magie.cartes && this.magie.cartes.effets) {
       this.magicien = this.magie["Magicien de la nuit"];
       this.points = this.magie.points;
@@ -71,12 +73,12 @@ export class MagieComponent implements OnChanges {
         }
       }
     }
-    console.log('cartes : ' + this.cartes);
-    console.log('values : ' +  this.values);
-    console.log(this.magicien);
   }
 
   toogleText() {
     this.isTextToogle = !this.isTextToogle;
+  }
+  sendModifiersToogleToParent() {
+    this.isModifiersToogleToParent.emit(this.isTextToogle);
   }
 }
