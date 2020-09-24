@@ -1,0 +1,14 @@
+<div class="arrow-button-container">
+  <img src="/assets/down-right-arrow.png"/>
+  <h2 (click)="toogleText()"
+      (click)="sendLoreToogleToParent()"
+    (mouseover)="isTitleHover=true"
+    (mouseleave)="isTitleHover=false">
+    Lore
+    <img [ngStyle]="{'transform': isTitleHover ? 'translateY(' + 5 + 'px)' : ''}" src="/assets/down-arrow.png"/>
+    <span [@inOutAnimation] *ngIf="isTitleHover"> (parce que Fibre est un génie créatif)</span>
+  </h2>
+</div>
+<div [@inOutAnimation] *ngIf="isTextToogle" class="text-container">
+  <p *ngFor="let item of l">{{item}}<br><br></p>
+</div>

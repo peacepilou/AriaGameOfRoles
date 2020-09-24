@@ -1,0 +1,46 @@
+<div class="title-container">
+  <div class="title">
+    <h1>La compagnie créance</h1>
+    <hr>
+    <p>Ils vous ont fait rêver durant plus de deux ans et vous connaissez leurs punchlines sur le bout des doigts. Vous rigolez à l'avance de leurs terribles décisions car vous avez déjà écouté plusieurs fois la saga.</p><br>
+    <p>Mieux encore : il vous arrive de confondre leurs pseudos et leurs noms roleplays.</p><br>
+    <p>C'est l'occasion ici de découvrir ou redécouvrir chacun des quatre pétillants protagonistes de l'aventure ; entre caractéristiques, hauts faits et déboires, ils brillent ici par leurs expériences et leurs proverbes.</p><br>
+    <hr>
+    <p>Si on devait les décrire en 3 mots ?</p>
+    <div class="keys-container">
+      <div>
+        <img src="/assets/icon-twirling.png"/>
+         <p>Virevoltants</p>
+      </div>
+      <div>
+        <img src="/assets/icon-diamond.png"/>
+       <p>Uniques</p>
+      </div>
+      <div>
+        <img src="/assets/icon-money.png"/>
+       <p>Pas chers</p>
+      </div>
+     </div>
+  </div>
+    <img src="/assets/compagnie-creance.png"/>
+</div>
+<div class="cards-pj-container">
+  <div *ngFor="let text of pjNameList, index as i">
+    <app-card-pj [text]=text [url]=pjImageList[i] [position]=pjPositionList[i]></app-card-pj>
+  </div>
+</div>
+<div *ngIf="pjs">
+  <div *ngFor="let pj of pjs, index as i">
+    <app-pj [pj]=pjs[i] [proverbs]=pjProverbList[i]></app-pj>
+  </div>
+</div>
+<div class="cards-pnj-container">
+  <div *ngFor="let text of pnjNameList, index as i">
+    <app-card-pnj [text]=text [url]=pnjImageList[i] [position]=pnjPositionList[i] ></app-card-pnj>
+  </div>
+</div>
+<div *ngIf="pnjs">
+  <div *ngFor="let pnj of pnjs, index as i">
+    <app-pnj [pnj]=pnjs[i] [url]=pnjImageList[i]></app-pnj>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+<div class="card-pnj"
+(mouseover)="isCardHover=true"
+(mouseleave)="isCardHover=false"
+[ngStyle]="{'transform': 'translateY(' + position + 'px)'}">
+  <img src="{{url}}">
+  <div [@inOutAnimation] class="name" *ngIf="isCardHover">{{text}}</div>
+</div>

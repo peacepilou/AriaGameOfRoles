@@ -1,0 +1,29 @@
+<img class="background-image-headphones" src="assets/headphones.png">
+<img class="background-image-earphones" src="assets/earphones.png">
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Numéro</th>
+        <th>Episode</th>
+        <th>Titre</th>
+        <th>Date</th>
+        <th>Ecouter</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let episode of episodeList[0]">
+        <td>{{episode.number}}</td>
+        <td>{{episode.episode}}</td>
+        <td>{{episode.title}}</td>
+        <td>{{episode.date}}</td>
+        <td>
+          <a href="{{episode.linkToYoutube}}"><img src="assets/logo-youtube.png"> </a>
+          <a href="{{episode.linkToSoundcloud}}"><img src="assets/logo-soundcloud.png"> </a>
+          <a href="{{episode.linkToSpotify}}"><img src="assets/logo-spotify.png"> </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

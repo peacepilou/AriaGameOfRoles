@@ -1,0 +1,6 @@
+<div *ngFor="let item of values, index as i">
+  <div *ngIf="i === 0 ||
+  i % 2 !== 0 && i < 13 ||
+  i % 2 !== 0 && i > 22">{{item}}</div>
+  <div *ngIf="i % 2 === 0 && i !== 0">{{item}}</div>
+</div>
