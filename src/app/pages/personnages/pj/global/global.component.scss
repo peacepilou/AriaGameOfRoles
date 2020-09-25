@@ -33,10 +33,59 @@
     }
   }
 }
+
 .caracteristics{
+  background-color: #1514142B;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 50px;
   transform: translateX(-10px);
+}
+
+.competences{
+  background-color: #1514142B;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transform: translateX(-10px);
+}
+
+.talents{
+  background-color: #1514142B;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transform: translateX(20px);
+  margin-bottom: 75px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  padding-right: 10%;
+  margin: 50px 0 0px 0;
+  text-align: center;
+}
+
+.toggleelement{
+    text-align: center;
+    margin: 5% 0 5% 0;
+    transition: background-color 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      transform: translateY(-10px);
+      color: var(--secondary-color);
+      img {
+        background-color: var(--secondary-color);
+      }
+    }
+
+  img {
+    width: 50px;
+    border: 1px dashed;
+    border-radius: 50%;
+    padding: 15px;
+    height: 50px;
+  }
 }

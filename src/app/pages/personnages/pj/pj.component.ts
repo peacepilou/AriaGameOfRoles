@@ -1,8 +1,8 @@
 import { Component, Input, SimpleChanges, OnChanges } from '@angular/core';
-import { PlayerService } from 'app/shared/player.service';
-import { PersonnagesJoueur } from 'app/models/Personages';
-import { Global, Biographie, Titres, Modificateurs, Lore, Comptences, Caracteristiques, Surnoms, Talents } from 'app/models/PJ1';
-import { RepertoireDePotion } from 'app/models/PJ4';
+import { PlayerService } from 'src/app/shared/player.service';
+import { PersonnagesJoueur } from 'src/app/models/Personages';
+import { Global, Biographie, Titres, Modificateurs, Lore, Comptences, Caracteristiques, Surnoms, Talents, UtilisationDeLaMagie } from 'src/app/models/PJ1';
+import { RepertoireDePotion } from 'src/app/models/PJ4';
 
 @Component({
   selector: 'app-pj',
@@ -20,21 +20,27 @@ export class PjComponent implements OnChanges {
   biographie: Biographie;
   titres: Titres;
   modificateurs: Modificateurs;
-  competences: Comptences;
-  talents: Talents;
   lore: Lore;
   repertoire: RepertoireDePotion;
+
   isBiographieToogle: boolean;
   isTitleToogle: boolean;
   isModifersToogle: boolean;
   isRepositoryToogle: boolean;
   isLoreToogle: boolean;
+  magie: UtilisationDeLaMagie;
+
+  toggleMagie: boolean = false;
 
   constructor(private service: PlayerService) { }
 
   ngOnChanges(changes: SimpleChanges): void {
     // tslint:disable-next-line: no-string-literal
     this.global = this.pj['pj'][0]['global'];
+    if(this.global.nom === "Clodomir de Cuivrechamps"){ this.toggleMagie = true; }
+    if (this.global.talents["Utilisation de la magie"] != undefined ) {
+      this.magie = this.global.talents["Utilisation de la magie"];
+    }
     this.caracteristiques = this.global.caracteristiques;
     this.surnoms = this.global.surnoms;
     // tslint:disable-next-line: no-string-literal
@@ -44,15 +50,12 @@ export class PjComponent implements OnChanges {
     // tslint:disable-next-line: no-string-literal
     this.modificateurs = this.pj['pj'][3]['modificateurs'];
     // tslint:disable-next-line: no-string-literal
-    this.competences = this.pj['pj'][4]['compétences'];
+    this.lore = this.pj['pj'][4]['lore'];
     // tslint:disable-next-line: no-string-literal
-    this.talents = this.pj['pj'][5]['talents'];
-    // tslint:disable-next-line: no-string-literal
-    this.lore = this.pj['pj'][6]['lore'];
-    // tslint:disable-next-line: no-string-literal
-    if (this.pj['pj'][7] != undefined) {
+    if (this.pj['pj'][5] != undefined) {
+
       // tslint:disable-next-line: no-string-literal
-      this.repertoire = this.pj['pj'][7]['Repertoire de potions'];
+      this.repertoire = this.pj['pj'][5]['Repertoire de potions'];
     }
   }
   receiveIsBiographieToogleFromChild(bolean) {
@@ -69,5 +72,8 @@ export class PjComponent implements OnChanges {
   }
   receiveIsLoreToogleFromChild(bolean) {
     this.isLoreToogle = bolean;
+  }
+  isMagician(){
+    if(this.magie != undefined){ this.toggleMagie = !this.toggleMagie}
   }
 }

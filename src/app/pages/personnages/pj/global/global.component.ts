@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
-import { Global, Caracteristiques, Surnoms, Comptences, Talents } from 'app/models/PJ1';
+import { Global, Caracteristiques, Surnoms, Comptences, Talents } from 'src/app/models/PJ1';
 
 @Component({
   selector: 'app-global',
@@ -8,16 +8,41 @@ import { Global, Caracteristiques, Surnoms, Comptences, Talents } from 'app/mode
 })
 export class GlobalComponent implements OnChanges {
   @Input() global: Global;
-  @Input() competences;
-  @Input() talents;
+  competences;
+  talents;
   caracteristiques: Caracteristiques;
   surnoms: Surnoms;
+
+  hidecaracteristics = false;
+  hidecompetences = false;
+  hidetalents = false;
 
   constructor() {  }
 
   ngOnChanges(changes: SimpleChanges): void {
     this.caracteristiques = this.global.caracteristiques;
     this.surnoms = this.global.surnoms;
-
+    this.competences = this.global.compétences;
+    this.talents = this.global.talents;
   }
+
+
+  togglecaracteristics(){
+    this.hidecaracteristics = !this.hidecaracteristics
+    this.hidecompetences = false;
+    this.hidetalents = false;
+  }
+
+    togglecompetences(){
+    this.hidecompetences = !this.hidecompetences
+    this.hidecaracteristics = false;
+    this.hidetalents = false;
+  }
+
+    toggletalents(){
+    this.hidetalents = !this.hidetalents
+    this.hidecaracteristics = false;
+    this.hidecompetences = false;
+  }
+
 }

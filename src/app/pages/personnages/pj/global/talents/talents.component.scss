@@ -1,0 +1,37 @@
+
+.hide{
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: -100px;
+  width: 1000px;
+  height: auto;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    div:nth-of-type(1) {
+    width: 125px;
+    flex: 1 0 21%;
+    margin: 5px 15px;
+    height: 100px;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.4);
+      }
+      p {
+        margin-top: 15px;
+      }
+    }
+
+}
+
+.focus:hover + .hide{
+  display: block;
+  background-color: #1514142B;
+  text-align: justify;
+}

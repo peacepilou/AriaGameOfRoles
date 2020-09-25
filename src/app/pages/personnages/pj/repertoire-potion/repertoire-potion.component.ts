@@ -1,5 +1,5 @@
 import { Component, SimpleChanges, OnChanges, Input, EventEmitter, Output } from '@angular/core';
-import { RepertoireDePotion } from 'app/models/PJ4';
+import { RepertoireDePotion } from 'src/app/models/PJ4';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({

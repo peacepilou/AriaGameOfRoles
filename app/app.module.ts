@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { PjComponent } from './pages/personnages/pj/pj.component';
 import { GlobalComponent } from './pages/personnages/pj/global/global.component';
 import { BiographieComponent } from './pages/personnages/pj/biographie/biographie.component';
+import { MagieComponent } from './pages/personnages/pj/magie/magie.component';
 import { TitresComponent } from './pages/personnages/pj/titres/titres.component';
 import { ModificateursComponent } from './pages/personnages/pj/modificateurs/modificateurs.component';
-import { CompetencesComponent } from './pages/personnages/pj/competences/competences.component';
-import { TalentsComponent } from './pages/personnages/pj/talents/talents.component';
+import { CompetencesComponent } from './pages/personnages/pj/global/competences/competences.component';
+import { TalentsComponent } from './pages/personnages/pj/global/talents/talents.component';
 import { LoreComponent } from './pages/personnages/pj/lore/lore.component';
 import { RepertoirePotionComponent } from './pages/personnages/pj/repertoire-potion/repertoire-potion.component';
 import { PnjComponent } from './pages/personnages/pnj/pnj.component';
@@ -44,6 +45,7 @@ import { EpisodesComponent } from './pages/episodes/episodes.component';
     PjComponent,
     GlobalComponent,
     BiographieComponent,
+    MagieComponent,
     TitresComponent,
     ModificateursComponent,
     CompetencesComponent,

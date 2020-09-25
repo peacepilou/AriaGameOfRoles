@@ -7,13 +7,14 @@
     <app-biographie [biographie]="biographie" (isBiographieToogleToParent)="receiveIsBiographieToogleFromChild($event)"></app-biographie>
     <app-titres [titres]="titres" (isTitleToogleToParent)="receiveIsTitleToogleFromChild($event)"></app-titres>
     <app-modificateurs [modificateurs]="modificateurs" (isModifiersToogleToParent)="receiveIsModifersToogleFromChild($event)"></app-modificateurs>
+    <app-magie *ngIf="toggleMagie" [magie]="magie" (isModifiersToogleToParent)="receiveIsModifersToogleFromChild($event)"></app-magie>
     <app-repertoire-potion [repertoire]="repertoire" (isRepositoryToogleToParent)="receiveIsRepositoryToogleFromChild($event)"></app-repertoire-potion>
     <app-lore [lore]="lore" (isLoreToogleToParent)="receiveIsLoreToogleFromChild($event)"></app-lore>
   </div>
     <div [ngStyle]="{'transform': isBiographieToogle || isTitleToogle  || isModifersToogle || isRepositoryToogle || isLoreToogle? 'translateX(' + 75 + '%)' : ''}"
         class="quote-container">
       <blockquote class="quote-card" div *ngFor="let proverb of proverbs">
-         <p>{{proverb}}</p>
+          <p>{{proverb}}</p>
       </blockquote>
     </div>
 </div>

@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges, SimpleChanges, EventEmitter, Output } from '@angular/core';
-import { Lore } from 'app/models/PJ1';
+import { Lore } from 'src/app/models/PJ1';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
