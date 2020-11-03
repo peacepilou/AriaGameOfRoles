@@ -1,0 +1,355 @@
+{
+  "episodes": [
+    {
+      "number": 1,
+      "episode": "S01E01",
+      "title": "Le début de nos aventures !",
+      "date": "18 février 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=I1ERfTDHLUI&feature=youtu.be",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-episode-1",
+      "linkToSpotify": "https://open.spotify.com/episode/0GSs5CMGhCoAgfH5jrLd5T?si=XBeOEQvdTVy9_kOlSxJUkw"
+    },
+    {
+      "number": 2,
+      "episode": "S01E02",
+      "title": "Butons les !",
+      "date": "4 mars 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=E1WvmJCFQ-Y&feature=youtu.be",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/gameofroles-episode-2",
+      "linkToSpotify": "https://open.spotify.com/episode/3M4Xb0GSKtoxTWCOPtqZQB?si=oiR0R9nWQWGc4Kt-sVi7Kw"
+    },
+    {
+      "number": 3,
+      "episode": "S01E03",
+      "title": "L'imposture",
+      "date": "11 mars 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=cHKXcrW4Vzc&feature=youtu.be",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/games-of-roles-episode-3",
+      "linkToSpotify": "https://open.spotify.com/episode/0N4Jop3xisecIc1ZWyQ9iu?si=caiOFcq1SHuQ8165weyM2w"
+    },
+    {
+      "number": 4,
+      "episode": "S01E04",
+      "title": "Des choix... audacieux !",
+      "date": "25 mars 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=X7pCfJiAoiA&feature=youtu.be",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-episode-4",
+      "linkToSpotify": "https://open.spotify.com/episode/4NdfMQpWTLpisi9wRAc2lf?si=7IHDrlW2ST2nI5fNfWSMJA"
+    },
+    {
+      "number": 5,
+      "episode": "S01E05",
+      "title": "Cap vers de nouvelles aventures !",
+      "date": "22 avril 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=Zz71vZSpTn4&feature=youtu.be",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-episode-5",
+      "linkToSpotify": "https://open.spotify.com/episode/3MdRjy2J2lFu99v9Pmh49I?si=Bwk7UC3wQ5eEuk8IvGGoLA"
+    },
+    {
+      "number": 6,
+      "episode": "S01E06",
+      "title": "L'échec critique décisif ?!",
+      "date": "13 mai 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=9l0z8B-qakE&feature=youtu.be",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-episode-6",
+      "linkToSpotify": "https://open.spotify.com/episode/6lkBWhnuaPdSyKrW6nCofZ?si=ldqX41zAT9SwkM-610p-Bw"
+    },
+    {
+      "number": 7,
+      "episode": "S01E07",
+      "title": "Le GRAND RETOUR !",
+      "date": "1 juillet 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=jV20Oh6DEM8",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/games-of-roles-episode-7",
+      "linkToSpotify": "https://open.spotify.com/episode/5yl1TA88v6QrvY7OAUs5a4?si=DEWMiLcpRG2C9OQcHGI6Rg"
+    },
+    {
+      "number": 8,
+      "episode": "S01E08",
+      "title": "Sang-froid Fillon hors de contrôle !",
+      "date": "8 juillet 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=sM87UtbAUfQ",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-episode-8",
+      "linkToSpotify": "https://open.spotify.com/episode/6dWKsOn8sAeDtpnP4vzPMz?si=nZooHvBSSnOYEuArGbHViw"
+    },
+    {
+      "number": 9,
+      "episode": "S01E10",
+      "title": "La fin d'une épopée ?",
+      "date": "22 juillet 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=YMkKUpfhloU",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-episode-9",
+      "linkToSpotify": "https://open.spotify.com/episode/6f5G5WUGewTF6M3tAGK0DU?si=poEg3MtjRC60i7jogE-urQ"
+    },
+    {
+      "number": 10,
+      "episode": "S02E01",
+      "title": "Un nouveau départ",
+      "date": "12 septembre 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=Iq0mjlC49rw",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-2-episode-1",
+      "linkToSpotify": "https://open.spotify.com/episode/1vy5ioWMBj2iu2UUEfwtMF?si=qkGOEaMLQJ2rZ60H-LSqlA"
+    },
+    {
+      "number": 11,
+      "episode": "S02E02",
+      "title": "Loose totale sur l'îles des Pirates",
+      "date": "26 septembre 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=xHDyo9EO9sQ",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-lose-totale-sur-liles-des-pirates-s02e02",
+      "linkToSpotify": "https://open.spotify.com/episode/020sIQ0wnkv2vPhN3X7ygf?si=-x0TZhOKSKChdTBfVs0LVQ"
+    },
+    {
+      "number": 12,
+      "episode": "S02E03",
+      "title": "Le nouveau seigneur des pirates !",
+      "date": "17 octobre 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=lAOo8ybrUsM",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-2-episode-3",
+      "linkToSpotify": "https://open.spotify.com/episode/2n83VABEHuQUbK5cpCpovs?si=B4IhEU_lSL2sPHrURMZxzw"
+    },
+    {
+      "number": 13,
+      "episode": "S02E04",
+      "title": "L'aube d'un nouveau voyage",
+      "date": "14 novembre 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=GlXgjJDhEN0",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-laube-dun-nouveau-voyage-s02e05",
+      "linkToSpotify": "https://open.spotify.com/episode/7k2c6TFvSzaWpurXissXIy?si=qlTxjLm_R8GV8ZhOVSlR-Q"
+    },
+    {
+      "number": 14,
+      "episode": "S02E06",
+      "title": "RIP Kaitra ?",
+      "date": "28 novembre 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=qWnDxoQk4gA",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-2-episode-6",
+      "linkToSpotify": "https://open.spotify.com/episode/3Eb90lJa1GJEn78HuypAaR?si=KR1R8-WITrao-6G7SpjbOQ"
+    },
+    {
+      "number": 15,
+      "episode": "S02E07",
+      "title": "La DERNIÈRE ?!",
+      "date": "12 décembre 2018",
+      "linkToYoutube": "https://www.youtube.com/watch?v=WqdqEhaZP1Y",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-2-episode-7",
+      "linkToSpotify": "https://open.spotify.com/episode/6Neved4siPUGXI4ShYGHxt?si=932Jm01YQ3CkDlA4FWtZ5Q"
+    },
+    {
+      "number": 16,
+      "episode": "S02E08",
+      "title": "Clodowood entre en scène - partie 1",
+      "date": "23 janvier 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=KT6vL7JyhUg",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/gor-magic-s02e08",
+      "linkToSpotify": "https://open.spotify.com/episode/1PMQRVzbaeMsRHmBYmiKvJ?si=TAkARjwwRq29JvRISiW8fQ"
+    },
+    {
+      "number": 17,
+      "episode": "S02E09",
+      "title": "Clodowood entre en scène - partie 2",
+      "date": "23 janvier 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=KT6vL7JyhUg",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-2-episode-9",
+      "linkToSpotify": "https://open.spotify.com/episode/16z2j4VeslOgfgjy6bYAnU?si=_DgIJHcXRKehqRH4CdqOhQ"
+    },
+    {
+      "number": 18,
+      "episode": "S02E010",
+      "title": "Le labyrinthe des fantômes !",
+      "date": "6 février 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=-b3BP7LHvlw",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-2-episode-10",
+      "linkToSpotify": "https://open.spotify.com/episode/0AajijIUnpVGMPB07eQB5S?si=9iXczJVtSbSFC0LayQVPHA"
+    },
+    {
+      "number": 19,
+      "episode": "S02E11",
+      "title": "La cité perdue",
+      "date": "20 février 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=rAcNDgxjfh0",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-2-episode-11",
+      "linkToSpotify": "https://open.spotify.com/episode/0p6dpcdxGqydQDBT2zRwM1?si=o1oANJWFTh-4zo99JJk_Xg"
+    },
+    {
+      "number": 20,
+      "episode": "S02E12",
+      "title": "La demande en mariage",
+      "date": "6 mars 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=DcN3A5tuH0w&feature=youtu.be",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-2-episode-12",
+      "linkToSpotify": "https://open.spotify.com/episode/1uunodkBk0w0HhJBTLsML4?si=Un9GU2G6S-iiD09cPRGhOA"
+    },
+    {
+      "number": 21,
+      "episode": "S02E13",
+      "title": "Le chiffre maudit",
+      "date": "28 mars 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=Gr7s2CYYYC8",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-2-episode-13",
+      "linkToSpotify": "https://open.spotify.com/episode/5jGr8X6HJLISo8cCmRPU4a?si=p_1S6oAqR8GnkBVlNWvSbA"
+    },
+    {
+      "number": 22,
+      "episode": "S02E14",
+      "title": "Le porc de l'angoisse",
+      "date": "4 avril 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=kzME2VNxvcw",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-2-episode-14",
+      "linkToSpotify": "https://open.spotify.com/episode/2g47rWlmtlEzK2zd1ORHNW?si=QbONz93hQfq8t_gVJ5jl7A"
+    },
+    {
+      "number": 23,
+      "episode": "S02E15",
+      "title": "La révolte des gens de petite taille",
+      "date": "17 avril 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=c_-zkvlKjUk",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-2-episode-15",
+      "linkToSpotify": "https://open.spotify.com/episode/4LHyuii7MeF5uHdSfU0wjw?si=OOBCJb-TQhS7BnA_LWf-Lw"
+    },
+    {
+      "number": 24,
+      "episode": "S02E16",
+      "title": "Le grand final",
+      "date": "15 mai 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=dPFDXxjGytA",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-2-episode-16",
+      "linkToSpotify": "https://open.spotify.com/episode/58kclMWMv3bRVzRBsL0s0R?si=mitEgGXqQpG37Kq1ldlYMw"
+    },
+    {
+      "number": 25,
+      "episode": "S03E01",
+      "title": "Une nouvelle aventure",
+      "date": "2 juin 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=eRDuHl6dUUE",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-3-episode-1",
+      "linkToSpotify": "https://open.spotify.com/episode/6UzVumloL1ktHYevOqATah?si=m2K4AauXTcKcX0Lb8VFp9A"
+    },
+    {
+      "number": 26,
+      "episode": "S03E02",
+      "title": "Le meilleur Kebab du monde",
+      "date": "30 juin 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=PKboLkeA0Rk",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-3-episode-2",
+      "linkToSpotify": "https://open.spotify.com/episode/6edzVZyyPRX81Jw73CFqbD?si=ytcvErWoR7G154dSliikNQ"
+    },
+    {
+      "number": 27,
+      "episode": "S03E03",
+      "title": "La Dague, la mariée, et l’œuf de dragon",
+      "date": "29 septembre 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=kJtIvQWJu64&feature=youtu.be",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-la-dague-la-mariee-et-loeuf-de-dragon-s03e03",
+      "linkToSpotify": "https://open.spotify.com/episode/0YgZfBWCKLdQGVE1K982qY?si=N7lKjzmjSqeG1BXPsVKMBQ"
+    },
+    {
+      "number": 28,
+      "episode": "S03E04",
+      "title": "Le kidnapping de la mariée",
+      "date": "13 octobre 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=MPYseqCAXIg&feature=youtu.be",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/gor-s03e04",
+      "linkToSpotify": "https://open.spotify.com/episode/2Zkd7OH122Fyy8X5AFkp5C?si=A0XOdPuVSfeUcgmDoyc8Vw"
+    },
+    {
+      "number": 29,
+      "episode": "S03E05",
+      "title": "Voyages dans le temps",
+      "date": "17 novembre 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=Q5GrpZssvXY",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-3-episode-5",
+      "linkToSpotify": "https://open.spotify.com/episode/4NzeQyctsk1IIyp8zJRoVg?si=x0S9dEGyQbWumEJpDNpWCA"
+    },
+    {
+      "number": 30,
+      "episode": "S03E06",
+      "title": "Aventures dans la jungle",
+      "date": "24 novembre 2019",
+      "linkToYoutube": "https://www.youtube.com/watch?v=NrHWOLySDuA",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-3-episode-6",
+      "linkToSpotify": "https://open.spotify.com/episode/2fIJ2rB71l9cQfmQseNetE?si=fHl5NZXNQNGnQ1gJi9Kc-Q"
+    },
+    {
+      "number": 31,
+      "episode": "S03E07",
+      "title": "Les deux dragons",
+      "date": "12 janvier 2020",
+      "linkToYoutube": "https://www.youtube.com/watch?v=nrZNPxwYvbQ",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-3-episode-7",
+      "linkToSpotify": "https://open.spotify.com/episode/1uP4OOwMP790w2qdaGU0md?si=n9mj_eXFSaqYGa4P_XotRw"
+    },
+    {
+      "number": 32,
+      "episode": "S03E08",
+      "title": "La Reine des Rois",
+      "date": "26 janvier 2020",
+      "linkToYoutube": "https://www.youtube.com/watch?v=qxpQmp1wSns",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-3-episode-8",
+      "linkToSpotify": "https://open.spotify.com/episode/5Xo0dgdS9UZfDUvUXaA9NY?si=TTYY_aMURBKehtPfoArEPg"
+    },
+    {
+      "number": 33,
+      "episode": "S03E09",
+      "title": "Le Festin de Délicieuse",
+      "date": "9 février 2020",
+      "linkToYoutube": "https://www.youtube.com/watch?v=9kz6NbNYi1c",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-3-episode-9",
+      "linkToSpotify": "https://open.spotify.com/episode/4vuZiWMh4R9o6tjY0vutze?si=fvq8l7zWRT2XT4mlCwMNHw"
+    },
+    {
+      "number": 34,
+      "episode": "S03E10",
+      "title": "La potion oursifiante",
+      "date": "8 mars 2020",
+      "linkToYoutube": "https://www.youtube.com/watch?v=E_RKf_yBiIs",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-3-episode-10",
+      "linkToSpotify": "https://open.spotify.com/episode/7dUMp9dYop8Z4VHs7Iy1HP?si=UldIetc9SyyGheVzGiea-w"
+    },
+    {
+      "number": 35,
+      "episode": "S03E11",
+      "title": "Le Jenga des Sorciers",
+      "date": "14 mai 2020",
+      "linkToYoutube": "https://www.youtube.com/watch?v=2902_-kkf4A",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-3-episode-11",
+      "linkToSpotify": "https://open.spotify.com/episode/3T4XJqZCyOzoAK8l5GhW8P?si=60_v275wTw6YCDxSM6dL0w"
+    },
+    {
+      "number": 36,
+      "episode": "S03E12",
+      "title": "Le retour du Corbeau Noir !",
+      "date": "18 juin 2020",
+      "linkToYoutube": "https://www.youtube.com/watch?v=FZ5IM_XDero",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-3-episode-12",
+      "linkToSpotify": "https://open.spotify.com/episode/4NzeQyctsk1IIyp8zJRoVg?si=x0S9dEGyQbWumEJpDNpWCA"
+    },
+    {
+      "number": 37,
+      "episode": "S03E13",
+      "title": "La ville engloutie",
+      "date": "25 juin 2020",
+      "linkToYoutube": "https://www.youtube.com/watch?v=fnGM_Jrxcq0",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-3-episode-13",
+      "linkToSpotify": "https://open.spotify.com/episode/1DO6GzOqvMO29MGEinlDbt?si=mbscXMcIRcuCrBZf_jpCrw"
+    },
+    {
+      "number": 38,
+      "episode": "S03E14",
+      "title": "Les Masques Magiques",
+      "date": "2 juillet 2020",
+      "linkToYoutube": "https://www.youtube.com/watch?v=0JIJttlJn_s",
+      "linkToSoundcloud": "https://soundcloud.com/dequaliter/game-of-roles-magic-saison-3-episode-14",
+      "linkToSpotify": "https://open.spotify.com/episode/4NzeQyctsk1IIyp8zJRoVg?si=x0S9dEGyQbWumEJpDNpWCA"
+    },
+    {
+      "number": 39,
+      "episode": "S03E15",
+      "title": "Final (Episode Live en direct de l'UGC Paris)",
+      "date": "16 octobre 2020",
+      "linkToYoutube": "",
+      "linkToSoundcloud": "",
+      "linkToSpotify": ""
+    }
+  ]
+}
